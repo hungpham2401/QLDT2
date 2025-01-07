@@ -17,3 +17,4 @@ D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.d
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\refint\Tasky.Shared.Hosting.dll
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.pdb
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\ref\Tasky.Shared.Hosting.dll
+D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.sourcelink.json

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\dft\\QLDT2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|d:\\dft\\qldt2\\shared\\tasky.shared.hosting\\taskyhostingmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|solutionrelative:shared\\tasky.shared.hosting\\taskyhostingmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|d:\\dft\\qldt2\\shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|solutionrelative:shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskyHostingModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "RelativeToolTip": "shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwCEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T10:46:47.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Tasky.Shared.Hosting",
               "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
               "RelativeDocumentMoniker": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
               "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
               "RelativeToolTip": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-07T10:38:21.257Z",
               "EditorCaption": ""
