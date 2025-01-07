@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Tasky.IdentityService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.IdentityServer.EntityFrameworkCore" Version="9.0.3" />
+    <ProjectReference Include="..\Tasky.IdentityService.Domain\Tasky.IdentityService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
