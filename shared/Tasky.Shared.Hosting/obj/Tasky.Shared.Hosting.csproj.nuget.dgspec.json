@@ -60,10 +60,6 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -84,13 +80,9 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.3, )"
-            },
             "Volo.Abp.Autofac": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.3, )"
             },
             "Volo.Abp.Caching.StackExchangeRedis": {
               "target": "Package",
@@ -124,19 +116,7 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
-            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.3, )"
-            },
-            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.3, )"
-            },
             "Volo.Abp.Swashbuckle": {
-              "target": "Package",
-              "version": "[9.0.3, )"
-            },
-            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
             }

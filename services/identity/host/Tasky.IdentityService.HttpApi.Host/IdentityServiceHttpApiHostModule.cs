@@ -15,6 +15,7 @@ using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
 using Tasky.Shared.Hosting;
+using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 
 namespace Tasky.IdentityService;
 
@@ -24,6 +25,7 @@ namespace Tasky.IdentityService;
     typeof(IdentityServiceEntityFrameworkCoreModule),
     typeof(IdentityServiceHttpApiModule)
     )]
+[DependsOn(typeof(AbpPermissionManagementEntityFrameworkCoreModule))]
 public class IdentityServiceHttpApiHostModule : AbpModule
 {
 

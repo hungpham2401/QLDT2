@@ -313,5 +313,3 @@ D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\refs\System.Xml.XmlSer
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\refs\System.Xml.XPath.dll
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\refs\System.Xml.XPath.XDocument.dll
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\refs\WindowsBase.dll
-D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\Tasky.Shared.Hosting.runtimeconfig.json
-D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.genruntimeconfig.cache

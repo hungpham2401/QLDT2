@@ -11,7 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-  </ItemGroup>
+		<PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="9.0.3" />
+	</ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\shared\Tasky.Shared.Hosting\Tasky.Shared.Hosting.csproj" />
