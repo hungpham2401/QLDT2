@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+		<PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
     <PackageReference Include="Serilog.Sinks.Async" Version="2.0.0" />
     <PackageReference Include="IdentityModel" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
@@ -31,10 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\shared\Tasky.Shared.Hosting\Tasky.Shared.Hosting.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.HttpApi\Tasky.IdentityService.HttpApi.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.Application\Tasky.IdentityService.Application.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.EntityFrameworkCore\Tasky.IdentityService.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\Tasky.IdentityService.Host.Shared\Tasky.IdentityService.Host.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
