@@ -11,6 +11,9 @@
   <ItemGroup>
     <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="9.0.3" />
     <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="9.0.3" />
+		<PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="9.0.3" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
     <ProjectReference Include="..\Tasky.SaaSService.Domain\Tasky.SaaSService.Domain.csproj" />
   </ItemGroup>
 
