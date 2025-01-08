@@ -7,12 +7,44 @@
       "RelativeMoniker": "D:0:0:{3A031119-E138-4A2A-B2E7-E94BB1C9DCA4}|services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj|solutionrelative:services\\identity\\src\\tasky.identityservice.entityframeworkcore\\tasky.identityservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\tasky.administrationservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|solutionrelative:services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\tasky.administrationservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3A031119-E138-4A2A-B2E7-E94BB1C9DCA4}|services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\identity\\src\\tasky.identityservice.entityframeworkcore\\entityframeworkcore\\identityservicedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A031119-E138-4A2A-B2E7-E94BB1C9DCA4}|services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj|solutionrelative:services\\identity\\src\\tasky.identityservice.entityframeworkcore\\entityframeworkcore\\identityservicedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|d:\\dft\\qldt2\\shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|solutionrelative:shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\identity\\host\\tasky.identityservice.httpapi.host\\tasky.identityservice.httpapi.host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj|solutionrelative:services\\identity\\host\\tasky.identityservice.httpapi.host\\tasky.identityservice.httpapi.host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\identity\\host\\tasky.identityservice.httpapi.host\\identityservicehttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj|solutionrelative:services\\identity\\host\\tasky.identityservice.httpapi.host\\identityservicehttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A031119-E138-4A2A-B2E7-E94BB1C9DCA4}|services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\identity\\src\\tasky.identityservice.entityframeworkcore\\entityframeworkcore\\identityservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A031119-E138-4A2A-B2E7-E94BB1C9DCA4}|services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj|solutionrelative:services\\identity\\src\\tasky.identityservice.entityframeworkcore\\entityframeworkcore\\identityservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\entityframeworkcore\\administrationservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|solutionrelative:services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\entityframeworkcore\\administrationservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77EF12B5-BF44-4B23-99E9-6BD7C345D3C7}|services\\administration\\host\\Tasky.AdministrationService.AuthServer\\Tasky.AdministrationService.AuthServer.csproj|d:\\dft\\qldt2\\services\\administration\\host\\tasky.administrationservice.authserver\\entityframeworkcore\\authserverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77EF12B5-BF44-4B23-99E9-6BD7C345D3C7}|services\\administration\\host\\Tasky.AdministrationService.AuthServer\\Tasky.AdministrationService.AuthServer.csproj|solutionrelative:services\\administration\\host\\tasky.administrationservice.authserver\\entityframeworkcore\\authserverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77EF12B5-BF44-4B23-99E9-6BD7C345D3C7}|services\\administration\\host\\Tasky.AdministrationService.AuthServer\\Tasky.AdministrationService.AuthServer.csproj|d:\\dft\\qldt2\\services\\administration\\host\\tasky.administrationservice.authserver\\administrationserviceauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77EF12B5-BF44-4B23-99E9-6BD7C345D3C7}|services\\administration\\host\\Tasky.AdministrationService.AuthServer\\Tasky.AdministrationService.AuthServer.csproj|solutionrelative:services\\administration\\host\\tasky.administrationservice.authserver\\administrationserviceauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D03AA6-AE4A-4D07-A94A-6A6C705B6608}|services\\saas\\host\\Tasky.SaaSService.AuthServer\\Tasky.SaaSService.AuthServer.csproj|d:\\dft\\qldt2\\services\\saas\\host\\tasky.saasservice.authserver\\saasserviceauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D03AA6-AE4A-4D07-A94A-6A6C705B6608}|services\\saas\\host\\Tasky.SaaSService.AuthServer\\Tasky.SaaSService.AuthServer.csproj|solutionrelative:services\\saas\\host\\tasky.saasservice.authserver\\saasserviceauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0730BE-9248-40D2-ACF4-0BBC79A66B24}|services\\identity\\host\\Tasky.IdentityService.AuthServer\\Tasky.IdentityService.AuthServer.csproj|d:\\dft\\qldt2\\services\\identity\\host\\tasky.identityservice.authserver\\identityserviceauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0730BE-9248-40D2-ACF4-0BBC79A66B24}|services\\identity\\host\\Tasky.IdentityService.AuthServer\\Tasky.IdentityService.AuthServer.csproj|solutionrelative:services\\identity\\host\\tasky.identityservice.authserver\\identityserviceauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\tasky.administrationservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|solutionrelative:services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\tasky.administrationservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,23 +54,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IdentityServiceDbContextFactory.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContextFactory.cs",
+              "RelativeDocumentMoniker": "services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContextFactory.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContextFactory.cs",
+              "RelativeToolTip": "services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:16:15.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tasky.IdentityService.HttpApi.Host",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj",
+              "RelativeDocumentMoniker": "services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj",
+              "RelativeToolTip": "services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-08T03:16:10.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityServiceDbContext.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContext.cs",
+              "RelativeDocumentMoniker": "services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContext.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContext.cs",
+              "RelativeToolTip": "services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\EntityFrameworkCore\\IdentityServiceDbContext.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:14:01.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdministrationServiceDbContext.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\EntityFrameworkCore\\AdministrationServiceDbContext.cs",
+              "RelativeDocumentMoniker": "services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\EntityFrameworkCore\\AdministrationServiceDbContext.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\EntityFrameworkCore\\AdministrationServiceDbContext.cs",
+              "RelativeToolTip": "services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\EntityFrameworkCore\\AdministrationServiceDbContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:13:24.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IdentityServiceHttpApiHostModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\IdentityServiceHttpApiHostModule.cs",
+              "RelativeDocumentMoniker": "services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\IdentityServiceHttpApiHostModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\IdentityServiceHttpApiHostModule.cs",
+              "RelativeToolTip": "services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\IdentityServiceHttpApiHostModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:13:41.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthServerDbContext.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.AuthServer\\EntityFrameworkCore\\AuthServerDbContext.cs",
+              "RelativeDocumentMoniker": "services\\administration\\host\\Tasky.AdministrationService.AuthServer\\EntityFrameworkCore\\AuthServerDbContext.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.AuthServer\\EntityFrameworkCore\\AuthServerDbContext.cs",
+              "RelativeToolTip": "services\\administration\\host\\Tasky.AdministrationService.AuthServer\\EntityFrameworkCore\\AuthServerDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:13:04.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SaaSServiceAuthServerModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.AuthServer\\SaaSServiceAuthServerModule.cs",
+              "RelativeDocumentMoniker": "services\\saas\\host\\Tasky.SaaSService.AuthServer\\SaaSServiceAuthServerModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.AuthServer\\SaaSServiceAuthServerModule.cs",
+              "RelativeToolTip": "services\\saas\\host\\Tasky.SaaSService.AuthServer\\SaaSServiceAuthServerModule.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAnwE8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:11:44.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IdentityServiceAuthServerModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\identity\\host\\Tasky.IdentityService.AuthServer\\IdentityServiceAuthServerModule.cs",
+              "RelativeDocumentMoniker": "services\\identity\\host\\Tasky.IdentityService.AuthServer\\IdentityServiceAuthServerModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\identity\\host\\Tasky.IdentityService.AuthServer\\IdentityServiceAuthServerModule.cs",
+              "RelativeToolTip": "services\\identity\\host\\Tasky.IdentityService.AuthServer\\IdentityServiceAuthServerModule.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAnwEUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:11:42.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdministrationServiceAuthServerModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.AuthServer\\AdministrationServiceAuthServerModule.cs",
+              "RelativeDocumentMoniker": "services\\administration\\host\\Tasky.AdministrationService.AuthServer\\AdministrationServiceAuthServerModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.AuthServer\\AdministrationServiceAuthServerModule.cs",
+              "RelativeToolTip": "services\\administration\\host\\Tasky.AdministrationService.AuthServer\\AdministrationServiceAuthServerModule.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAnwCgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:11:39.056Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Tasky.AdministrationService.EntityFrameworkCore",
               "DocumentMoniker": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
               "RelativeDocumentMoniker": "services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
               "ToolTip": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
               "RelativeToolTip": "services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T03:03:54.723Z",
+              "WhenOpened": "2025-01-08T03:09:53.237Z",
               "EditorCaption": ""
             },
             {
@@ -49,22 +198,9 @@
               "RelativeDocumentMoniker": "services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj",
               "ToolTip": "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj",
               "RelativeToolTip": "services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T03:03:38.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Tasky.Shared.Hosting",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "RelativeDocumentMoniker": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "RelativeToolTip": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T03:03:33.72Z",
+              "WhenOpened": "2025-01-08T03:08:45.013Z",
               "EditorCaption": ""
             }
           ]
