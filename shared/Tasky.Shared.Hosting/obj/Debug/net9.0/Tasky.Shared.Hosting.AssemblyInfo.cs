@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tasky.Shared.Hosting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bda352a33c072fc806c85fb09c037c1e5d6e3baa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+052b7e616680c3b47445958ca4c5b91252106595")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tasky.Shared.Hosting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tasky.Shared.Hosting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

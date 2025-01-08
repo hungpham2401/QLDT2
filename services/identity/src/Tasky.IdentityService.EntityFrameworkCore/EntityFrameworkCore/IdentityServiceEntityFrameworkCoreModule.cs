@@ -3,6 +3,7 @@ using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.Modularity;
 using Volo.Abp.Identity.EntityFrameworkCore;
 using Volo.Abp.IdentityServer.EntityFrameworkCore;
+using System;
 
 namespace Tasky.IdentityService.EntityFrameworkCore;
 
@@ -11,16 +12,22 @@ namespace Tasky.IdentityService.EntityFrameworkCore;
     typeof(AbpEntityFrameworkCoreModule)
 )]
 [DependsOn(typeof(AbpIdentityEntityFrameworkCoreModule))]
-    [DependsOn(typeof(AbpIdentityServerEntityFrameworkCoreModule))]
-    public class IdentityServiceEntityFrameworkCoreModule : AbpModule
+[DependsOn(typeof(AbpIdentityServerEntityFrameworkCoreModule))]
+public class IdentityServiceEntityFrameworkCoreModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
+        Configure<AbpDbContextOptions>(options =>
+        {
+            options.UseNpgsql();
+        });
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         context.Services.AddAbpDbContext<IdentityServiceDbContext>(options =>
         {
-                /* Add custom repositories here. Example:
-                 * options.AddRepository<Question, EfCoreQuestionRepository>();
-                 */
+            options.ReplaceDbContext<IIdentityDbContext>();
+            options.ReplaceDbContext<IIdentityServerDbContext>();
+
+            options.AddDefaultRepositories(true);
         });
     }
 }

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "DbzFBAWftDelyVp8NYa3xwTKoIq02nU+r7dkkamjKlg=",
+  "Source": "Tasky.IdentityServer",
+  "BasePath": "_content/Tasky.IdentityServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
