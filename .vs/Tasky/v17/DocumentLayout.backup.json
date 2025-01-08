@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "D:\\dft\\QLDT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\saas\\host\\tasky.saasservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|solutionrelative:services\\saas\\host\\tasky.saasservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\saas\\host\\tasky.saasservice.httpapi.host\\tasky.saasservice.httpapi.host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|solutionrelative:services\\saas\\host\\tasky.saasservice.httpapi.host\\tasky.saasservice.httpapi.host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\tasky.dbmigrator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\tasky.dbmigrator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\saasserviceentityframeworkcoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|solutionrelative:services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\saasserviceentityframeworkcoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D6F603B-3646-4E84-B4C3-25B957C88186}|services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\Tasky.AdministrationService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\administration\\host\\tasky.administrationservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2D6F603B-3646-4E84-B4C3-25B957C88186}|services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\Tasky.AdministrationService.HttpApi.Host.csproj|solutionrelative:services\\administration\\host\\tasky.administrationservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\taskydbmigratormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\taskydbmigratormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\saasservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|solutionrelative:services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\saasservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\taskydbmigrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\taskydbmigrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\saasservicedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|solutionrelative:services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\saasservicedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\identityserverdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\identityserverdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\isaasservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|solutionrelative:services\\saas\\src\\tasky.saasservice.entityframeworkcore\\entityframeworkcore\\isaasservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\identityserverdataseedcontributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\identityserverdataseedcontributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\saas\\src\\tasky.saasservice.entityframeworkcore\\tasky.saasservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1B53CE46-CA07-407A-9C98-9951B913D56B}|services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj|solutionrelative:services\\saas\\src\\tasky.saasservice.entityframeworkcore\\tasky.saasservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\dbmigratorhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\dbmigratorhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|d:\\dft\\qldt2\\services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\tasky.administrationservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9BD5E289-A5DC-4BEB-B6C7-BE021DADCCEA}|services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj|solutionrelative:services\\administration\\src\\tasky.administrationservice.entityframeworkcore\\tasky.administrationservice.entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\saas\\host\\tasky.saasservice.httpapi.host\\saasservicehttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|solutionrelative:services\\saas\\host\\tasky.saasservice.httpapi.host\\saasservicehttpapihostmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|d:\\dft\\qldt2\\shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|solutionrelative:shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,131 +63,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "RelativeDocumentMoniker": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "RelativeToolTip": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABtAAAAAAAAAA==",
+              "Title": "appsettings.secrets.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.secrets.json",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\appsettings.secrets.json",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.secrets.json",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\appsettings.secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T04:23:43.032Z",
+              "WhenOpened": "2025-01-08T07:55:33.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tasky.SaaSService.HttpApi.Host",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj",
-              "RelativeDocumentMoniker": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj",
-              "RelativeToolTip": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Tasky.DbMigrator",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T04:23:38.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
-              "RelativeDocumentMoniker": "services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
-              "RelativeToolTip": "services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T04:23:22.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SaaSServiceEntityFrameworkCoreModule.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceEntityFrameworkCoreModule.cs",
-              "RelativeDocumentMoniker": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceEntityFrameworkCoreModule.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceEntityFrameworkCoreModule.cs",
-              "RelativeToolTip": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceEntityFrameworkCoreModule.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T04:20:30.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SaaSServiceDbContext.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContext.cs",
-              "RelativeDocumentMoniker": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContext.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContext.cs*",
-              "RelativeToolTip": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContext.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T04:19:33.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ISaaSServiceDbContext.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\ISaaSServiceDbContext.cs",
-              "RelativeDocumentMoniker": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\ISaaSServiceDbContext.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\ISaaSServiceDbContext.cs",
-              "RelativeToolTip": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\ISaaSServiceDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T04:19:30.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tasky.SaaSService.EntityFrameworkCore",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj",
-              "RelativeDocumentMoniker": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj",
-              "RelativeToolTip": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T04:19:24.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Tasky.AdministrationService.EntityFrameworkCore",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
-              "RelativeDocumentMoniker": "services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
-              "RelativeToolTip": "services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T04:19:15.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SaaSServiceDbContextFactory.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContextFactory.cs",
-              "RelativeDocumentMoniker": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContextFactory.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContextFactory.cs",
-              "RelativeToolTip": "services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\EntityFrameworkCore\\SaaSServiceDbContextFactory.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T04:18:50.892Z",
+              "WhenOpened": "2025-01-08T07:47:18.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SaaSServiceHttpApiHostModule.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\SaaSServiceHttpApiHostModule.cs",
-              "RelativeDocumentMoniker": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\SaaSServiceHttpApiHostModule.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\SaaSServiceHttpApiHostModule.cs",
-              "RelativeToolTip": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\SaaSServiceHttpApiHostModule.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T07:45:46.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskyDbMigrationService.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T04:17:03.745Z",
+              "WhenOpened": "2025-01-08T07:37:13.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.json",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.json",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\appsettings.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T07:34:21.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskyDbMigratorModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T07:21:04.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tasky.Shared.Hosting",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
+              "RelativeDocumentMoniker": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
+              "RelativeToolTip": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-08T07:21:04.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdentityServerDataSeeder.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAAwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T07:20:56.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdentityServerDataSeedContributor.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T07:20:52.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbMigratorHostedService.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T07:19:17.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Program.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\Program.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Program.cs",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T07:17:31.02Z",
               "EditorCaption": ""
             }
           ]

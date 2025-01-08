@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tasky.DbMigrator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c16d71fb8d0bd412578e452b1aed890f775899f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b658a1c60a7bbf1c07f567a8ef2ea8cfd59ed51")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tasky.DbMigrator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tasky.DbMigrator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
