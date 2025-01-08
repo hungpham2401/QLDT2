@@ -56,11 +56,11 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Volo.Abp.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -80,21 +84,25 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Volo.Abp.Autofac": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Volo.Abp.Caching.StackExchangeRedis": {
               "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Volo.Abp.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.3, )"
             },
             "Volo.Abp.EntityFrameworkCore.PostgreSql": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Volo.Abp.EventBus.RabbitMQ": {
               "target": "Package",
@@ -110,15 +118,27 @@
             },
             "Volo.Abp.Localization": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.3, )"
             },
             "Volo.Abp.MultiTenancy": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Volo.Abp.Swashbuckle": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
