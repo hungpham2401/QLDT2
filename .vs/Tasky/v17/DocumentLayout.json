@@ -3,56 +3,32 @@
   "WorkspaceRootPath": "D:\\dft\\QLDT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\tasky.identityserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|solutionrelative:apps\\tasky.identityserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\saas\\host\\tasky.saasservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\Tasky.SaaSService.HttpApi.Host.csproj|solutionrelative:services\\saas\\host\\tasky.saasservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\tasky.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|solutionrelative:apps\\tasky.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\tasky.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|solutionrelative:apps\\tasky.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\identity\\host\\tasky.identityservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\Tasky.IdentityService.HttpApi.Host.csproj|solutionrelative:services\\identity\\host\\tasky.identityservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\taskydbmigrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\taskydbmigrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D6F603B-3646-4E84-B4C3-25B957C88186}|services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\Tasky.AdministrationService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\administration\\host\\tasky.administrationservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D6F603B-3646-4E84-B4C3-25B957C88186}|services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\Tasky.AdministrationService.HttpApi.Host.csproj|solutionrelative:services\\administration\\host\\tasky.administrationservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\appsettings.secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\tasky.identityserver\\taskyidentityservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|solutionrelative:apps\\tasky.identityserver\\taskyidentityservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\tasky.dbmigrator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\tasky.dbmigrator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\taskydbmigratormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\taskydbmigratormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\identityserverdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\identityserverdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\identityserverdataseedcontributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\identityserverdataseedcontributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\dbmigratorhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\dbmigratorhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|d:\\dft\\qldt2\\shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|solutionrelative:shared\\tasky.shared.hosting\\tasky.shared.hosting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|d:\\dft\\qldt2\\shared\\tasky.shared.hosting\\taskyhostingmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1594F501-E3B2-4A29-9B97-B1D44FE6B710}|shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj|solutionrelative:shared\\tasky.shared.hosting\\taskyhostingmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,20 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "RelativeDocumentMoniker": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "RelativeToolTip": "services\\saas\\host\\Tasky.SaaSService.HttpApi.Host\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "apps\\Tasky.IdentityServer\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "apps\\Tasky.IdentityServer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T07:57:08.215Z",
+              "WhenOpened": "2025-01-09T03:54:07.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Program.cs",
+              "RelativeDocumentMoniker": "apps\\Tasky.IdentityServer\\Program.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Program.cs",
+              "RelativeToolTip": "apps\\Tasky.IdentityServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:52:51.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\dft\\QLDT2\\services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\appsettings.json",
               "RelativeDocumentMoniker": "services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\appsettings.json",
@@ -91,150 +80,59 @@
               "RelativeToolTip": "services\\identity\\host\\Tasky.IdentityService.HttpApi.Host\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T07:56:31.731Z",
+              "WhenOpened": "2025-01-09T03:50:59.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.secrets.json",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.secrets.json",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\appsettings.secrets.json",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.secrets.json",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\appsettings.secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T07:55:33.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tasky.DbMigrator",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T07:47:18.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T07:45:46.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskyDbMigrationService.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\TaskyDbMigrationService.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAmwGYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:37:13.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.json",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\appsettings.json",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.json",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABtAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
+              "RelativeToolTip": "services\\administration\\host\\Tasky.AdministrationService.HttpApi.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-08T07:34:21.374Z",
+              "WhenOpened": "2025-01-09T03:50:46.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskyDbMigratorModule.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\TaskyDbMigratorModule.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:21:04.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Tasky.Shared.Hosting",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "RelativeDocumentMoniker": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "RelativeToolTip": "shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T07:21:04.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IdentityServerDataSeeder.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\IdentityServerDataSeeder.cs",
-              "ViewState": "AgIAAP0AAAAAAAAAAAAAwBoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:20:56.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IdentityServerDataSeedContributor.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\IdentityServerDataSeedContributor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:20:52.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DbMigratorHostedService.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\DbMigratorHostedService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:19:17.565Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\appsettings.json",
+              "RelativeDocumentMoniker": "apps\\Tasky.IdentityServer\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\appsettings.json",
+              "RelativeToolTip": "apps\\Tasky.IdentityServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-09T03:49:42.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Program.cs",
-              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\Program.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\Program.cs",
-              "RelativeToolTip": "shared\\Tasky.DbMigrator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Title": "TaskyHostingModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "RelativeToolTip": "shared\\Tasky.Shared.Hosting\\TaskyHostingModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T07:17:31.02Z",
+              "WhenOpened": "2025-01-09T03:45:05.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskyIdentityServerModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\TaskyIdentityServerModule.cs",
+              "RelativeDocumentMoniker": "apps\\Tasky.IdentityServer\\TaskyIdentityServerModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\TaskyIdentityServerModule.cs",
+              "RelativeToolTip": "apps\\Tasky.IdentityServer\\TaskyIdentityServerModule.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:43:47.888Z",
               "EditorCaption": ""
             }
           ]

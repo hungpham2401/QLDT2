@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gazZoo5xZjOXG5LoZoUJ2LnEs1e5dtCwDM83zIjnrAE=",
+  "Source": "Tasky.Gateway",
+  "BasePath": "_content/Tasky.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

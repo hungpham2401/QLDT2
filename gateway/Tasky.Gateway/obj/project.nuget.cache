@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UUas23rjSJc=",
+  "dgSpecHash": "+T6u2mNNSfo=",
   "success": true,
   "projectFilePath": "D:\\dft\\QLDT2\\gateway\\Tasky.Gateway\\Tasky.Gateway.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HungPM\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
+    "C:\\Users\\HungPM\\.nuget\\packages\\yarp.reverseproxy\\2.2.0\\yarp.reverseproxy.2.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

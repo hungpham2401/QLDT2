@@ -1,0 +1,21 @@
+AssemblyInformationalVersion:
+InformationalVersion: 1.0.0+7c25b65c2d029cc556f7f72bc7cd56f0da3aabe8
+Version: 1.0.0
+TargetFrameworks:
+RunCommand: D:\dft\QLDT2\gateway\Tasky.Gateway\bin\Debug\net9.0\Tasky.Gateway.exe
+RunArguments:
+TargetPath: D:\dft\QLDT2\gateway\Tasky.Gateway\bin\Debug\net9.0\Tasky.Gateway.dll
+PublishDir: bin\Debug\net9.0\publish\
+AssemblyName: Tasky.Gateway
+IntermediateOutputPath: obj\Debug\net9.0\
+TargetFramework: net9.0
+_ShortFrameworkIdentifier:
+_ShortFrameworkVersion:
+_TargetFrameworkVersionWithoutV: 9.0
+FrameworkReference: Microsoft.NETCore.App;Microsoft.AspNetCore.App
+ContainerBaseImage:
+ContainerBaseTag:
+MicrosoftNETPlatformLibrary:
+_AspNetCoreAppSharedFxIsEnabled:
+UsingMicrosoftNETSdkWeb: true
+AzureFunctionsVersion:

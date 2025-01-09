@@ -15,14 +15,15 @@ using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
 using Tasky.Shared.Hosting;
-
+using Tasky.AdministrationService.EntityFrameworkCore;
 namespace Tasky.SaaSService;
 
 [DependsOn(
     typeof(TaskyHostingModule),
     typeof(SaaSServiceApplicationModule),
     typeof(SaaSServiceEntityFrameworkCoreModule),
-    typeof(SaaSServiceHttpApiModule)
+    typeof(SaaSServiceHttpApiModule),
+    typeof(AdministrationServiceEntityFrameworkCoreModule)
     )]
 public class SaaSServiceHttpApiHostModule : AbpModule
 {
