@@ -2065,6 +2065,135 @@
           }
         }
       },
+      "OpenIddict.Abstractions/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Microsoft.IdentityModel.Tokens": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/OpenIddict.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenIddict.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenIddict.Core/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "OpenIddict.Abstractions": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenIddict.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenIddict.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenIddict.Server/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.0.1",
+          "OpenIddict.Abstractions": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenIddict.Server.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenIddict.Server.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenIddict.Server.AspNetCore/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenIddict.Server": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenIddict.Server.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenIddict.Server.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OpenIddict.Validation/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.0.1",
+          "Microsoft.IdentityModel.Protocols": "8.0.1",
+          "OpenIddict.Abstractions": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenIddict.Validation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenIddict.Validation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenIddict.Validation.AspNetCore/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenIddict.Validation": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenIddict.Validation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenIddict.Validation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OpenIddict.Validation.ServerIntegration/5.8.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenIddict.Server": "5.8.0",
+          "OpenIddict.Validation": "5.8.0"
+        },
+        "compile": {
+          "lib/net8.0/OpenIddict.Validation.ServerIntegration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenIddict.Validation.ServerIntegration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "type": "package",
         "dependencies": {
@@ -3525,21 +3654,21 @@
           }
         }
       },
-      "Volo.Abp.Account.Web.IdentityServer/9.0.3": {
+      "Volo.Abp.Account.Web.OpenIddict/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
           "System.Security.Principal.Windows": "5.0.0",
           "Volo.Abp.Account.Web": "9.0.3",
-          "Volo.Abp.IdentityServer.Domain": "9.0.3"
+          "Volo.Abp.OpenIddict.AspNetCore": "9.0.3"
         },
         "compile": {
-          "lib/net9.0/Volo.Abp.Account.Web.IdentityServer.dll": {
+          "lib/net9.0/Volo.Abp.Account.Web.OpenIddict.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Volo.Abp.Account.Web.IdentityServer.dll": {
+          "lib/net9.0/Volo.Abp.Account.Web.OpenIddict.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -3547,7 +3676,7 @@
           "Microsoft.AspNetCore.App"
         ],
         "contentFiles": {
-          "contentFiles/any/net9.0/Volo.Abp.Account.Web.IdentityServer.abppkg.analyze.json": {
+          "contentFiles/any/net9.0/Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json": {
             "buildAction": "Content",
             "codeLanguage": "any",
             "copyToOutput": false
@@ -3646,11 +3775,11 @@
           }
         }
       },
-      "Volo.Abp.AspNetCore.MultiTenancy/9.0.0": {
+      "Volo.Abp.AspNetCore.MultiTenancy/9.0.3": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.AspNetCore": "9.0.0",
-          "Volo.Abp.MultiTenancy": "9.0.0"
+          "Volo.Abp.AspNetCore": "9.0.3",
+          "Volo.Abp.MultiTenancy": "9.0.3"
         },
         "compile": {
           "lib/net9.0/Volo.Abp.AspNetCore.MultiTenancy.dll": {
@@ -4887,23 +5016,6 @@
           }
         }
       },
-      "Volo.Abp.IdentityServer.EntityFrameworkCore/9.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.EntityFrameworkCore": "9.0.3",
-          "Volo.Abp.IdentityServer.Domain": "9.0.3"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.IdentityServer.EntityFrameworkCore.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.IdentityServer.EntityFrameworkCore.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.Json/9.0.3": {
         "type": "package",
         "dependencies": {
@@ -5073,6 +5185,93 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.ObjectMapping.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.OpenIddict.AspNetCore/9.0.3": {
+        "type": "package",
+        "dependencies": {
+          "OpenIddict.Server.AspNetCore": "5.8.0",
+          "OpenIddict.Validation.AspNetCore": "5.8.0",
+          "OpenIddict.Validation.ServerIntegration": "5.8.0",
+          "Volo.Abp.AspNetCore.MultiTenancy": "9.0.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared": "9.0.3",
+          "Volo.Abp.OpenIddict.Domain": "9.0.3"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.OpenIddict.AspNetCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.OpenIddict.AspNetCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Volo.Abp.OpenIddict.Domain/9.0.3": {
+        "type": "package",
+        "dependencies": {
+          "OpenIddict.Core": "5.8.0",
+          "Volo.Abp.Caching": "9.0.3",
+          "Volo.Abp.Ddd.Domain": "9.0.3",
+          "Volo.Abp.DistributedLocking.Abstractions": "9.0.3",
+          "Volo.Abp.Identity.Domain": "9.0.3",
+          "Volo.Abp.OpenIddict.Domain.Shared": "9.0.3"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.OpenIddict.Domain.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.OpenIddict.Domain.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.OpenIddict.Domain.Shared/9.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
+          "OpenIddict.Abstractions": "5.8.0",
+          "Volo.Abp.Validation": "9.0.3"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.OpenIddict.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.OpenIddict.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.OpenIddict.EntityFrameworkCore/9.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.EntityFrameworkCore": "9.0.3",
+          "Volo.Abp.OpenIddict.Domain": "9.0.3"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.OpenIddict.EntityFrameworkCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.OpenIddict.EntityFrameworkCore.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -5783,7 +5982,7 @@
           "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
           "Volo.Abp.Ddd.Domain.Shared": "9.0.3",
           "Volo.Abp.Identity.Domain.Shared": "9.0.3",
-          "Volo.Abp.IdentityServer.Domain.Shared": "9.0.3",
+          "Volo.Abp.OpenIddict.Domain.Shared": "9.0.3",
           "Volo.Abp.Validation": "9.0.3"
         },
         "compile": {
@@ -5803,7 +6002,7 @@
           "Volo.Abp.EntityFrameworkCore": "9.0.3",
           "Volo.Abp.EntityFrameworkCore.PostgreSql": "9.0.0",
           "Volo.Abp.Identity.EntityFrameworkCore": "9.0.3",
-          "Volo.Abp.IdentityServer.EntityFrameworkCore": "9.0.3"
+          "Volo.Abp.OpenIddict.EntityFrameworkCore": "9.0.3"
         },
         "compile": {
           "bin/placeholder/Tasky.IdentityService.EntityFrameworkCore.dll": {}
@@ -9326,6 +9525,194 @@
         "nuglify.png"
       ]
     },
+    "OpenIddict.Abstractions/5.8.0": {
+      "sha512": "ABzxIPp/swvGSPuyP4v+t8UKo8gRTzLQakIA+vg/h4j2nCrHpL7fPZaydj2Kzn0a6DKWUVAKw6eZczF/2dz1VQ==",
+      "type": "package",
+      "path": "openiddict.abstractions/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/OpenIddict.Abstractions.dll",
+        "lib/net461/OpenIddict.Abstractions.xml",
+        "lib/net472/OpenIddict.Abstractions.dll",
+        "lib/net472/OpenIddict.Abstractions.xml",
+        "lib/net48/OpenIddict.Abstractions.dll",
+        "lib/net48/OpenIddict.Abstractions.xml",
+        "lib/net6.0/OpenIddict.Abstractions.dll",
+        "lib/net6.0/OpenIddict.Abstractions.xml",
+        "lib/net7.0/OpenIddict.Abstractions.dll",
+        "lib/net7.0/OpenIddict.Abstractions.xml",
+        "lib/net8.0/OpenIddict.Abstractions.dll",
+        "lib/net8.0/OpenIddict.Abstractions.xml",
+        "lib/netstandard2.0/OpenIddict.Abstractions.dll",
+        "lib/netstandard2.0/OpenIddict.Abstractions.xml",
+        "lib/netstandard2.1/OpenIddict.Abstractions.dll",
+        "lib/netstandard2.1/OpenIddict.Abstractions.xml",
+        "openiddict.abstractions.5.8.0.nupkg.sha512",
+        "openiddict.abstractions.nuspec"
+      ]
+    },
+    "OpenIddict.Core/5.8.0": {
+      "sha512": "6OQhDdFbyAfRgmE+Lh59YggJhhOX9AQ28gRFSZ55HAluhsknvq0B9ZWKsuxEEBSyr6m+A8j6HgFH9JfbI9+q4Q==",
+      "type": "package",
+      "path": "openiddict.core/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/OpenIddict.Core.dll",
+        "lib/net461/OpenIddict.Core.xml",
+        "lib/net472/OpenIddict.Core.dll",
+        "lib/net472/OpenIddict.Core.xml",
+        "lib/net48/OpenIddict.Core.dll",
+        "lib/net48/OpenIddict.Core.xml",
+        "lib/net6.0/OpenIddict.Core.dll",
+        "lib/net6.0/OpenIddict.Core.xml",
+        "lib/net7.0/OpenIddict.Core.dll",
+        "lib/net7.0/OpenIddict.Core.xml",
+        "lib/net8.0/OpenIddict.Core.dll",
+        "lib/net8.0/OpenIddict.Core.xml",
+        "lib/netstandard2.0/OpenIddict.Core.dll",
+        "lib/netstandard2.0/OpenIddict.Core.xml",
+        "lib/netstandard2.1/OpenIddict.Core.dll",
+        "lib/netstandard2.1/OpenIddict.Core.xml",
+        "openiddict.core.5.8.0.nupkg.sha512",
+        "openiddict.core.nuspec"
+      ]
+    },
+    "OpenIddict.Server/5.8.0": {
+      "sha512": "CpS78OmkfHD/sfwqTeQ4PIjdLfqHTKItRe0eB4y9U6YV9JcPu3McH1jkNg8CAlgUP/VpkEHti7eBFmZGdvLANw==",
+      "type": "package",
+      "path": "openiddict.server/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/OpenIddict.Server.dll",
+        "lib/net461/OpenIddict.Server.xml",
+        "lib/net472/OpenIddict.Server.dll",
+        "lib/net472/OpenIddict.Server.xml",
+        "lib/net48/OpenIddict.Server.dll",
+        "lib/net48/OpenIddict.Server.xml",
+        "lib/net6.0/OpenIddict.Server.dll",
+        "lib/net6.0/OpenIddict.Server.xml",
+        "lib/net7.0/OpenIddict.Server.dll",
+        "lib/net7.0/OpenIddict.Server.xml",
+        "lib/net8.0/OpenIddict.Server.dll",
+        "lib/net8.0/OpenIddict.Server.xml",
+        "lib/netstandard2.0/OpenIddict.Server.dll",
+        "lib/netstandard2.0/OpenIddict.Server.xml",
+        "lib/netstandard2.1/OpenIddict.Server.dll",
+        "lib/netstandard2.1/OpenIddict.Server.xml",
+        "openiddict.server.5.8.0.nupkg.sha512",
+        "openiddict.server.nuspec"
+      ]
+    },
+    "OpenIddict.Server.AspNetCore/5.8.0": {
+      "sha512": "2MW98cPcSI53Pe9Yv3Z4a9L4sgf3Zm4LEYg3bAH9Lk9Ii1wBa13nzUvXwA36Wyjyv7Av2yP31SYRomeEH7LgCA==",
+      "type": "package",
+      "path": "openiddict.server.aspnetcore/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/OpenIddict.Server.AspNetCore.dll",
+        "lib/net461/OpenIddict.Server.AspNetCore.xml",
+        "lib/net472/OpenIddict.Server.AspNetCore.dll",
+        "lib/net472/OpenIddict.Server.AspNetCore.xml",
+        "lib/net48/OpenIddict.Server.AspNetCore.dll",
+        "lib/net48/OpenIddict.Server.AspNetCore.xml",
+        "lib/net6.0/OpenIddict.Server.AspNetCore.dll",
+        "lib/net6.0/OpenIddict.Server.AspNetCore.xml",
+        "lib/net7.0/OpenIddict.Server.AspNetCore.dll",
+        "lib/net7.0/OpenIddict.Server.AspNetCore.xml",
+        "lib/net8.0/OpenIddict.Server.AspNetCore.dll",
+        "lib/net8.0/OpenIddict.Server.AspNetCore.xml",
+        "openiddict.server.aspnetcore.5.8.0.nupkg.sha512",
+        "openiddict.server.aspnetcore.nuspec"
+      ]
+    },
+    "OpenIddict.Validation/5.8.0": {
+      "sha512": "VBh+r+15IH5jVs7auzaIqIGN3ExP0uZOkVBMUz/KipYCMw9C4Usa4Pd6VcFNbcCqWPMrl9RLw6rw0pCKhY6E9g==",
+      "type": "package",
+      "path": "openiddict.validation/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/OpenIddict.Validation.dll",
+        "lib/net461/OpenIddict.Validation.xml",
+        "lib/net472/OpenIddict.Validation.dll",
+        "lib/net472/OpenIddict.Validation.xml",
+        "lib/net48/OpenIddict.Validation.dll",
+        "lib/net48/OpenIddict.Validation.xml",
+        "lib/net6.0/OpenIddict.Validation.dll",
+        "lib/net6.0/OpenIddict.Validation.xml",
+        "lib/net7.0/OpenIddict.Validation.dll",
+        "lib/net7.0/OpenIddict.Validation.xml",
+        "lib/net8.0/OpenIddict.Validation.dll",
+        "lib/net8.0/OpenIddict.Validation.xml",
+        "lib/netstandard2.0/OpenIddict.Validation.dll",
+        "lib/netstandard2.0/OpenIddict.Validation.xml",
+        "lib/netstandard2.1/OpenIddict.Validation.dll",
+        "lib/netstandard2.1/OpenIddict.Validation.xml",
+        "openiddict.validation.5.8.0.nupkg.sha512",
+        "openiddict.validation.nuspec"
+      ]
+    },
+    "OpenIddict.Validation.AspNetCore/5.8.0": {
+      "sha512": "/52/WeD/9faYr7B6XfzBSM2C8psRFiqbdwSxxiT+fIgINzER+UVEwHrIW/JSW0JjcLpD4NZ72S/rBxlWgWSzVQ==",
+      "type": "package",
+      "path": "openiddict.validation.aspnetcore/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/OpenIddict.Validation.AspNetCore.dll",
+        "lib/net461/OpenIddict.Validation.AspNetCore.xml",
+        "lib/net472/OpenIddict.Validation.AspNetCore.dll",
+        "lib/net472/OpenIddict.Validation.AspNetCore.xml",
+        "lib/net48/OpenIddict.Validation.AspNetCore.dll",
+        "lib/net48/OpenIddict.Validation.AspNetCore.xml",
+        "lib/net6.0/OpenIddict.Validation.AspNetCore.dll",
+        "lib/net6.0/OpenIddict.Validation.AspNetCore.xml",
+        "lib/net7.0/OpenIddict.Validation.AspNetCore.dll",
+        "lib/net7.0/OpenIddict.Validation.AspNetCore.xml",
+        "lib/net8.0/OpenIddict.Validation.AspNetCore.dll",
+        "lib/net8.0/OpenIddict.Validation.AspNetCore.xml",
+        "openiddict.validation.aspnetcore.5.8.0.nupkg.sha512",
+        "openiddict.validation.aspnetcore.nuspec"
+      ]
+    },
+    "OpenIddict.Validation.ServerIntegration/5.8.0": {
+      "sha512": "5+gSgPK/HXR4g3S3q6TB+cXSXS6ESWaw/l2e11adM+KufSheMFPblBBDA/hax7hYj1DsrF4o8BxQT2SjPdUrRA==",
+      "type": "package",
+      "path": "openiddict.validation.serverintegration/5.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/net461/OpenIddict.Validation.ServerIntegration.xml",
+        "lib/net472/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/net472/OpenIddict.Validation.ServerIntegration.xml",
+        "lib/net48/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/net48/OpenIddict.Validation.ServerIntegration.xml",
+        "lib/net6.0/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/net6.0/OpenIddict.Validation.ServerIntegration.xml",
+        "lib/net7.0/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/net7.0/OpenIddict.Validation.ServerIntegration.xml",
+        "lib/net8.0/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/net8.0/OpenIddict.Validation.ServerIntegration.xml",
+        "lib/netstandard2.0/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/netstandard2.0/OpenIddict.Validation.ServerIntegration.xml",
+        "lib/netstandard2.1/OpenIddict.Validation.ServerIntegration.dll",
+        "lib/netstandard2.1/OpenIddict.Validation.ServerIntegration.xml",
+        "openiddict.validation.serverintegration.5.8.0.nupkg.sha512",
+        "openiddict.validation.serverintegration.nuspec"
+      ]
+    },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "sha512": "zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
       "type": "package",
@@ -12673,22 +13060,22 @@
         "volo.abp.account.web.nuspec"
       ]
     },
-    "Volo.Abp.Account.Web.IdentityServer/9.0.3": {
-      "sha512": "R7TSuT1lPC9vAUvwnNKQ+F8VY3rxulIJ3VMbRqlb9fLMVVaD4S9avgvYiDjxffj4wwIFtfG52Fk3fJo7l5vmnA==",
+    "Volo.Abp.Account.Web.OpenIddict/9.0.3": {
+      "sha512": "d8w6M5WSgXAtEv1oUULrpLcp48+BulBYcFo6sLfiUiwQTrYRyyzzuSD0wiLpdaWos0YhfdLTRCLQvZ1OxOR8mA==",
       "type": "package",
-      "path": "volo.abp.account.web.identityserver/9.0.3",
+      "path": "volo.abp.account.web.openiddict/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "NuGet.md",
-        "content/Volo.Abp.Account.Web.IdentityServer.abppkg",
-        "content/Volo.Abp.Account.Web.IdentityServer.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.Account.Web.IdentityServer.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.Account.Web.IdentityServer.dll",
-        "lib/net9.0/Volo.Abp.Account.Web.IdentityServer.pdb",
-        "lib/net9.0/Volo.Abp.Account.Web.IdentityServer.xml",
-        "volo.abp.account.web.identityserver.9.0.3.nupkg.sha512",
-        "volo.abp.account.web.identityserver.nuspec"
+        "content/Volo.Abp.Account.Web.OpenIddict.abppkg",
+        "content/Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json",
+        "contentFiles/any/net9.0/Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json",
+        "lib/net9.0/Volo.Abp.Account.Web.OpenIddict.dll",
+        "lib/net9.0/Volo.Abp.Account.Web.OpenIddict.pdb",
+        "lib/net9.0/Volo.Abp.Account.Web.OpenIddict.xml",
+        "volo.abp.account.web.openiddict.9.0.3.nupkg.sha512",
+        "volo.abp.account.web.openiddict.nuspec"
       ]
     },
     "Volo.Abp.ApiVersioning.Abstractions/9.0.3": {
@@ -12776,10 +13163,10 @@
         "volo.abp.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Volo.Abp.AspNetCore.MultiTenancy/9.0.0": {
-      "sha512": "8BgMreXEWZzXMI13O3O9BBhC7ykaW9x5krtXZuBSjBM0r6NwRFg3yHyz4sqfCc1glzxv6q6f2g6LUyvV4U7IlQ==",
+    "Volo.Abp.AspNetCore.MultiTenancy/9.0.3": {
+      "sha512": "K77H4XfnoCxGSeyKpj16ayN3A7Arop4cL2lp+haSDVBw9scDpgnLFueO92vDCjkXqlpLMt82cxXp0J6QCQFJ5g==",
       "type": "package",
-      "path": "volo.abp.aspnetcore.multitenancy/9.0.0",
+      "path": "volo.abp.aspnetcore.multitenancy/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -12788,7 +13175,7 @@
         "lib/net9.0/Volo.Abp.AspNetCore.MultiTenancy.dll",
         "lib/net9.0/Volo.Abp.AspNetCore.MultiTenancy.pdb",
         "lib/net9.0/Volo.Abp.AspNetCore.MultiTenancy.xml",
-        "volo.abp.aspnetcore.multitenancy.9.0.0.nupkg.sha512",
+        "volo.abp.aspnetcore.multitenancy.9.0.3.nupkg.sha512",
         "volo.abp.aspnetcore.multitenancy.nuspec"
       ]
     },
@@ -14195,23 +14582,6 @@
         "volo.abp.identityserver.domain.shared.nuspec"
       ]
     },
-    "Volo.Abp.IdentityServer.EntityFrameworkCore/9.0.3": {
-      "sha512": "6HgvuBN1jZqlmW15aLc7KrcPVFbO7Heq4rKNOpp//oChaXNwpF5giaCxZdQgEoz5Za/ycUMG+i34OG6MhYQI7w==",
-      "type": "package",
-      "path": "volo.abp.identityserver.entityframeworkcore/9.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.IdentityServer.EntityFrameworkCore.abppkg",
-        "content/Volo.Abp.IdentityServer.EntityFrameworkCore.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.IdentityServer.EntityFrameworkCore.dll",
-        "lib/net9.0/Volo.Abp.IdentityServer.EntityFrameworkCore.pdb",
-        "lib/net9.0/Volo.Abp.IdentityServer.EntityFrameworkCore.xml",
-        "volo.abp.identityserver.entityframeworkcore.9.0.3.nupkg.sha512",
-        "volo.abp.identityserver.entityframeworkcore.nuspec"
-      ]
-    },
     "Volo.Abp.Json/9.0.3": {
       "sha512": "AtIeglXgK3c7aBcUAIDI1WbvBZzEe+3SnFP18C+B1a4EalHkvligUdqaTPjtbjBV5Yr8EJoMDd040xIGVkC6QA==",
       "type": "package",
@@ -14468,6 +14838,84 @@
         "lib/netstandard2.1/Volo.Abp.ObjectMapping.xml",
         "volo.abp.objectmapping.9.0.3.nupkg.sha512",
         "volo.abp.objectmapping.nuspec"
+      ]
+    },
+    "Volo.Abp.OpenIddict.AspNetCore/9.0.3": {
+      "sha512": "g8YzF5z8fMsw9tt2L9MwJO3RumHk6B3l5TOiBTMj6OKXdUw9n11u1sRc2oC2Cw54omZNze0RJZM2xqIx83Kr2w==",
+      "type": "package",
+      "path": "volo.abp.openiddict.aspnetcore/9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.OpenIddict.AspNetCore.abppkg",
+        "content/Volo.Abp.OpenIddict.AspNetCore.abppkg.analyze.json",
+        "contentFiles/any/net9.0/Volo.Abp.OpenIddict.AspNetCore.abppkg.analyze.json",
+        "lib/net9.0/Volo.Abp.OpenIddict.AspNetCore.dll",
+        "lib/net9.0/Volo.Abp.OpenIddict.AspNetCore.pdb",
+        "lib/net9.0/Volo.Abp.OpenIddict.AspNetCore.xml",
+        "volo.abp.openiddict.aspnetcore.9.0.3.nupkg.sha512",
+        "volo.abp.openiddict.aspnetcore.nuspec"
+      ]
+    },
+    "Volo.Abp.OpenIddict.Domain/9.0.3": {
+      "sha512": "AaAcpm3A5BAvDr59W1qDa7s553cwbEW759clWP6ISe4RCoY+vkZgij3yfvSp4/abDJNP/5NPlALcICij2gYtug==",
+      "type": "package",
+      "path": "volo.abp.openiddict.domain/9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.OpenIddict.Domain.abppkg",
+        "content/Volo.Abp.OpenIddict.Domain.abppkg.analyze.json",
+        "lib/net9.0/Volo.Abp.OpenIddict.Domain.dll",
+        "lib/net9.0/Volo.Abp.OpenIddict.Domain.pdb",
+        "lib/net9.0/Volo.Abp.OpenIddict.Domain.xml",
+        "volo.abp.openiddict.domain.9.0.3.nupkg.sha512",
+        "volo.abp.openiddict.domain.nuspec"
+      ]
+    },
+    "Volo.Abp.OpenIddict.Domain.Shared/9.0.3": {
+      "sha512": "v2mXJ7Q52n+Egsg4UPBFU3ziH7HVCFnnAUb3Vr0uUDmjWfbX84c5dXMFhOfO0w65IR7E+Ny9p0mOZUf+mnsNIA==",
+      "type": "package",
+      "path": "volo.abp.openiddict.domain.shared/9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.OpenIddict.Domain.Shared.abppkg",
+        "content/Volo.Abp.OpenIddict.Domain.Shared.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.OpenIddict.Domain.Shared.dll",
+        "lib/net8.0/Volo.Abp.OpenIddict.Domain.Shared.pdb",
+        "lib/net8.0/Volo.Abp.OpenIddict.Domain.Shared.xml",
+        "lib/net9.0/Volo.Abp.OpenIddict.Domain.Shared.dll",
+        "lib/net9.0/Volo.Abp.OpenIddict.Domain.Shared.pdb",
+        "lib/net9.0/Volo.Abp.OpenIddict.Domain.Shared.xml",
+        "lib/netstandard2.0/Volo.Abp.OpenIddict.Domain.Shared.dll",
+        "lib/netstandard2.0/Volo.Abp.OpenIddict.Domain.Shared.pdb",
+        "lib/netstandard2.0/Volo.Abp.OpenIddict.Domain.Shared.xml",
+        "lib/netstandard2.1/Volo.Abp.OpenIddict.Domain.Shared.dll",
+        "lib/netstandard2.1/Volo.Abp.OpenIddict.Domain.Shared.pdb",
+        "lib/netstandard2.1/Volo.Abp.OpenIddict.Domain.Shared.xml",
+        "volo.abp.openiddict.domain.shared.9.0.3.nupkg.sha512",
+        "volo.abp.openiddict.domain.shared.nuspec"
+      ]
+    },
+    "Volo.Abp.OpenIddict.EntityFrameworkCore/9.0.3": {
+      "sha512": "riH7fEvLzEw1kh5DtIF2xa9iy+N2TRWkBb8MbsZdrU6WZjqUFcoiOuOULyP4iBXI14VBjbIgKA5uvWQyuxaQKQ==",
+      "type": "package",
+      "path": "volo.abp.openiddict.entityframeworkcore/9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.OpenIddict.EntityFrameworkCore.abppkg",
+        "content/Volo.Abp.OpenIddict.EntityFrameworkCore.abppkg.analyze.json",
+        "lib/net9.0/Volo.Abp.OpenIddict.EntityFrameworkCore.dll",
+        "lib/net9.0/Volo.Abp.OpenIddict.EntityFrameworkCore.pdb",
+        "lib/net9.0/Volo.Abp.OpenIddict.EntityFrameworkCore.xml",
+        "volo.abp.openiddict.entityframeworkcore.9.0.3.nupkg.sha512",
+        "volo.abp.openiddict.entityframeworkcore.nuspec"
       ]
     },
     "Volo.Abp.PermissionManagement.Application/9.0.3": {
@@ -15401,7 +15849,7 @@
       "Tasky.Shared.Hosting >= 1.0.0",
       "Volo.Abp.Account.Application >= 9.0.3",
       "Volo.Abp.Account.HttpApi >= 9.0.3",
-      "Volo.Abp.Account.Web.IdentityServer >= 9.0.3"
+      "Volo.Abp.Account.Web.OpenIddict >= 9.0.3"
     ]
   },
   "packageFolders": {
@@ -15478,7 +15926,7 @@
             "target": "Package",
             "version": "[9.0.3, )"
           },
-          "Volo.Abp.Account.Web.IdentityServer": {
+          "Volo.Abp.Account.Web.OpenIddict": {
             "target": "Package",
             "version": "[9.0.3, )"
           }

@@ -15,13 +15,13 @@
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Content Include="$(NuGetPackageRoot)volo.abp.account.web.identityserver\9.0.3\contentFiles\any\net9.0\Volo.Abp.Account.Web.IdentityServer.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.account.web.identityserver\9.0.3\contentFiles\any\net9.0\Volo.Abp.Account.Web.IdentityServer.abppkg.analyze.json')">
-      <NuGetPackageId>Volo.Abp.Account.Web.IdentityServer</NuGetPackageId>
+    <Content Include="$(NuGetPackageRoot)volo.abp.account.web.openiddict\9.0.3\contentFiles\any\net9.0\Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.account.web.openiddict\9.0.3\contentFiles\any\net9.0\Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.Account.Web.OpenIddict</NuGetPackageId>
       <NuGetPackageVersion>9.0.3</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>
-      <Link>Volo.Abp.Account.Web.IdentityServer.abppkg.analyze.json</Link>
+      <Link>Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json</Link>
     </Content>
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

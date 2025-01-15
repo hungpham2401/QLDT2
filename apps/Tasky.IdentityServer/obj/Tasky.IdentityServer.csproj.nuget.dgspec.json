@@ -73,7 +73,7 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
-            "Volo.Abp.Account.Web.IdentityServer": {
+            "Volo.Abp.Account.Web.OpenIddict": {
               "target": "Package",
               "version": "[9.0.3, )"
             }
@@ -496,7 +496,7 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
-            "Volo.Abp.IdentityServer.Domain.Shared": {
+            "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.3, )"
             },
@@ -712,7 +712,7 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
-            "Volo.Abp.IdentityServer.EntityFrameworkCore": {
+            "Volo.Abp.OpenIddict.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
             }

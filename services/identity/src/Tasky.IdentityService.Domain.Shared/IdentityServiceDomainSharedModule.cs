@@ -7,7 +7,7 @@ using Volo.Abp.Validation;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
 using Volo.Abp.Identity;
-using Volo.Abp.IdentityServer;
+using Volo.Abp.OpenIddict;
 
 namespace Tasky.IdentityService;
 

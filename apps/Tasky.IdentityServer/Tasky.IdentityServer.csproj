@@ -7,13 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="C:\Users\HungPM\.nuget\packages\volo.abp.account.web.identityserver\9.0.3\contentFiles\any\net9.0\Volo.Abp.Account.Web.IdentityServer.abppkg.analyze.json" />
+    <Content Remove="C:\Users\HungPM\.nuget\packages\volo.abp.account.web.identityserver\9.0.3\contentFiles\any\net9.0\Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.Application" Version="9.0.3" />
     <PackageReference Include="Volo.Abp.Account.HttpApi" Version="9.0.3" />
-    <PackageReference Include="Volo.Abp.Account.Web.IdentityServer" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Account.Web.OpenIddict" Version="9.0.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\services\administration\src\Tasky.AdministrationService.EntityFrameworkCore\Tasky.AdministrationService.EntityFrameworkCore.csproj" />

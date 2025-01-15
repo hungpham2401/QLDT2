@@ -9,17 +9,17 @@ using Tasky.DbMigrator.Model;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Guids;
-using Volo.Abp.IdentityServer.ApiResources;
-using Volo.Abp.IdentityServer.ApiScopes;
-using Volo.Abp.IdentityServer.Clients;
-using Volo.Abp.IdentityServer.IdentityResources;
+using Volo.Abp.OpenIddict.ApiResources;
+using Volo.Abp.OpenIddict.ApiScopes;
+using Volo.Abp.OpenIddict.Clients;
+using Volo.Abp.OpenIddict.IdentityResources;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.Uow;
 
-using ApiResource = Volo.Abp.IdentityServer.ApiResources.ApiResource;
-using ApiScope = Volo.Abp.IdentityServer.ApiScopes.ApiScope;
-using Client = Volo.Abp.IdentityServer.Clients.Client;
+using ApiResource = Volo.Abp.OpenIddict.ApiResources.ApiResource;
+using ApiScope = Volo.Abp.OpenIddict.ApiScopes.ApiScope;
+using Client = Volo.Abp.OpenIddict.Clients.Client;
 
 
 namespace Tasky.DbMigrator

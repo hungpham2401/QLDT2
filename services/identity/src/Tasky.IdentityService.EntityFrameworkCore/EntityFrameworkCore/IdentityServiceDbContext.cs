@@ -3,13 +3,13 @@ using Volo.Abp.Data;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.Identity;
 using Volo.Abp.Identity.EntityFrameworkCore;
-using Volo.Abp.IdentityServer.ApiResources;
-using Volo.Abp.IdentityServer.ApiScopes;
-using Volo.Abp.IdentityServer.Clients;
-using Volo.Abp.IdentityServer.Devices;
-using Volo.Abp.IdentityServer.EntityFrameworkCore;
-using Volo.Abp.IdentityServer.Grants;
-using Volo.Abp.IdentityServer.IdentityResources;
+using Volo.Abp.OpenIddict.ApiResources;
+using Volo.Abp.OpenIddict.ApiScopes;
+using Volo.Abp.OpenIddict.Clients;
+using Volo.Abp.OpenIddict.Devices;
+using Volo.Abp.OpenIddict.EntityFrameworkCore;
+using Volo.Abp.OpenIddict.Grants;
+using Volo.Abp.OpenIddict.IdentityResources;
 
 namespace Tasky.IdentityService.EntityFrameworkCore;
 
