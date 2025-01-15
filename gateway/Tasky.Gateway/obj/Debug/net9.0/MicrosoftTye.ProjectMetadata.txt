@@ -1,5 +1,5 @@
 AssemblyInformationalVersion:
-InformationalVersion: 1.0.0+7c25b65c2d029cc556f7f72bc7cd56f0da3aabe8
+InformationalVersion: 1.0.0+7880fb29dd9abe45c0654f6fb53aa108822425f2
 Version: 1.0.0
 TargetFrameworks:
 RunCommand: D:\dft\QLDT2\gateway\Tasky.Gateway\bin\Debug\net9.0\Tasky.Gateway.exe

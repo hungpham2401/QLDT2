@@ -2300,6 +2300,23 @@
           }
         }
       },
+      "Serilog.Sinks.Seq/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "4.2.0",
+          "Serilog.Sinks.File": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Serilog.Sinks.Seq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Sinks.Seq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "StackExchange.Redis/2.7.27": {
         "type": "package",
         "dependencies": {
@@ -5576,6 +5593,82 @@
           "bin/placeholder/Tasky.IdentityService.EntityFrameworkCore.dll": {}
         }
       },
+      "Tasky.Microservice.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Tasky.AdministrationService.EntityFrameworkCore": "0.1.0",
+          "Tasky.SaaSService.EntityFrameworkCore": "0.1.0",
+          "Tasky.Shared.Hosting": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tasky.Microservice.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tasky.Microservice.Shared.dll": {}
+        }
+      },
+      "Tasky.ProjectService.Application.Contracts/0.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Tasky.ProjectService.Domain.Shared": "0.1.0",
+          "Volo.Abp.Authorization": "9.0.3",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.3",
+          "Volo.Abp.Features": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Tasky.ProjectService.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tasky.ProjectService.Application.Contracts.dll": {}
+        }
+      },
+      "Tasky.ProjectService.Domain/0.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Tasky.ProjectService.Domain.Shared": "0.1.0",
+          "Volo.Abp.Ddd.Domain": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Tasky.ProjectService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tasky.ProjectService.Domain.dll": {}
+        }
+      },
+      "Tasky.ProjectService.Domain.Shared/0.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
+          "Volo.Abp.Ddd.Domain.Shared": "9.0.3",
+          "Volo.Abp.Validation": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Tasky.ProjectService.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tasky.ProjectService.Domain.Shared.dll": {}
+        }
+      },
+      "Tasky.ProjectService.EntityFrameworkCore/0.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "9.0.0",
+          "Tasky.Microservice.Shared": "1.0.0",
+          "Tasky.ProjectService.Domain": "0.1.0",
+          "Volo.Abp.EntityFrameworkCore": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Tasky.ProjectService.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tasky.ProjectService.EntityFrameworkCore.dll": {}
+        }
+      },
       "Tasky.SaaSService.Application.Contracts/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -5647,8 +5740,11 @@
         "dependencies": {
           "IdentityModel": "7.0.0",
           "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "9.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "9.0.0",
           "Serilog.AspNetCore": "9.0.0",
+          "Serilog.Settings.Configuration": "9.0.0",
           "Serilog.Sinks.Async": "2.0.0",
+          "Serilog.Sinks.Seq": "9.0.0",
           "Volo.Abp.AspNetCore.Authentication.JwtBearer": "9.0.3",
           "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "9.0.0",
           "Volo.Abp.AspNetCore.Serilog": "9.0.0",
@@ -9424,6 +9520,23 @@
         "serilog-sink-nuget.png",
         "serilog.sinks.file.6.0.0.nupkg.sha512",
         "serilog.sinks.file.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Seq/9.0.0": {
+      "sha512": "aNU8A0K322q7+voPNmp1/qNPH+9QK8xvM1p72sMmCG0wGlshFzmtDW9QnVSoSYCj0MgQKcMOlgooovtBhRlNHw==",
+      "type": "package",
+      "path": "serilog.sinks.seq/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Serilog.Sinks.Seq.dll",
+        "lib/net6.0/Serilog.Sinks.Seq.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.xml",
+        "serilog.sinks.seq.9.0.0.nupkg.sha512",
+        "serilog.sinks.seq.nuspec"
       ]
     },
     "StackExchange.Redis/2.7.27": {
@@ -14735,6 +14848,31 @@
       "path": "../../services/identity/src/Tasky.IdentityService.EntityFrameworkCore/Tasky.IdentityService.EntityFrameworkCore.csproj",
       "msbuildProject": "../../services/identity/src/Tasky.IdentityService.EntityFrameworkCore/Tasky.IdentityService.EntityFrameworkCore.csproj"
     },
+    "Tasky.Microservice.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Tasky.Microservice.Shared/Tasky.Microservice.Shared.csproj",
+      "msbuildProject": "../Tasky.Microservice.Shared/Tasky.Microservice.Shared.csproj"
+    },
+    "Tasky.ProjectService.Application.Contracts/0.1.0": {
+      "type": "project",
+      "path": "../../services/project/src/Tasky.ProjectService.Application.Contracts/Tasky.ProjectService.Application.Contracts.csproj",
+      "msbuildProject": "../../services/project/src/Tasky.ProjectService.Application.Contracts/Tasky.ProjectService.Application.Contracts.csproj"
+    },
+    "Tasky.ProjectService.Domain/0.1.0": {
+      "type": "project",
+      "path": "../../services/project/src/Tasky.ProjectService.Domain/Tasky.ProjectService.Domain.csproj",
+      "msbuildProject": "../../services/project/src/Tasky.ProjectService.Domain/Tasky.ProjectService.Domain.csproj"
+    },
+    "Tasky.ProjectService.Domain.Shared/0.1.0": {
+      "type": "project",
+      "path": "../../services/project/src/Tasky.ProjectService.Domain.Shared/Tasky.ProjectService.Domain.Shared.csproj",
+      "msbuildProject": "../../services/project/src/Tasky.ProjectService.Domain.Shared/Tasky.ProjectService.Domain.Shared.csproj"
+    },
+    "Tasky.ProjectService.EntityFrameworkCore/0.1.0": {
+      "type": "project",
+      "path": "../../services/project/src/Tasky.ProjectService.EntityFrameworkCore/Tasky.ProjectService.EntityFrameworkCore.csproj",
+      "msbuildProject": "../../services/project/src/Tasky.ProjectService.EntityFrameworkCore/Tasky.ProjectService.EntityFrameworkCore.csproj"
+    },
     "Tasky.SaaSService.Application.Contracts/0.1.0": {
       "type": "project",
       "path": "../../services/saas/src/Tasky.SaaSService.Application.Contracts/Tasky.SaaSService.Application.Contracts.csproj",
@@ -14767,6 +14905,8 @@
       "Tasky.AdministrationService.EntityFrameworkCore >= 0.1.0",
       "Tasky.IdentityService.Application.Contracts >= 0.1.0",
       "Tasky.IdentityService.EntityFrameworkCore >= 0.1.0",
+      "Tasky.ProjectService.Application.Contracts >= 0.1.0",
+      "Tasky.ProjectService.EntityFrameworkCore >= 0.1.0",
       "Tasky.SaaSService.Application.Contracts >= 0.1.0",
       "Tasky.SaaSService.EntityFrameworkCore >= 0.1.0",
       "Tasky.Shared.Hosting >= 1.0.0"
@@ -14819,6 +14959,12 @@
             "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj": {
               "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj"
             },
+            "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\Tasky.ProjectService.Application.Contracts.csproj": {
+              "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\Tasky.ProjectService.Application.Contracts.csproj"
+            },
+            "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\Tasky.ProjectService.EntityFrameworkCore.csproj": {
+              "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\Tasky.ProjectService.EntityFrameworkCore.csproj"
+            },
             "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.Application.Contracts\\Tasky.SaaSService.Application.Contracts.csproj": {
               "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.Application.Contracts\\Tasky.SaaSService.Application.Contracts.csproj"
             },
@@ -14862,7 +15008,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

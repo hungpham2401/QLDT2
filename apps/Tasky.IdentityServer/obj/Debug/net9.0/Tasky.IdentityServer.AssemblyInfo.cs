@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tasky.IdentityServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c25b65c2d029cc556f7f72bc7cd56f0da3aabe8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7880fb29dd9abe45c0654f6fb53aa108822425f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tasky.IdentityServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tasky.IdentityServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

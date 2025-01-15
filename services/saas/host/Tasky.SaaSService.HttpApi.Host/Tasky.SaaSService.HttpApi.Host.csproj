@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\shared\Tasky.Microservice.Shared\Tasky.Microservice.Shared.csproj" />
     <ProjectReference Include="..\..\..\..\shared\Tasky.Shared.Hosting\Tasky.Shared.Hosting.csproj" />
     <ProjectReference Include="..\..\..\administration\src\Tasky.AdministrationService.EntityFrameworkCore\Tasky.AdministrationService.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\..\src\Tasky.SaaSService.HttpApi\Tasky.SaaSService.HttpApi.csproj" />

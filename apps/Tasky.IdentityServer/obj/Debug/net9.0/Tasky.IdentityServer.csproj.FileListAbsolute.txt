@@ -649,3 +649,5 @@ D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.PermissionManag
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.TextTemplating.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.TextTemplating.Core.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.TextTemplating.Scriban.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Serilog.Sinks.Seq.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

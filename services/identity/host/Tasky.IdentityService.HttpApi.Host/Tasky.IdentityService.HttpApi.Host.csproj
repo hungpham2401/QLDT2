@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\shared\Tasky.Shared.Hosting\Tasky.Shared.Hosting.csproj" />
+    <ProjectReference Include="..\..\..\administration\src\Tasky.AdministrationService.EntityFrameworkCore\Tasky.AdministrationService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\..\saas\src\Tasky.SaaSService.EntityFrameworkCore\Tasky.SaaSService.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.HttpApi\Tasky.IdentityService.HttpApi.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.Application\Tasky.IdentityService.Application.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.EntityFrameworkCore\Tasky.IdentityService.EntityFrameworkCore.csproj" />

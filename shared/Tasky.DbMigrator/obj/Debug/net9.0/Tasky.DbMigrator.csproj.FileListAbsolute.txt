@@ -630,3 +630,14 @@ D:\dft\QLDT2\shared\Tasky.DbMigrator\obj\Debug\net9.0\Tasky.DbMigrator.genruntim
 D:\dft\QLDT2\shared\Tasky.DbMigrator\obj\Debug\net9.0\ref\Tasky.DbMigrator.dll
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\appsettings.json
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\appsettings.secrets.json
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.Microservice.Shared.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Application.Contracts.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Domain.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Domain.Shared.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.EntityFrameworkCore.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Application.Contracts.pdb
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.EntityFrameworkCore.pdb
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.Microservice.Shared.pdb
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Domain.pdb
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Domain.Shared.pdb
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Serilog.Sinks.Seq.dll

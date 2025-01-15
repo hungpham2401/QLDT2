@@ -1,4 +1,5 @@
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\Tasky.Shared.Hosting.deps.json
+D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\Tasky.Shared.Hosting.runtimeconfig.json
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\Tasky.Shared.Hosting.dll
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\Tasky.Shared.Hosting.pdb
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\bin\Debug\net9.0\refs\Microsoft.AspNetCore.Antiforgery.dll
@@ -312,4 +313,5 @@ D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.s
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.dll
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\refint\Tasky.Shared.Hosting.dll
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.pdb
+D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\Tasky.Shared.Hosting.genruntimeconfig.cache
 D:\dft\QLDT2\shared\Tasky.Shared.Hosting\obj\Debug\net9.0\ref\Tasky.Shared.Hosting.dll

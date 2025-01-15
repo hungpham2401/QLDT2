@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "gateway\\Tasky.Gateway\\Tasky.Gateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -104,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -212,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -316,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -428,7 +428,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -524,7 +524,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -624,7 +624,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -728,7 +728,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -836,7 +836,378 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\Tasky.ProjectService.Application.Contracts.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\Tasky.ProjectService.Application.Contracts.csproj",
+        "projectName": "Tasky.ProjectService.Application.Contracts",
+        "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\Tasky.ProjectService.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\Tasky.ProjectService.Domain.Shared.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\Tasky.ProjectService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Volo.Abp.Authorization": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Ddd.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Features": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\Tasky.ProjectService.Domain.Shared.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\Tasky.ProjectService.Domain.Shared.csproj",
+        "projectName": "Tasky.ProjectService.Domain.Shared",
+        "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\Tasky.ProjectService.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Ddd.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain\\Tasky.ProjectService.Domain.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain\\Tasky.ProjectService.Domain.csproj",
+        "projectName": "Tasky.ProjectService.Domain",
+        "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain\\Tasky.ProjectService.Domain.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\Tasky.ProjectService.Domain.Shared.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain.Shared\\Tasky.ProjectService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\Tasky.ProjectService.EntityFrameworkCore.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\Tasky.ProjectService.EntityFrameworkCore.csproj",
+        "projectName": "Tasky.ProjectService.EntityFrameworkCore",
+        "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\Tasky.ProjectService.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain\\Tasky.ProjectService.Domain.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Domain\\Tasky.ProjectService.Domain.csproj"
+              },
+              "D:\\dft\\QLDT2\\shared\\Tasky.Microservice.Shared\\Tasky.Microservice.Shared.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\shared\\Tasky.Microservice.Shared\\Tasky.Microservice.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -932,7 +1303,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -1028,7 +1399,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -1120,7 +1491,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -1224,7 +1595,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -1270,6 +1641,12 @@
               "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj": {
                 "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\Tasky.IdentityService.EntityFrameworkCore\\Tasky.IdentityService.EntityFrameworkCore.csproj"
               },
+              "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\Tasky.ProjectService.Application.Contracts.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.Application.Contracts\\Tasky.ProjectService.Application.Contracts.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\Tasky.ProjectService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\Tasky.ProjectService.EntityFrameworkCore\\Tasky.ProjectService.EntityFrameworkCore.csproj"
+              },
               "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.Application.Contracts\\Tasky.SaaSService.Application.Contracts.csproj": {
                 "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.Application.Contracts\\Tasky.SaaSService.Application.Contracts.csproj"
               },
@@ -1313,7 +1690,84 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\shared\\Tasky.Microservice.Shared\\Tasky.Microservice.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\shared\\Tasky.Microservice.Shared\\Tasky.Microservice.Shared.csproj",
+        "projectName": "Tasky.Microservice.Shared",
+        "projectPath": "D:\\dft\\QLDT2\\shared\\Tasky.Microservice.Shared\\Tasky.Microservice.Shared.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\shared\\Tasky.Microservice.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -1373,13 +1827,25 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Serilog.Sinks.Async": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Volo.Abp.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -1450,7 +1916,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

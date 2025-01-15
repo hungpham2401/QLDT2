@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
-using Tasky.AdministrationService.MultiTenancy;
 using StackExchange.Redis;
 using Microsoft.OpenApi.Models;
 using OpenIddict.Validation.AspNetCore;

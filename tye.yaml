@@ -5,23 +5,51 @@ services:
     bindings:
       - protocol: https
         port: 7000
+    args: --launch-profile Debug # B?t ch? ?? Debug cho d?ch v? n�y
+
+
   - name: tasky-gateway
     project: gateway/Tasky.Gateway/Tasky.Gateway.csproj
     bindings:
       - protocol: https
         port: 7500
+    args: --launch-profile Debug
+
+  - name: tasky-auth-server
+    project: apps/Tasky.AuthServer/Tasky.AuthServer.csproj
+    bindings:
+       - protocol: https
+         port: 7600
+
+
   - name: tasky-administrationservice-httpapi-host
     project: services/administration/host/Tasky.AdministrationService.HttpApi.Host/Tasky.AdministrationService.HttpApi.Host.csproj
     bindings:
       - protocol: https
         port: 7001
+    args: --launch-profile Debug
+
+
   - name: tasky-identityservice-httpapi-host
     project: services/identity/host/Tasky.IdentityService.HttpApi.Host/Tasky.IdentityService.HttpApi.Host.csproj
     bindings:
       - protocol: https
         port: 7002
+    args: --launch-profile Debug
+
+
   - name: tasky-saasservice-httpapi-host
     project: services/saas/host/Tasky.SaaSService.HttpApi.Host/Tasky.SaaSService.HttpApi.Host.csproj
     bindings:
       - protocol: https
         port: 7003
+    args: --launch-profile Debug
+
+
+
+  - name: tasky-projectservice-httpapi-host
+    project: services/project/host/Tasky.ProjectService.HttpApi.Host/Tasky.ProjectService.HttpApi.Host.csproj
+    bindings:
+      - protocol: https
+        port: 7004
+    args: --launch-profile Debug

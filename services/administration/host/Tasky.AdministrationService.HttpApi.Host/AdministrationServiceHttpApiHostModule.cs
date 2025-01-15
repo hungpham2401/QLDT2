@@ -15,6 +15,7 @@ using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
 using Tasky.Shared.Hosting;
+using Tasky.ProjectService;
 
 namespace Tasky.AdministrationService;
 
@@ -22,7 +23,8 @@ namespace Tasky.AdministrationService;
     typeof(TaskyHostingModule),
     typeof(AdministrationServiceApplicationModule),
     typeof(AdministrationServiceEntityFrameworkCoreModule),
-    typeof(AdministrationServiceHttpApiModule)
+    typeof(AdministrationServiceHttpApiModule),
+    typeof(ProjectServiceApplicationContractsModule)
     )]
 public class AdministrationServiceHttpApiHostModule : AbpModule
 {

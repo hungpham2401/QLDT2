@@ -31,3 +31,4 @@ D:\dft\QLDT2\gateway\Tasky.Gateway\bin\Debug\net9.0\Yarp.ReverseProxy.dll
 D:\dft\QLDT2\gateway\Tasky.Gateway\obj\Debug\net9.0\Tasky.Gateway.csproj.AssemblyReference.cache
 D:\dft\QLDT2\gateway\Tasky.Gateway\obj\Debug\net9.0\Tasky.Ga.F0103519.Up2Date
 D:\dft\QLDT2\gateway\Tasky.Gateway\bin\Debug\net9.0\System.IO.Hashing.dll
+D:\dft\QLDT2\gateway\Tasky.Gateway\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
