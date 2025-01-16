@@ -1,0 +1,21 @@
+AssemblyInformationalVersion:
+InformationalVersion: 1.0.0+288d6293b15f7586d1bdafd4e93d1ddf5c158e74
+Version: 1.0.0
+TargetFrameworks:
+RunCommand: D:\dft\QLDT2\apps\Tasky.AuthServer\bin\Debug\net9.0\Tasky.AuthServer.exe
+RunArguments:
+TargetPath: D:\dft\QLDT2\apps\Tasky.AuthServer\bin\Debug\net9.0\Tasky.AuthServer.dll
+PublishDir: bin\Debug\net9.0\publish\
+AssemblyName: Tasky.AuthServer
+IntermediateOutputPath: obj\Debug\net9.0\
+TargetFramework: net9.0
+_ShortFrameworkIdentifier:
+_ShortFrameworkVersion:
+_TargetFrameworkVersionWithoutV: 9.0
+FrameworkReference: Microsoft.NETCore.App;Microsoft.AspNetCore.App
+ContainerBaseImage:
+ContainerBaseTag:
+MicrosoftNETPlatformLibrary:
+_AspNetCoreAppSharedFxIsEnabled:
+UsingMicrosoftNETSdkWeb: true
+AzureFunctionsVersion:

@@ -468,7 +468,6 @@ D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.Identity.HttpApi.
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.IdentityModel.dll
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.IdentityServer.Domain.dll
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.IdentityServer.Domain.Shared.dll
-D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.IdentityServer.EntityFrameworkCore.dll
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.Json.dll
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.Json.Abstractions.dll
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.Json.SystemTextJson.dll
@@ -641,3 +640,8 @@ D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.Microservice.Shared.
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Domain.pdb
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Tasky.ProjectService.Domain.Shared.pdb
 D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Serilog.Sinks.Seq.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\OpenIddict.Abstractions.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\OpenIddict.Core.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.OpenIddict.Domain.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.OpenIddict.Domain.Shared.dll
+D:\dft\QLDT2\shared\Tasky.DbMigrator\bin\Debug\net9.0\Volo.Abp.OpenIddict.EntityFrameworkCore.dll

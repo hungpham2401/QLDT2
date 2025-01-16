@@ -491,7 +491,6 @@ D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Identity.HttpAp
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.IdentityModel.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.IdentityServer.Domain.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.IdentityServer.Domain.Shared.dll
-D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.IdentityServer.EntityFrameworkCore.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Json.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Json.Abstractions.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Json.SystemTextJson.dll
@@ -639,7 +638,6 @@ D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Account.Applica
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Account.Application.Contracts.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Account.HttpApi.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Account.Web.dll
-D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Account.Web.IdentityServer.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.BackgroundJobs.Abstractions.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Emailing.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Identity.Application.dll
@@ -650,4 +648,15 @@ D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.TextTemplating.
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.TextTemplating.Core.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.TextTemplating.Scriban.dll
 D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Serilog.Sinks.Seq.dll
-D:\dft\QLDT2\apps\Tasky.IdentityServer\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\OpenIddict.Abstractions.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\OpenIddict.Core.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\OpenIddict.Server.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\OpenIddict.Server.AspNetCore.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\OpenIddict.Validation.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\OpenIddict.Validation.AspNetCore.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\OpenIddict.Validation.ServerIntegration.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.Account.Web.OpenIddict.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.OpenIddict.AspNetCore.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.OpenIddict.Domain.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.OpenIddict.Domain.Shared.dll
+D:\dft\QLDT2\apps\Tasky.IdentityServer\bin\Debug\net9.0\Volo.Abp.OpenIddict.EntityFrameworkCore.dll

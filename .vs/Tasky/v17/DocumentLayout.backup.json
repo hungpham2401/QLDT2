@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\dft\\QLDT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\Tasky.AuthServer\\Tasky.AuthServer.csproj|d:\\dft\\qldt2\\apps\\tasky.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\Tasky.AuthServer\\Tasky.AuthServer.csproj|solutionrelative:apps\\tasky.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\openiddictdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\openiddictdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\Tasky.AuthServer\\Tasky.AuthServer.csproj|d:\\dft\\qldt2\\apps\\tasky.authserver\\taskyauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\Tasky.AuthServer\\Tasky.AuthServer.csproj|solutionrelative:apps\\tasky.authserver\\taskyauthservermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\Tasky.AuthServer\\Tasky.AuthServer.csproj|d:\\dft\\qldt2\\apps\\tasky.authserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\Tasky.AuthServer\\Tasky.AuthServer.csproj|solutionrelative:apps\\tasky.authserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\tasky.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|solutionrelative:apps\\tasky.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|Solution Items{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|D:\\dft\\QLDT2\\tye.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|Solution Items{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|solutionrelative:tye.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\appsettings.json",
-              "RelativeDocumentMoniker": "apps\\Tasky.AuthServer\\appsettings.json",
-              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\appsettings.json",
-              "RelativeToolTip": "apps\\Tasky.AuthServer\\appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.json",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.json",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-15T10:15:59.77Z",
+              "WhenOpened": "2025-01-16T03:31:15.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "OpenIddictDataSeeder.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs",
+              "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs",
+              "RelativeToolTip": "shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwCQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T03:30:37.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskyAuthServerModule.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\TaskyAuthServerModule.cs",
+              "RelativeDocumentMoniker": "apps\\Tasky.AuthServer\\TaskyAuthServerModule.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\TaskyAuthServerModule.cs",
+              "RelativeToolTip": "apps\\Tasky.AuthServer\\TaskyAuthServerModule.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T03:29:26.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\Program.cs",
               "RelativeDocumentMoniker": "apps\\Tasky.AuthServer\\Program.cs",
               "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\Program.cs",
               "RelativeToolTip": "apps\\Tasky.AuthServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T10:15:58.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Program.cs",
-              "RelativeDocumentMoniker": "apps\\Tasky.IdentityServer\\Program.cs",
-              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Program.cs",
-              "RelativeToolTip": "apps\\Tasky.IdentityServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:50:45.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "tye.yaml",
-              "DocumentMoniker": "D:\\dft\\QLDT2\\tye.yaml",
-              "RelativeDocumentMoniker": "tye.yaml",
-              "ToolTip": "D:\\dft\\QLDT2\\tye.yaml",
-              "RelativeToolTip": "tye.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-01-15T09:52:02.305Z"
+              "WhenOpened": "2025-01-16T03:29:23.416Z",
+              "EditorCaption": ""
             }
           ]
         }
