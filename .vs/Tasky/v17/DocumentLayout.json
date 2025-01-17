@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\dft\\QLDT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\openiddictdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|solutionrelative:shared\\tasky.dbmigrator\\openiddictdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\tasky.identityserver\\logs\\logs.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|solutionrelative:apps\\tasky.identityserver\\logs\\logs.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\tasky.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj|solutionrelative:apps\\tasky.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\tasky.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +42,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "logs.txt",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Logs\\logs.txt",
+              "RelativeDocumentMoniker": "apps\\Tasky.IdentityServer\\Logs\\logs.txt",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Logs\\logs.txt",
+              "RelativeToolTip": "apps\\Tasky.IdentityServer\\Logs\\logs.txt",
+              "ViewState": "AgIAAKIgAAAAAAAAAAAAALwgAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-16T07:20:06.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Program.cs",
+              "RelativeDocumentMoniker": "apps\\Tasky.IdentityServer\\Program.cs",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\Tasky.IdentityServer\\Program.cs",
+              "RelativeToolTip": "apps\\Tasky.IdentityServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:20:02.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\appsettings.json",
               "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\appsettings.json",
@@ -42,12 +76,11 @@
               "RelativeToolTip": "shared\\Tasky.DbMigrator\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T03:31:15.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T03:31:15.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OpenIddictDataSeeder.cs",
               "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs",
               "RelativeDocumentMoniker": "shared\\Tasky.DbMigrator\\OpenIddictDataSeeder.cs",
@@ -60,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TaskyAuthServerModule.cs",
               "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\TaskyAuthServerModule.cs",
               "RelativeDocumentMoniker": "apps\\Tasky.AuthServer\\TaskyAuthServerModule.cs",
@@ -68,12 +101,11 @@
               "RelativeToolTip": "apps\\Tasky.AuthServer\\TaskyAuthServerModule.cs",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T03:29:26.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T03:29:26.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\Tasky.AuthServer\\Program.cs",
               "RelativeDocumentMoniker": "apps\\Tasky.AuthServer\\Program.cs",
@@ -81,8 +113,7 @@
               "RelativeToolTip": "apps\\Tasky.AuthServer\\Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T03:29:23.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T03:29:23.416Z"
             }
           ]
         }

@@ -115,7 +115,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -224,7 +223,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -329,7 +327,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -442,7 +439,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -543,7 +539,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -648,7 +643,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -757,7 +751,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -854,7 +847,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -947,7 +939,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
