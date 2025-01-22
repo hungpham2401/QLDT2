@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tasky.Microservice.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db80f125018e7bd7af1b97056dc02e1af390c25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd49159d85870b8f459d330c337c1fdd59c3ebc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tasky.Microservice.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tasky.Microservice.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

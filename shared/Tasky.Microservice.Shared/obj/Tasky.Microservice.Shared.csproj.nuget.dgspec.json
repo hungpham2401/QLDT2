@@ -521,14 +521,14 @@
         }
       }
     },
-    "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj": {
+    "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaasService.EntityFrameworkCore\\Tasky.SaasService.EntityFrameworkCore.csproj": {
       "version": "0.1.0",
       "restore": {
-        "projectUniqueName": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj",
-        "projectName": "Tasky.SaaSService.EntityFrameworkCore",
-        "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaasService.EntityFrameworkCore\\Tasky.SaasService.EntityFrameworkCore.csproj",
+        "projectName": "Tasky.SaasService.EntityFrameworkCore",
+        "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaasService.EntityFrameworkCore\\Tasky.SaasService.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
-        "outputPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaasService.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -659,8 +659,8 @@
               "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj": {
                 "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\Tasky.AdministrationService.EntityFrameworkCore\\Tasky.AdministrationService.EntityFrameworkCore.csproj"
               },
-              "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaaSService.EntityFrameworkCore\\Tasky.SaaSService.EntityFrameworkCore.csproj"
+              "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaasService.EntityFrameworkCore\\Tasky.SaasService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\Tasky.SaasService.EntityFrameworkCore\\Tasky.SaasService.EntityFrameworkCore.csproj"
               },
               "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj": {
                 "projectPath": "D:\\dft\\QLDT2\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj"
