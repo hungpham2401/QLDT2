@@ -38,7 +38,7 @@
       "Tasky.Microservice.Shared/1.0.0": {
         "dependencies": {
           "Tasky.AdministrationService.EntityFrameworkCore": "0.1.0",
-          "Tasky.SaasService.EntityFrameworkCore": "0.1.0",
+          "Tasky.SaaSService.EntityFrameworkCore": "0.1.0",
           "Tasky.Shared.Hosting": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "9.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "9.0.0.0",
@@ -4100,7 +4100,7 @@
           "Tasky.SaaSService.Domain.Shared.dll": {}
         }
       },
-      "Tasky.SaasService.EntityFrameworkCore/0.1.0": {
+      "Tasky.SaaSService.EntityFrameworkCore/0.1.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.0",
           "Tasky.SaaSService.Domain": "0.1.0",
@@ -4112,7 +4112,7 @@
         "runtime": {
           "Tasky.SaasService.EntityFrameworkCore.dll": {
             "assemblyVersion": "0.1.0",
-            "fileVersion": "0.1.0.0"
+            "fileVersion": ""
           }
         },
         "compile": {
@@ -7929,7 +7929,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Tasky.SaasService.EntityFrameworkCore/0.1.0": {
+    "Tasky.SaaSService.EntityFrameworkCore/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

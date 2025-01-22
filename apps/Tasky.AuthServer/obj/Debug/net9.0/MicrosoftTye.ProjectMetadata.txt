@@ -1,5 +1,5 @@
 AssemblyInformationalVersion:
-InformationalVersion: 1.0.0+288d6293b15f7586d1bdafd4e93d1ddf5c158e74
+InformationalVersion: 1.0.0+0db80f125018e7bd7af1b97056dc02e1af390c25
 Version: 1.0.0
 TargetFrameworks:
 RunCommand: D:\dft\QLDT2\apps\Tasky.AuthServer\bin\Debug\net9.0\Tasky.AuthServer.exe

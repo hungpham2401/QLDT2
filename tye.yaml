@@ -5,7 +5,7 @@ services:
     bindings:
       - protocol: https
         port: 7000
-    args: --launch-profile Debug # B?t ch? ?? Debug cho d?ch v? n�y
+    args: --launch-profile Debug
 
 
   - name: tasky-gateway

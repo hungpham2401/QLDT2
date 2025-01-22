@@ -14,8 +14,9 @@ export const environment = {
     redirectUri: baseUrl,
     clientId: 'Tasky_App',
     responseType: 'code',
-    scope: "SaaSService IdentityService AdministrationService",
+    scope: "openid AuthServer IdentityService AdministrationService SaaSService ProjectService",
     requireHttps: true,
+    dummyClientSecret: '',
   },
   apis: {
     default: {

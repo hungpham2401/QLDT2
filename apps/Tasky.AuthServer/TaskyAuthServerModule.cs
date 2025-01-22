@@ -1,7 +1,5 @@
 using System;
-using System.IO;
 using System.Linq;
-using Localization.Resources.AbpUi;
 using Medallion.Threading;
 using Medallion.Threading.Redis;
 using Microsoft.AspNetCore.Builder;
@@ -24,13 +22,8 @@ using Volo.Abp.BackgroundJobs;
 using Volo.Abp.Caching;
 using Volo.Abp.Caching.StackExchangeRedis;
 using Volo.Abp.DistributedLocking;
-using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
-using Volo.Abp.OpenIddict;
-using Volo.Abp.Security.Claims;
 using Volo.Abp.UI.Navigation.Urls;
-using Volo.Abp.VirtualFileSystem;
-using Volo.Abp.Account.Localization;
 using Tasky.AdministrationService.EntityFrameworkCore;
 using Tasky.IdentityService.EntityFrameworkCore;
 using Tasky.Microservice.Shared;
@@ -70,19 +63,6 @@ public class TaskyAuthServerModule : AbpModule
                 options.UseAspNetCore();
             });
         });
-
-        if (!hostingEnvironment.IsDevelopment())
-        {
-            PreConfigure<AbpOpenIddictAspNetCoreOptions>(options =>
-            {
-                options.AddDevelopmentEncryptionAndSigningCertificate = false;
-            });
-
-            PreConfigure<OpenIddictServerBuilder>(serverBuilder =>
-            {
-                serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", "157d0847-3cc0-4055-b018-4ad2f7d5d9d3");
-            });
-        }
     }
 
     public override void ConfigureServices(ServiceConfigurationContext context)
@@ -157,11 +137,6 @@ public class TaskyAuthServerModule : AbpModule
                     .AllowAnyMethod()
                     .AllowCredentials();
             });
-        });
-
-        context.Services.Configure<AbpClaimsPrincipalFactoryOptions>(options =>
-        {
-            options.IsDynamicClaimsEnabled = true;
         });
     }
 

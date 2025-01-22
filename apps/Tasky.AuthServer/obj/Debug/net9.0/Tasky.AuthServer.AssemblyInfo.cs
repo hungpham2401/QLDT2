@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tasky.AuthServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88d58b127ad0cd57bff9cc318e45579cfbc6c861")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db80f125018e7bd7af1b97056dc02e1af390c25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tasky.AuthServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tasky.AuthServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

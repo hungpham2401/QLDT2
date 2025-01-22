@@ -12,7 +12,6 @@ using Volo.Abp.OpenIddict.Applications;
 using Volo.Abp;
 using System.Diagnostics.CodeAnalysis;
 
-
 namespace Tasky.DbMigrator
 {
     public class OpenIddictDataSeeder : ITransientDependency
@@ -42,6 +41,7 @@ namespace Tasky.DbMigrator
             _currentTenant = currentTenant;
             L = l;
         }
+
         [UnitOfWork]
         public async virtual Task SeedAsync()
         {
@@ -55,42 +55,37 @@ namespace Tasky.DbMigrator
         private async Task CreateClientsAsync()
         {
             var clients = _configuration.GetSection("Clients").Get<List<ServiceClient>>();
+
+            // Các scope "built-in" (luôn có).
             var commonScopes = new[] {
-            OpenIddictConstants.Permissions.Scopes.Address,
-            OpenIddictConstants.Permissions.Scopes.Email,
-            OpenIddictConstants.Permissions.Scopes.Phone,
-            OpenIddictConstants.Permissions.Scopes.Profile,
-            OpenIddictConstants.Permissions.Scopes.Roles,
-            "offline_access"
-        };
+                OpenIddictConstants.Permissions.Scopes.Address,
+                OpenIddictConstants.Permissions.Scopes.Email,
+                OpenIddictConstants.Permissions.Scopes.Phone,
+                OpenIddictConstants.Permissions.Scopes.Profile,
+                OpenIddictConstants.Permissions.Scopes.Roles,
+                "offline_access"
+            };
 
             foreach (var client in clients)
             {
-                //await CreateClientAsync(
-                //    client.ClientId,
-                //    commonScopes.Union(client.Scopes),
-                //    client.GrantTypes,
-                //    client.ClientSecret.ToSha256(),
-                //    redirectUris: client.RedirectUris,
-                //    postLogoutRedirectUris: client.PostLogoutRedirectUris
-                //);
-
+                // Nếu ClientSecret rỗng -> Public, nếu có -> Confidential
                 var isClientSecretAvailable = !string.IsNullOrEmpty(client.ClientSecret);
 
                 await CreateClientAsync(
-                        client.ClientId,
-                        displayName: client.ClientId,
-                        secret: isClientSecretAvailable ? client.ClientSecret : null,
-                        type: isClientSecretAvailable ? OpenIddictConstants.ClientTypes.Confidential : OpenIddictConstants.ClientTypes.Public,
-                        scopes: commonScopes.Union(client.Scopes).ToList(),
-                        grantTypes: client.GrantTypes.ToList(),
-                        redirectUris: client.RedirectUris,
-                        postLogoutRedirectUris: client.PostLogoutRedirectUris,
-                        consentType: OpenIddictConstants.ConsentTypes.Implicit
-                    );
+                    name: client.ClientId,
+                    type: isClientSecretAvailable
+                        ? OpenIddictConstants.ClientTypes.Confidential
+                        : OpenIddictConstants.ClientTypes.Public,
+                    consentType: OpenIddictConstants.ConsentTypes.Implicit,
+                    displayName: client.ClientId,
+                    secret: isClientSecretAvailable ? client.ClientSecret : null,
+                    scopes: commonScopes.Union(client.Scopes).ToList(),
+                    grantTypes: client.GrantTypes.ToList(),
+                    redirectUris: client.RedirectUris,
+                    postLogoutRedirectUris: client.PostLogoutRedirectUris
+                );
             }
         }
-
 
         private async Task CreateApiResourcesAsync()
         {
@@ -109,11 +104,8 @@ namespace Tasky.DbMigrator
                 await _scopeManager.CreateAsync(new OpenIddictScopeDescriptor
                 {
                     Name = name,
-                    DisplayName = name + " API",
-                    Resources =
-                {
-                    name
-                }
+                    DisplayName = $"{name} API",
+                    Resources = { name }
                 });
             }
         }
@@ -130,123 +122,142 @@ namespace Tasky.DbMigrator
             string[] postLogoutRedirectUris = null,
             List<string> permissions = null)
         {
-            if (!string.IsNullOrEmpty(secret) && string.Equals(type, OpenIddictConstants.ClientTypes.Public, StringComparison.OrdinalIgnoreCase))
+            // Nếu type=public nhưng lại có secret => báo lỗi
+            if (!string.IsNullOrEmpty(secret) &&
+                string.Equals(type, OpenIddictConstants.ClientTypes.Public, StringComparison.OrdinalIgnoreCase))
             {
                 throw new BusinessException(L["NoClientSecretCanBeSetForPublicApplications"]);
             }
 
-            if (string.IsNullOrEmpty(secret) && string.Equals(type, OpenIddictConstants.ClientTypes.Confidential, StringComparison.OrdinalIgnoreCase))
+            // Nếu type=confidential nhưng không có secret => báo lỗi
+            if (string.IsNullOrEmpty(secret) &&
+                string.Equals(type, OpenIddictConstants.ClientTypes.Confidential, StringComparison.OrdinalIgnoreCase))
             {
                 throw new BusinessException(L["TheClientSecretIsRequiredForConfidentialApplications"]);
             }
 
-            if (!string.IsNullOrEmpty(name) && await _applicationManager.FindByClientIdAsync(name) != null)
+            // Tìm client cũ cùng ClientId và xóa, để tạo mới
+            if (!string.IsNullOrEmpty(name))
             {
-                return;
-                //throw new BusinessException(L["TheClientIdentifierIsAlreadyTakenByAnotherApplication"]);
+                var existingClient = await _applicationManager.FindByClientIdAsync(name);
+                if (existingClient != null)
+                {
+                    await _applicationManager.DeleteAsync(existingClient);
+                }
             }
 
+            // Tạo client mới
             var client = await _applicationManager.FindByClientIdAsync(name);
             if (client == null)
             {
                 var application = new OpenIddictApplicationDescriptor
                 {
                     ClientId = name,
+                    // Quan trọng: Gán ApplicationType = type (public/confidential) theo param
                     ApplicationType = type,
                     ClientSecret = secret,
                     ConsentType = consentType,
                     DisplayName = displayName
                 };
 
+                // (Tuỳ chọn) Ép dùng PKCE cho Authorization Code flow => SPA an toàn hơn:
+                // application.Requirements.Add(OpenIddictConstants.Requirements.Features.ProofKeyForCodeExchange);
+
                 Check.NotNullOrEmpty(grantTypes, nameof(grantTypes));
                 Check.NotNullOrEmpty(scopes, nameof(scopes));
 
-                if (new[] { OpenIddictConstants.GrantTypes.AuthorizationCode, OpenIddictConstants.GrantTypes.Implicit }.All(grantTypes.Contains))
+                // Nếu grantTypes chứa "authorization_code" + "implicit" => cho phép CodeIdToken...
+                if (new[] {
+                        OpenIddictConstants.GrantTypes.AuthorizationCode,
+                        OpenIddictConstants.GrantTypes.Implicit
+                    }.All(grantTypes.Contains))
                 {
                     application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.CodeIdToken);
+
+                    // Nếu client là public, cho phép thêm CodeIdTokenToken, CodeToken
                     if (string.Equals(type, OpenIddictConstants.ClientTypes.Public, StringComparison.OrdinalIgnoreCase))
                     {
                         application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.CodeIdTokenToken);
                         application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.CodeToken);
                     }
                 }
-                application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Logout);
 
+                // Luôn cho phép logout endpoint
+                application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Logout);
 
                 foreach (var grantType in grantTypes)
                 {
-                    if (grantType == OpenIddictConstants.GrantTypes.AuthorizationCode)
+                    switch (grantType)
                     {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.AuthorizationCode);
-                        application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.Code);
-                    }
+                        case OpenIddictConstants.GrantTypes.AuthorizationCode:
+                            application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.AuthorizationCode);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.Code);
+                            // Cho phép /connect/authorize
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Authorization);
+                            // Cho phép /connect/token,...
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Token);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Revocation);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Introspection);
+                            break;
 
-                    if (grantType == OpenIddictConstants.GrantTypes.AuthorizationCode || grantType == OpenIddictConstants.GrantTypes.Implicit)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Authorization);
-                    }
+                        case OpenIddictConstants.GrantTypes.Implicit:
+                            application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.Implicit);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Authorization);
+                            // Nếu là public => cho phép IdTokenToken, Token
+                            application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.IdToken);
+                            if (string.Equals(type, OpenIddictConstants.ClientTypes.Public, StringComparison.OrdinalIgnoreCase))
+                            {
+                                application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.IdTokenToken);
+                                application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.Token);
+                            }
+                            break;
 
-                    if (grantType == OpenIddictConstants.GrantTypes.AuthorizationCode ||
-                        grantType == OpenIddictConstants.GrantTypes.ClientCredentials ||
-                        grantType == OpenIddictConstants.GrantTypes.Password ||
-                        grantType == OpenIddictConstants.GrantTypes.RefreshToken ||
-                        grantType == OpenIddictConstants.GrantTypes.DeviceCode)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Token);
-                        application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Revocation);
-                        application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Introspection);
-                    }
+                        case OpenIddictConstants.GrantTypes.ClientCredentials:
+                            application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.ClientCredentials);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Token);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Revocation);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Introspection);
+                            break;
 
-                    if (grantType == OpenIddictConstants.GrantTypes.ClientCredentials)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.ClientCredentials);
-                    }
+                        case OpenIddictConstants.GrantTypes.Password:
+                            application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.Password);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Token);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Revocation);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Introspection);
+                            break;
 
-                    if (grantType == OpenIddictConstants.GrantTypes.Implicit)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.Implicit);
-                    }
+                        case OpenIddictConstants.GrantTypes.RefreshToken:
+                            application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.RefreshToken);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Token);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Revocation);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Introspection);
+                            break;
 
-                    if (grantType == OpenIddictConstants.GrantTypes.Password)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.Password);
-                    }
-
-                    if (grantType == OpenIddictConstants.GrantTypes.RefreshToken)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.RefreshToken);
-                    }
-
-                    if (grantType == OpenIddictConstants.GrantTypes.DeviceCode)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.DeviceCode);
-                        application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Device);
-                    }
-
-                    if (grantType == OpenIddictConstants.GrantTypes.Implicit)
-                    {
-                        application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.IdToken);
-                        if (string.Equals(type, OpenIddictConstants.ClientTypes.Public, StringComparison.OrdinalIgnoreCase))
-                        {
-                            application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.IdTokenToken);
-                            application.Permissions.Add(OpenIddictConstants.Permissions.ResponseTypes.Token);
-                        }
+                        case OpenIddictConstants.GrantTypes.DeviceCode:
+                            application.Permissions.Add(OpenIddictConstants.Permissions.GrantTypes.DeviceCode);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Device);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Token);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Revocation);
+                            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Introspection);
+                            break;
                     }
                 }
 
-                var buildInScopes = new[]
+                // Các scope built-in
+                var builtInScopes = new[]
                 {
-                OpenIddictConstants.Permissions.Scopes.Address,
-                OpenIddictConstants.Permissions.Scopes.Email,
-                OpenIddictConstants.Permissions.Scopes.Phone,
-                OpenIddictConstants.Permissions.Scopes.Profile,
-                OpenIddictConstants.Permissions.Scopes.Roles,
-                "offline_access"
-            };
+                    OpenIddictConstants.Permissions.Scopes.Address,
+                    OpenIddictConstants.Permissions.Scopes.Email,
+                    OpenIddictConstants.Permissions.Scopes.Phone,
+                    OpenIddictConstants.Permissions.Scopes.Profile,
+                    OpenIddictConstants.Permissions.Scopes.Roles,
+                    "offline_access"
+                };
 
+                // Thêm scope vào Permissions
                 foreach (var scope in scopes)
                 {
-                    if (buildInScopes.Contains(scope))
+                    if (builtInScopes.Contains(scope))
                     {
                         application.Permissions.Add(scope);
                     }
@@ -256,13 +267,15 @@ namespace Tasky.DbMigrator
                     }
                 }
 
+                // Xử lý Redirect Uris
                 if (redirectUris != null)
                 {
                     foreach (var redirectUri in redirectUris)
                     {
                         if (!redirectUri.IsNullOrEmpty())
                         {
-                            if (!Uri.TryCreate(redirectUri, UriKind.Absolute, out var uri) || !uri.IsWellFormedOriginalString())
+                            if (!Uri.TryCreate(redirectUri, UriKind.Absolute, out var uri) ||
+                                !uri.IsWellFormedOriginalString())
                             {
                                 throw new BusinessException(L["InvalidRedirectUri", redirectUri]);
                             }
@@ -275,13 +288,15 @@ namespace Tasky.DbMigrator
                     }
                 }
 
+                // Xử lý PostLogoutRedirectUris
                 if (postLogoutRedirectUris != null)
                 {
                     foreach (var postLogoutRedirectUri in postLogoutRedirectUris)
                     {
                         if (!postLogoutRedirectUri.IsNullOrEmpty())
                         {
-                            if (!Uri.TryCreate(postLogoutRedirectUri, UriKind.Absolute, out var uri) || !uri.IsWellFormedOriginalString())
+                            if (!Uri.TryCreate(postLogoutRedirectUri, UriKind.Absolute, out var uri) ||
+                                !uri.IsWellFormedOriginalString())
                             {
                                 throw new BusinessException(L["InvalidPostLogoutRedirectUri", postLogoutRedirectUri]);
                             }
@@ -294,6 +309,7 @@ namespace Tasky.DbMigrator
                     }
                 }
 
+                // Nếu có danh sách quyền -> seed
                 if (permissions != null)
                 {
                     await _permissionDataSeeder.SeedAsync(
@@ -307,6 +323,5 @@ namespace Tasky.DbMigrator
                 await _applicationManager.CreateAsync(application);
             }
         }
-
     }
 }

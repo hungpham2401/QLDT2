@@ -6086,7 +6086,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Tasky.AdministrationService.EntityFrameworkCore": "0.1.0",
-          "Tasky.SaaSService.EntityFrameworkCore": "0.1.0",
+          "Tasky.SaasService.EntityFrameworkCore": "0.1.0",
           "Tasky.Shared.Hosting": "1.0.0"
         },
         "compile": {
@@ -6127,7 +6127,7 @@
           "bin/placeholder/Tasky.SaaSService.Domain.Shared.dll": {}
         }
       },
-      "Tasky.SaaSService.EntityFrameworkCore/0.1.0": {
+      "Tasky.SaasService.EntityFrameworkCore/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -6139,10 +6139,10 @@
           "Volo.Abp.TenantManagement.EntityFrameworkCore": "9.0.3"
         },
         "compile": {
-          "bin/placeholder/Tasky.SaaSService.EntityFrameworkCore.dll": {}
+          "bin/placeholder/Tasky.SaasService.EntityFrameworkCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Tasky.SaaSService.EntityFrameworkCore.dll": {}
+          "bin/placeholder/Tasky.SaasService.EntityFrameworkCore.dll": {}
         }
       },
       "Tasky.Shared.Hosting/1.0.0": {
@@ -15999,10 +15999,10 @@
       "path": "../../services/saas/src/Tasky.SaaSService.Domain.Shared/Tasky.SaaSService.Domain.Shared.csproj",
       "msbuildProject": "../../services/saas/src/Tasky.SaaSService.Domain.Shared/Tasky.SaaSService.Domain.Shared.csproj"
     },
-    "Tasky.SaaSService.EntityFrameworkCore/0.1.0": {
+    "Tasky.SaasService.EntityFrameworkCore/0.1.0": {
       "type": "project",
-      "path": "../../services/saas/src/Tasky.SaaSService.EntityFrameworkCore/Tasky.SaaSService.EntityFrameworkCore.csproj",
-      "msbuildProject": "../../services/saas/src/Tasky.SaaSService.EntityFrameworkCore/Tasky.SaaSService.EntityFrameworkCore.csproj"
+      "path": "../../services/saas/src/Tasky.SaasService.EntityFrameworkCore/Tasky.SaasService.EntityFrameworkCore.csproj",
+      "msbuildProject": "../../services/saas/src/Tasky.SaasService.EntityFrameworkCore/Tasky.SaasService.EntityFrameworkCore.csproj"
     },
     "Tasky.Shared.Hosting/1.0.0": {
       "type": "project",
@@ -16017,7 +16017,7 @@
       "Tasky.AdministrationService.EntityFrameworkCore >= 0.1.0",
       "Tasky.IdentityService.EntityFrameworkCore >= 0.1.0",
       "Tasky.Microservice.Shared >= 1.0.0",
-      "Tasky.SaaSService.EntityFrameworkCore >= 0.1.0",
+      "Tasky.SaasService.EntityFrameworkCore >= 0.1.0",
       "Volo.Abp.Account.Application >= 9.0.3",
       "Volo.Abp.Account.HttpApi >= 9.0.3",
       "Volo.Abp.Account.Web.OpenIddict >= 9.0.3",
