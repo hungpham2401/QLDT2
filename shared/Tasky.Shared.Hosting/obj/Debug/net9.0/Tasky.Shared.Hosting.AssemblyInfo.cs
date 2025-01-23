@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tasky.Shared.Hosting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd49159d85870b8f459d330c337c1fdd59c3ebc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d73a8a50ee2260a397cdbadeaa1f043014fc5cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tasky.Shared.Hosting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tasky.Shared.Hosting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

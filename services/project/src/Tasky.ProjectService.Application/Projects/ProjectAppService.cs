@@ -13,7 +13,8 @@ using Volo.Abp.Features;
 namespace Tasky.ProjectService.Projects
 {
     //[RequiresFeature(ProjectServiceFeatures.Project.Default)]
-    //[Authorize(ProjectServicePermissions.Project.Default)]
+    [Authorize(ProjectServicePermissions.Project.Default)]
+    //[Authorize]
     public class ProjectAppService : ProjectServiceAppService, IProjectAppService
     {
         private readonly IRepository<Project, Guid> repository;
@@ -23,7 +24,6 @@ namespace Tasky.ProjectService.Projects
             this.repository = repository;
         }
 
-        //[Authorize(ProjectServicePermissions.Project.Default)]
         public async Task<List<ProjectDto>> GetAllAsync()
         {
             var projects = await repository.GetListAsync();
