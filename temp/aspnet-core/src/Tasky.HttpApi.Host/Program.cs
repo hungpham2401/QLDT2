@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 
-namespace Tasky;
+namespace QLDT;
 
 public class Program
 {
@@ -27,12 +27,12 @@ public class Program
 
         try
         {
-            Log.Information("Starting Tasky.HttpApi.Host.");
+            Log.Information("Starting QLDT.HttpApi.Host.");
             var builder = WebApplication.CreateBuilder(args);
             builder.Host.AddAppSettingsSecretsJson()
                 .UseAutofac()
                 .UseSerilog();
-            await builder.AddApplicationAsync<TaskyHttpApiHostModule>();
+            await builder.AddApplicationAsync<QLDTHttpApiHostModule>();
             var app = builder.Build();
             await app.InitializeApplicationAsync();
             await app.RunAsync();

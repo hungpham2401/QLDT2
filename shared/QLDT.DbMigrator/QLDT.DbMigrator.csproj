@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<None Remove="appsettings.json" />
+		<Content Include="appsettings.json">
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<None Remove="appsettings.secrets.json" />
+		<Content Include="appsettings.secrets.json">
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\services\administration\src\QLDT.AdministrationService.Application.Contracts\QLDT.AdministrationService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\services\administration\src\QLDT.AdministrationService.EntityFrameworkCore\QLDT.AdministrationService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\identity\src\QLDT.IdentityService.Application.Contracts\QLDT.IdentityService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\services\identity\src\QLDT.IdentityService.EntityFrameworkCore\QLDT.IdentityService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\project\src\QLDT.ProjectService.Application.Contracts\QLDT.ProjectService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\services\project\src\QLDT.ProjectService.EntityFrameworkCore\QLDT.ProjectService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\saas\src\QLDT.SaaSService.Application.Contracts\QLDT.SaaSService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\services\saas\src\QLDT.SaaSService.EntityFrameworkCore\QLDT.SaaSService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\QLDT.Shared.Hosting\QLDT.Shared.Hosting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

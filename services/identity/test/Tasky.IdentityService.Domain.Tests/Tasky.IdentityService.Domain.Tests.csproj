@@ -5,7 +5,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.IdentityService</RootNamespace>
+    <RootNamespace>QLDT.IdentityService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Tasky.IdentityService.Domain\Tasky.IdentityService.Domain.csproj" />
-    <ProjectReference Include="..\Tasky.IdentityService.TestBase\Tasky.IdentityService.TestBase.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.IdentityService.Domain\QLDT.IdentityService.Domain.csproj" />
+    <ProjectReference Include="..\QLDT.IdentityService.TestBase\QLDT.IdentityService.TestBase.csproj" />
   </ItemGroup>
 
 

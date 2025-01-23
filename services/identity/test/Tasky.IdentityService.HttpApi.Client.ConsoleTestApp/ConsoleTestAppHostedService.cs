@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp;
 
-namespace Tasky.IdentityService.HttpApi.Client.ConsoleTestApp;
+namespace QLDT.IdentityService.HttpApi.Client.ConsoleTestApp;
 
 public class ConsoleTestAppHostedService : IHostedService
 {

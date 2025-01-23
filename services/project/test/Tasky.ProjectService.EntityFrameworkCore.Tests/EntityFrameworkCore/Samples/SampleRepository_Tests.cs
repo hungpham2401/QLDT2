@@ -1,6 +1,6 @@
-﻿using Tasky.ProjectService.Samples;
+﻿using QLDT.ProjectService.Samples;
 
-namespace Tasky.ProjectService.EntityFrameworkCore.Samples;
+namespace QLDT.ProjectService.EntityFrameworkCore.Samples;
 
 public class SampleRepository_Tests : SampleRepository_Tests<ProjectServiceEntityFrameworkCoreTestModule>
 {

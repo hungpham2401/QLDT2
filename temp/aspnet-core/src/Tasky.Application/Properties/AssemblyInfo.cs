@@ -1,2 +1,2 @@
 ﻿using System.Runtime.CompilerServices;
-[assembly:InternalsVisibleToAttribute("Tasky.Application.Tests")]
+[assembly:InternalsVisibleToAttribute("QLDT.Application.Tests")]

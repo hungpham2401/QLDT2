@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "QLDT.DbMigrator": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -7,7 +7,7 @@ using Volo.Abp.Guids;
 using Volo.Abp.Modularity;
 using Volo.Abp.Threading;
 
-namespace Tasky.AdministrationService;
+namespace QLDT.AdministrationService;
 
 [DependsOn(
     typeof(AbpAutofacModule),

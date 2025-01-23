@@ -1,10 +1,10 @@
-using Tasky.Samples;
+using QLDT.Samples;
 using Xunit;
 
-namespace Tasky.EntityFrameworkCore.Applications;
+namespace QLDT.EntityFrameworkCore.Applications;
 
-[Collection(TaskyTestConsts.CollectionDefinitionName)]
-public class EfCoreSampleAppServiceTests : SampleAppServiceTests<TaskyEntityFrameworkCoreTestModule>
+[Collection(QLDTTestConsts.CollectionDefinitionName)]
+public class EfCoreSampleAppServiceTests : SampleAppServiceTests<QLDTEntityFrameworkCoreTestModule>
 {
 
 }

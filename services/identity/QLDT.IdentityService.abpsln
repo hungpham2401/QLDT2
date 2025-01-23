@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QLDT.IdentityService": {
+      "path": "QLDT.IdentityService.abpmdl"
+    }
+  }
+}

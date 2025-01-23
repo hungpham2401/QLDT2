@@ -13,13 +13,13 @@ using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
 [ReplaceDbContext(typeof(IIdentityDbContext))]
 [ReplaceDbContext(typeof(ITenantManagementDbContext))]
 [ConnectionStringName("Default")]
-public class TaskyDbContext :
-    AbpDbContext<TaskyDbContext>,
+public class QLDTDbContext :
+    AbpDbContext<QLDTDbContext>,
     IIdentityDbContext,
     ITenantManagementDbContext
 {
@@ -53,7 +53,7 @@ public class TaskyDbContext :
 
     #endregion
 
-    public TaskyDbContext(DbContextOptions<TaskyDbContext> options)
+    public QLDTDbContext(DbContextOptions<QLDTDbContext> options)
         : base(options)
     {
 
@@ -78,7 +78,7 @@ public class TaskyDbContext :
 
         //builder.Entity<YourEntity>(b =>
         //{
-        //    b.ToTable(TaskyConsts.DbTablePrefix + "YourEntities", TaskyConsts.DbSchema);
+        //    b.ToTable(QLDTConsts.DbTablePrefix + "YourEntities", QLDTConsts.DbSchema);
         //    b.ConfigureByConvention(); //auto configure for the base class props
         //    //...
         //});

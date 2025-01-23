@@ -13,10 +13,10 @@ using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
 [DependsOn(
-    typeof(TaskyDomainModule),
+    typeof(QLDTDomainModule),
     typeof(AbpIdentityEntityFrameworkCoreModule),
     typeof(AbpOpenIddictEntityFrameworkCoreModule),
     typeof(AbpPermissionManagementEntityFrameworkCoreModule),
@@ -27,19 +27,19 @@ namespace Tasky.EntityFrameworkCore;
     typeof(AbpTenantManagementEntityFrameworkCoreModule),
     typeof(AbpFeatureManagementEntityFrameworkCoreModule)
     )]
-public class TaskyEntityFrameworkCoreModule : AbpModule
+public class QLDTEntityFrameworkCoreModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
         // https://www.npgsql.org/efcore/release-notes/6.0.html#opting-out-of-the-new-timestamp-mapping-logic
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
-        TaskyEfCoreEntityExtensionMappings.Configure();
+        QLDTEfCoreEntityExtensionMappings.Configure();
     }
 
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
-        context.Services.AddAbpDbContext<TaskyDbContext>(options =>
+        context.Services.AddAbpDbContext<QLDTDbContext>(options =>
         {
                 /* Remove "includeAllEntities: true" to create
                  * default repositories only for aggregate roots */
@@ -49,7 +49,7 @@ public class TaskyEntityFrameworkCoreModule : AbpModule
         Configure<AbpDbContextOptions>(options =>
         {
                 /* The main point to change your DBMS.
-                 * See also TaskyMigrationsDbContextFactory for EF Core tooling. */
+                 * See also QLDTMigrationsDbContextFactory for EF Core tooling. */
             options.UseNpgsql();
         });
 

@@ -2,17 +2,17 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Tasky.Data;
+using QLDT.Data;
 using Volo.Abp.DependencyInjection;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
-public class EntityFrameworkCoreTaskyDbSchemaMigrator
-    : ITaskyDbSchemaMigrator, ITransientDependency
+public class EntityFrameworkCoreQLDTDbSchemaMigrator
+    : IQLDTDbSchemaMigrator, ITransientDependency
 {
     private readonly IServiceProvider _serviceProvider;
 
-    public EntityFrameworkCoreTaskyDbSchemaMigrator(
+    public EntityFrameworkCoreQLDTDbSchemaMigrator(
         IServiceProvider serviceProvider)
     {
         _serviceProvider = serviceProvider;
@@ -20,14 +20,14 @@ public class EntityFrameworkCoreTaskyDbSchemaMigrator
 
     public async Task MigrateAsync()
     {
-        /* We intentionally resolve the TaskyDbContext
+        /* We intentionally resolve the QLDTDbContext
          * from IServiceProvider (instead of directly injecting it)
          * to properly get the connection string of the current tenant in the
          * current scope.
          */
 
         await _serviceProvider
-            .GetRequiredService<TaskyDbContext>()
+            .GetRequiredService<QLDTDbContext>()
             .Database
             .MigrateAsync();
     }

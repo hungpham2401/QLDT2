@@ -1,8 +1,8 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky;
+namespace QLDT;
 
-public abstract class TaskyApplicationTestBase<TStartupModule> : TaskyTestBase<TStartupModule>
+public abstract class QLDTApplicationTestBase<TStartupModule> : QLDTTestBase<TStartupModule>
     where TStartupModule : IAbpModule
 {
 

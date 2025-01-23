@@ -5,7 +5,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.AdministrationService</RootNamespace>
+    <RootNamespace>QLDT.AdministrationService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Tasky.AdministrationService.Domain\Tasky.AdministrationService.Domain.csproj" />
-    <ProjectReference Include="..\Tasky.AdministrationService.TestBase\Tasky.AdministrationService.TestBase.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.AdministrationService.Domain\QLDT.AdministrationService.Domain.csproj" />
+    <ProjectReference Include="..\QLDT.AdministrationService.TestBase\QLDT.AdministrationService.TestBase.csproj" />
   </ItemGroup>
 
 

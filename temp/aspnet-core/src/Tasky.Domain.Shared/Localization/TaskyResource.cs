@@ -1,9 +1,9 @@
 ﻿using Volo.Abp.Localization;
 
-namespace Tasky.Localization;
+namespace QLDT.Localization;
 
-[LocalizationResourceName("Tasky")]
-public class TaskyResource
+[LocalizationResourceName("QLDT")]
+public class QLDTResource
 {
 
 }

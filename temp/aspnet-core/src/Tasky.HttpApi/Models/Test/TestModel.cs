@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tasky.Models.Test;
+namespace QLDT.Models.Test;
 
 public class TestModel
 {

@@ -9,9 +9,9 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Tasky.EntityFrameworkCore;
-using Tasky.Localization;
-using Tasky.MultiTenancy;
+using QLDT.EntityFrameworkCore;
+using QLDT.Localization;
+using QLDT.MultiTenancy;
 using StackExchange.Redis;
 using Volo.Abp;
 using Volo.Abp.Account;
@@ -38,7 +38,7 @@ using Volo.Abp.UI;
 using Volo.Abp.VirtualFileSystem;
 using Volo.Abp.Account.Localization;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
     typeof(AbpAutofacModule),
@@ -48,10 +48,10 @@ namespace Tasky;
     typeof(AbpAccountApplicationModule),
     typeof(AbpAccountHttpApiModule),
     typeof(AbpAspNetCoreMvcUiLeptonXLiteThemeModule),
-    typeof(TaskyEntityFrameworkCoreModule),
+    typeof(QLDTEntityFrameworkCoreModule),
     typeof(AbpAspNetCoreSerilogModule)
     )]
-public class TaskyAuthServerModule : AbpModule
+public class QLDTAuthServerModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
@@ -62,7 +62,7 @@ public class TaskyAuthServerModule : AbpModule
         {
             builder.AddValidation(options =>
             {
-                options.AddAudiences("Tasky");
+                options.AddAudiences("QLDT");
                 options.UseLocalServer();
                 options.UseAspNetCore();
             });
@@ -90,7 +90,7 @@ public class TaskyAuthServerModule : AbpModule
         Configure<AbpLocalizationOptions>(options =>
         {
             options.Resources
-                .Get<TaskyResource>()
+                .Get<QLDTResource>()
                 .AddBaseTypes(
                     typeof(AbpUiResource),
                     typeof(AccountResource)
@@ -118,8 +118,8 @@ public class TaskyAuthServerModule : AbpModule
         {
             Configure<AbpVirtualFileSystemOptions>(options =>
             {
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyDomainSharedModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}Tasky.Domain.Shared"));
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyDomainModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}Tasky.Domain"));
+                options.FileSets.ReplaceEmbeddedByPhysical<QLDTDomainSharedModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}QLDT.Domain.Shared"));
+                options.FileSets.ReplaceEmbeddedByPhysical<QLDTDomainModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}QLDT.Domain"));
             });
         }
 
@@ -139,14 +139,14 @@ public class TaskyAuthServerModule : AbpModule
 
         Configure<AbpDistributedCacheOptions>(options =>
         {
-            options.KeyPrefix = "Tasky:";
+            options.KeyPrefix = "QLDT:";
         });
 
-        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("Tasky");
+        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("QLDT");
         if (!hostingEnvironment.IsDevelopment())
         {
             var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
-            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "Tasky-Protection-Keys");
+            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "QLDT-Protection-Keys");
         }
 
         context.Services.AddSingleton<IDistributedLockProvider>(sp =>

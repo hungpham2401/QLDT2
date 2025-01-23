@@ -1,16 +1,16 @@
 ﻿using Microsoft.Extensions.Localization;
-using Tasky.Localization;
+using QLDT.Localization;
 using Volo.Abp.Ui.Branding;
 using Volo.Abp.DependencyInjection;
 
-namespace Tasky;
+namespace QLDT;
 
 [Dependency(ReplaceServices = true)]
-public class TaskyBrandingProvider : DefaultBrandingProvider
+public class QLDTBrandingProvider : DefaultBrandingProvider
 {
-    private IStringLocalizer<TaskyResource> _localizer;
+    private IStringLocalizer<QLDTResource> _localizer;
 
-    public TaskyBrandingProvider(IStringLocalizer<TaskyResource> localizer)
+    public QLDTBrandingProvider(IStringLocalizer<QLDTResource> localizer)
     {
         _localizer = localizer;
     }

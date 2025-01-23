@@ -4,7 +4,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Guids;
 using Volo.Abp.MultiTenancy;
 
-namespace Tasky.AdministrationService;
+namespace QLDT.AdministrationService;
 
 public class AdministrationServiceDataSeedContributor : IDataSeedContributor, ITransientDependency
 {

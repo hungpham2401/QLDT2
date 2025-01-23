@@ -3,7 +3,7 @@ using Shouldly;
 using Volo.Abp.Modularity;
 using Xunit;
 
-namespace Tasky.SaaSService.Samples;
+namespace QLDT.SaaSService.Samples;
 
 public abstract class SampleAppService_Tests<TStartupModule> : SaaSServiceApplicationTestBase<TStartupModule>
     where TStartupModule : IAbpModule

@@ -6,7 +6,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.Uow;
 using Volo.Abp.Testing;
 
-namespace Tasky.ProjectService;
+namespace QLDT.ProjectService;
 
 /* All test classes are derived from this class, directly or indirectly. */
 public abstract class ProjectServiceTestBase<TStartupModule> : AbpIntegratedTest<TStartupModule>

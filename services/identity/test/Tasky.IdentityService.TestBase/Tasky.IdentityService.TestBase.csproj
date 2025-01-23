@@ -5,7 +5,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.IdentityService</RootNamespace>
+    <RootNamespace>QLDT.IdentityService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

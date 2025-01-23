@@ -5,11 +5,11 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky</RootNamespace>
+    <RootNamespace>QLDT</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tasky.Application.Contracts\Tasky.Application.Contracts.csproj" />
+    <ProjectReference Include="..\QLDT.Application.Contracts\QLDT.Application.Contracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>

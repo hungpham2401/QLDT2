@@ -4,15 +4,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Tasky.EntityFrameworkCore;
+using QLDT.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
 
 #nullable disable
 
-namespace Tasky.Migrations
+namespace QLDT.Migrations
 {
-    [DbContext(typeof(TaskyDbContext))]
-    partial class TaskyDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(QLDTDbContext))]
+    partial class QLDTDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

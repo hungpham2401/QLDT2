@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky.IdentityService;
+namespace QLDT.IdentityService;
 
 /* Inherit from this class for your application layer tests.
  * See SampleAppService_Tests for example.

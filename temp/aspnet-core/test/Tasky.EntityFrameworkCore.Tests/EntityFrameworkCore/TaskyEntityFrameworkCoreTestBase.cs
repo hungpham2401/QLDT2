@@ -1,8 +1,8 @@
 ﻿using Volo.Abp;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
-public abstract class TaskyEntityFrameworkCoreTestBase : TaskyTestBase<TaskyEntityFrameworkCoreTestModule>
+public abstract class QLDTEntityFrameworkCoreTestBase : QLDTTestBase<QLDTEntityFrameworkCoreTestModule>
 {
 
 }

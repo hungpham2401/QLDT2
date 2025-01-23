@@ -1,6 +1,6 @@
-﻿namespace Tasky;
+﻿namespace QLDT;
 
-public static class TaskyTestConsts
+public static class QLDTTestConsts
 {
-    public const string CollectionDefinitionName = "Tasky collection";
+    public const string CollectionDefinitionName = "QLDT collection";
 }

@@ -6,14 +6,14 @@ using Volo.Abp.Http.Client;
 using Volo.Abp.Http.Client.IdentityModel;
 using Volo.Abp.Modularity;
 
-namespace Tasky.HttpApi.Client.ConsoleTestApp;
+namespace QLDT.HttpApi.Client.ConsoleTestApp;
 
 [DependsOn(
     typeof(AbpAutofacModule),
-    typeof(TaskyHttpApiClientModule),
+    typeof(QLDTHttpApiClientModule),
     typeof(AbpHttpClientIdentityModelModule)
     )]
-public class TaskyConsoleApiClientModule : AbpModule
+public class QLDTConsoleApiClientModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {

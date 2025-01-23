@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "QLDT.ProjectService.Domain.Shared": {
+      "path": "src/QLDT.ProjectService.Domain.Shared/QLDT.ProjectService.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.Domain": {
+      "path": "src/QLDT.ProjectService.Domain/QLDT.ProjectService.Domain.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.Application.Contracts": {
+      "path": "src/QLDT.ProjectService.Application.Contracts/QLDT.ProjectService.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.Application": {
+      "path": "src/QLDT.ProjectService.Application/QLDT.ProjectService.Application.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.EntityFrameworkCore": {
+      "path": "src/QLDT.ProjectService.EntityFrameworkCore/QLDT.ProjectService.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.MongoDB": {
+      "path": "src/QLDT.ProjectService.MongoDB/QLDT.ProjectService.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.HttpApi": {
+      "path": "src/QLDT.ProjectService.HttpApi/QLDT.ProjectService.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.HttpApi.Client": {
+      "path": "src/QLDT.ProjectService.HttpApi.Client/QLDT.ProjectService.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "QLDT.ProjectService.TestBase": {
+      "path": "test/QLDT.ProjectService.TestBase/QLDT.ProjectService.TestBase.abppkg",
+      "folder": "test"
+    },
+    "QLDT.ProjectService.EntityFrameworkCore.Tests": {
+      "path": "test/QLDT.ProjectService.EntityFrameworkCore.Tests/QLDT.ProjectService.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.ProjectService.MongoDB.Tests": {
+      "path": "test/QLDT.ProjectService.MongoDB.Tests/QLDT.ProjectService.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.ProjectService.Domain.Tests": {
+      "path": "test/QLDT.ProjectService.Domain.Tests/QLDT.ProjectService.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.ProjectService.Application.Tests": {
+      "path": "test/QLDT.ProjectService.Application.Tests/QLDT.ProjectService.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.ProjectService.HttpApi.Host": {
+      "path": "host/QLDT.ProjectService.HttpApi.Host/QLDT.ProjectService.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "QLDT.ProjectService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QLDT.ProjectService.HttpApi.Client.ConsoleTestApp/QLDT.ProjectService.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "QLDT.ProjectService.AuthServer": {
+      "path": "host/QLDT.ProjectService.AuthServer/QLDT.ProjectService.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "QLDT.ProjectService.Host.Shared": {
+      "path": "host/QLDT.ProjectService.Host.Shared/QLDT.ProjectService.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}

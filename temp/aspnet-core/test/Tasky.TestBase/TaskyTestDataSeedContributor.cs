@@ -2,9 +2,9 @@
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
 
-namespace Tasky;
+namespace QLDT;
 
-public class TaskyTestDataSeedContributor : IDataSeedContributor, ITransientDependency
+public class QLDTTestDataSeedContributor : IDataSeedContributor, ITransientDependency
 {
     public Task SeedAsync(DataSeedContext context)
     {

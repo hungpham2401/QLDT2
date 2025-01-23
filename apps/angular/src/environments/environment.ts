@@ -6,13 +6,13 @@ export const environment = {
   production: false,
   application: {
     baseUrl,
-    name: 'Tasky',
+    name: 'QLDT',
     logoUrl: '',
   },
   oAuthConfig: {
     issuer: 'https://localhost:7600/',
     redirectUri: baseUrl,
-    clientId: 'Tasky_App',
+    clientId: 'QLDT_App',
     responseType: 'code',
     scope: "openid AuthServer IdentityService AdministrationService SaaSService ProjectService",
     requireHttps: true,
@@ -21,7 +21,7 @@ export const environment = {
   apis: {
     default: {
       url: 'https://localhost:7500',
-      rootNamespace: 'Tasky',
+      rootNamespace: 'QLDT',
     },
   },
 } as Environment;

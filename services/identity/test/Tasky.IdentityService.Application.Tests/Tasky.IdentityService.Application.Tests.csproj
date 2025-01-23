@@ -5,12 +5,12 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.IdentityService</RootNamespace>
+    <RootNamespace>QLDT.IdentityService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Tasky.IdentityService.Application\Tasky.IdentityService.Application.csproj" />
-    <ProjectReference Include="..\Tasky.IdentityService.Domain.Tests\Tasky.IdentityService.Domain.Tests.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.IdentityService.Application\QLDT.IdentityService.Application.csproj" />
+    <ProjectReference Include="..\QLDT.IdentityService.Domain.Tests\QLDT.IdentityService.Domain.Tests.csproj" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1.0" />
   </ItemGroup>
 

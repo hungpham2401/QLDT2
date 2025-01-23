@@ -5,12 +5,12 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky</RootNamespace>
+    <RootNamespace>QLDT</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Tasky.EntityFrameworkCore\Tasky.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\Tasky.Application.Tests\Tasky.Application.Tests.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.EntityFrameworkCore\QLDT.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\QLDT.Application.Tests\QLDT.Application.Tests.csproj" />
     <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="9.0.3" />
   </ItemGroup>
 

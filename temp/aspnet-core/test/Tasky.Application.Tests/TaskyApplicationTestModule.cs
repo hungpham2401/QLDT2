@@ -1,12 +1,12 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
-    typeof(TaskyApplicationModule),
-    typeof(TaskyDomainTestModule)
+    typeof(QLDTApplicationModule),
+    typeof(QLDTDomainTestModule)
 )]
-public class TaskyApplicationTestModule : AbpModule
+public class QLDTApplicationTestModule : AbpModule
 {
 
 }

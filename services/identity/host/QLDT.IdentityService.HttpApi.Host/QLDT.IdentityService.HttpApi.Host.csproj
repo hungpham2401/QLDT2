@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QLDT.IdentityService</RootNamespace>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+    <UserSecretsId>QLDT.IdentityService-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+		<PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="9.0.3" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\shared\QLDT.Shared.Hosting\QLDT.Shared.Hosting.csproj" />
+    <ProjectReference Include="..\..\..\administration\src\QLDT.AdministrationService.EntityFrameworkCore\QLDT.AdministrationService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\..\saas\src\QLDT.SaaSService.EntityFrameworkCore\QLDT.SaaSService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.IdentityService.HttpApi\QLDT.IdentityService.HttpApi.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.IdentityService.Application\QLDT.IdentityService.Application.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.IdentityService.EntityFrameworkCore\QLDT.IdentityService.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Logs\**" />
+    <Content Remove="Logs\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <None Remove="Logs\**" />
+  </ItemGroup>
+
+</Project>

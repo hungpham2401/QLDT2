@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Tasky.Localization;
+using QLDT.Localization;
 using Volo.Abp.Application.Services;
 
-namespace Tasky;
+namespace QLDT;
 
 /* Inherit your application services from this class.
  */
-public abstract class TaskyAppService : ApplicationService
+public abstract class QLDTAppService : ApplicationService
 {
-    protected TaskyAppService()
+    protected QLDTAppService()
     {
-        LocalizationResource = typeof(TaskyResource);
+        LocalizationResource = typeof(QLDTResource);
     }
 }

@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "QLDT.SaaSService.Domain.Shared": {
+      "path": "src/QLDT.SaaSService.Domain.Shared/QLDT.SaaSService.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.Domain": {
+      "path": "src/QLDT.SaaSService.Domain/QLDT.SaaSService.Domain.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.Application.Contracts": {
+      "path": "src/QLDT.SaaSService.Application.Contracts/QLDT.SaaSService.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.Application": {
+      "path": "src/QLDT.SaaSService.Application/QLDT.SaaSService.Application.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.EntityFrameworkCore": {
+      "path": "src/QLDT.SaaSService.EntityFrameworkCore/QLDT.SaaSService.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.MongoDB": {
+      "path": "src/QLDT.SaaSService.MongoDB/QLDT.SaaSService.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.HttpApi": {
+      "path": "src/QLDT.SaaSService.HttpApi/QLDT.SaaSService.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.HttpApi.Client": {
+      "path": "src/QLDT.SaaSService.HttpApi.Client/QLDT.SaaSService.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "QLDT.SaaSService.TestBase": {
+      "path": "test/QLDT.SaaSService.TestBase/QLDT.SaaSService.TestBase.abppkg",
+      "folder": "test"
+    },
+    "QLDT.SaaSService.EntityFrameworkCore.Tests": {
+      "path": "test/QLDT.SaaSService.EntityFrameworkCore.Tests/QLDT.SaaSService.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.SaaSService.MongoDB.Tests": {
+      "path": "test/QLDT.SaaSService.MongoDB.Tests/QLDT.SaaSService.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.SaaSService.Domain.Tests": {
+      "path": "test/QLDT.SaaSService.Domain.Tests/QLDT.SaaSService.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.SaaSService.Application.Tests": {
+      "path": "test/QLDT.SaaSService.Application.Tests/QLDT.SaaSService.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.SaaSService.HttpApi.Host": {
+      "path": "host/QLDT.SaaSService.HttpApi.Host/QLDT.SaaSService.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "QLDT.SaaSService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QLDT.SaaSService.HttpApi.Client.ConsoleTestApp/QLDT.SaaSService.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "QLDT.SaaSService.AuthServer": {
+      "path": "host/QLDT.SaaSService.AuthServer/QLDT.SaaSService.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "QLDT.SaaSService.Host.Shared": {
+      "path": "host/QLDT.SaaSService.Host.Shared/QLDT.SaaSService.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}

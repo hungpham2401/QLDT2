@@ -16,7 +16,7 @@ services:
   administration-service:
     build:
       context: ../../
-      dockerfile: templates/service/host/Tasky.AdministrationService.Host/Dockerfile
+      dockerfile: templates/service/host/QLDT.AdministrationService.Host/Dockerfile
     depends_on:
       - sqlserver
       - identity-server

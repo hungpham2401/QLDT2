@@ -1,0 +1,21 @@
+AssemblyInformationalVersion:
+InformationalVersion: 1.0.0+a7fe34e1636b6c7d91a6c79d8db5a4298103428e
+Version: 1.0.0
+TargetFrameworks:
+RunCommand: D:\dft\QLDT2\gateway\QLDT.Gateway\bin\Debug\net9.0\QLDT.Gateway.exe
+RunArguments:
+TargetPath: D:\dft\QLDT2\gateway\QLDT.Gateway\bin\Debug\net9.0\QLDT.Gateway.dll
+PublishDir: bin\Debug\net9.0\publish\
+AssemblyName: QLDT.Gateway
+IntermediateOutputPath: obj\Debug\net9.0\
+TargetFramework: net9.0
+_ShortFrameworkIdentifier:
+_ShortFrameworkVersion:
+_TargetFrameworkVersionWithoutV: 9.0
+FrameworkReference: Microsoft.NETCore.App;Microsoft.AspNetCore.App
+ContainerBaseImage:
+ContainerBaseTag:
+MicrosoftNETPlatformLibrary:
+_AspNetCoreAppSharedFxIsEnabled:
+UsingMicrosoftNETSdkWeb: true
+AzureFunctionsVersion:

@@ -251,15 +251,15 @@ paket-files/
 .idea/
 *.sln.iml
 
-# Tasky
-src/Tasky.Web/Logs/*
-src/Tasky.Web.Host/Logs/*
-src/Tasky.AuthServer/Logs/*
-src/Tasky.HttpApi.Host/Logs/*
-src/Tasky.HttpApi.HostWithIds/Logs/*
-src/Tasky.DbMigrator/Logs/*
-src/Tasky.Blazor.Server/Logs/*
-src/Tasky.Blazor.Server.Tiered/Logs/*
+# QLDT
+src/QLDT.Web/Logs/*
+src/QLDT.Web.Host/Logs/*
+src/QLDT.AuthServer/Logs/*
+src/QLDT.HttpApi.Host/Logs/*
+src/QLDT.HttpApi.HostWithIds/Logs/*
+src/QLDT.DbMigrator/Logs/*
+src/QLDT.Blazor.Server/Logs/*
+src/QLDT.Blazor.Server.Tiered/Logs/*
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*

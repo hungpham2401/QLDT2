@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 
-namespace Tasky;
+namespace QLDT;
 
-public class TaskyApplicationAutoMapperProfile : Profile
+public class QLDTApplicationAutoMapperProfile : Profile
 {
-    public TaskyApplicationAutoMapperProfile()
+    public QLDTApplicationAutoMapperProfile()
     {
         /* You can configure your AutoMapper mapping configuration here.
          * Alternatively, you can split your mapping configurations

@@ -12,8 +12,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Tasky.EntityFrameworkCore;
-using Tasky.MultiTenancy;
+using QLDT.EntityFrameworkCore;
+using QLDT.MultiTenancy;
 using StackExchange.Redis;
 using Microsoft.OpenApi.Models;
 using Volo.Abp;
@@ -32,21 +32,21 @@ using Volo.Abp.Security.Claims;
 using Volo.Abp.Swashbuckle;
 using Volo.Abp.VirtualFileSystem;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
-    typeof(TaskyHttpApiModule),
+    typeof(QLDTHttpApiModule),
     typeof(AbpAutofacModule),
     typeof(AbpCachingStackExchangeRedisModule),
     typeof(AbpDistributedLockingModule),
     typeof(AbpAspNetCoreMvcUiMultiTenancyModule),
     typeof(AbpAspNetCoreAuthenticationJwtBearerModule),
-    typeof(TaskyApplicationModule),
-    typeof(TaskyEntityFrameworkCoreModule),
+    typeof(QLDTApplicationModule),
+    typeof(QLDTEntityFrameworkCoreModule),
     typeof(AbpAspNetCoreSerilogModule),
     typeof(AbpSwashbuckleModule)
 )]
-public class TaskyHttpApiHostModule : AbpModule
+public class QLDTHttpApiHostModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
@@ -65,7 +65,7 @@ public class TaskyHttpApiHostModule : AbpModule
 
     private void ConfigureCache(IConfiguration configuration)
     {
-        Configure<AbpDistributedCacheOptions>(options => { options.KeyPrefix = "Tasky:"; });
+        Configure<AbpDistributedCacheOptions>(options => { options.KeyPrefix = "QLDT:"; });
     }
 
     private void ConfigureVirtualFileSystem(ServiceConfigurationContext context)
@@ -76,18 +76,18 @@ public class TaskyHttpApiHostModule : AbpModule
         {
             Configure<AbpVirtualFileSystemOptions>(options =>
             {
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyDomainSharedModule>(
+                options.FileSets.ReplaceEmbeddedByPhysical<QLDTDomainSharedModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
-                        $"..{Path.DirectorySeparatorChar}Tasky.Domain.Shared"));
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyDomainModule>(
+                        $"..{Path.DirectorySeparatorChar}QLDT.Domain.Shared"));
+                options.FileSets.ReplaceEmbeddedByPhysical<QLDTDomainModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
-                        $"..{Path.DirectorySeparatorChar}Tasky.Domain"));
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyApplicationContractsModule>(
+                        $"..{Path.DirectorySeparatorChar}QLDT.Domain"));
+                options.FileSets.ReplaceEmbeddedByPhysical<QLDTApplicationContractsModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
-                        $"..{Path.DirectorySeparatorChar}Tasky.Application.Contracts"));
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyApplicationModule>(
+                        $"..{Path.DirectorySeparatorChar}QLDT.Application.Contracts"));
+                options.FileSets.ReplaceEmbeddedByPhysical<QLDTApplicationModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
-                        $"..{Path.DirectorySeparatorChar}Tasky.Application"));
+                        $"..{Path.DirectorySeparatorChar}QLDT.Application"));
             });
         }
     }
@@ -96,7 +96,7 @@ public class TaskyHttpApiHostModule : AbpModule
     {
         Configure<AbpAspNetCoreMvcOptions>(options =>
         {
-            options.ConventionalControllers.Create(typeof(TaskyApplicationModule).Assembly);
+            options.ConventionalControllers.Create(typeof(QLDTApplicationModule).Assembly);
         });
     }
 
@@ -107,7 +107,7 @@ public class TaskyHttpApiHostModule : AbpModule
             {
                 options.Authority = configuration["AuthServer:Authority"];
                 options.RequireHttpsMetadata = configuration.GetValue<bool>("AuthServer:RequireHttpsMetadata");
-                options.Audience = "Tasky";
+                options.Audience = "QLDT";
             });
 
         context.Services.Configure<AbpClaimsPrincipalFactoryOptions>(options =>
@@ -122,11 +122,11 @@ public class TaskyHttpApiHostModule : AbpModule
             configuration["AuthServer:Authority"]!,
             new Dictionary<string, string>
             {
-                    {"Tasky", "Tasky API"}
+                    {"QLDT", "QLDT API"}
             },
             options =>
             {
-                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Tasky API", Version = "v1" });
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "QLDT API", Version = "v1" });
                 options.DocInclusionPredicate((docName, description) => true);
                 options.CustomSchemaIds(type => type.FullName);
             });
@@ -137,11 +137,11 @@ public class TaskyHttpApiHostModule : AbpModule
         IConfiguration configuration,
         IWebHostEnvironment hostingEnvironment)
     {
-        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("Tasky");
+        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("QLDT");
         if (!hostingEnvironment.IsDevelopment())
         {
             var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]!);
-            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "Tasky-Protection-Keys");
+            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "QLDT-Protection-Keys");
         }
     }
 
@@ -205,11 +205,11 @@ public class TaskyHttpApiHostModule : AbpModule
         app.UseSwagger();
         app.UseAbpSwaggerUI(options =>
         {
-            options.SwaggerEndpoint("/swagger/v1/swagger.json", "Tasky API");
+            options.SwaggerEndpoint("/swagger/v1/swagger.json", "QLDT API");
 
             var configuration = context.GetConfiguration();
             options.OAuthClientId(configuration["AuthServer:SwaggerClientId"]);
-            options.OAuthScopes("Tasky");
+            options.OAuthScopes("QLDT");
         });
 
         app.UseAuditing();

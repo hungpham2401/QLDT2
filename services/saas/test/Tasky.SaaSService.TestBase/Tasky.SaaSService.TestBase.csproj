@@ -5,7 +5,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.SaaSService</RootNamespace>
+    <RootNamespace>QLDT.SaaSService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

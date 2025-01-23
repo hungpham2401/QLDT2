@@ -2,7 +2,7 @@
 using Volo.Abp.Modularity;
 using Xunit;
 
-namespace Tasky.SaaSService.Samples;
+namespace QLDT.SaaSService.Samples;
 
 /* Write your custom repository tests like that, in this project, as abstract classes.
  * Then inherit these abstract classes from EF Core & MongoDB test projects.

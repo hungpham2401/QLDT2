@@ -16,7 +16,7 @@ services:
   project-service:
     build:
       context: ../../
-      dockerfile: templates/service/host/Tasky.ProjectService.Host/Dockerfile
+      dockerfile: templates/service/host/QLDT.ProjectService.Host/Dockerfile
     depends_on:
       - sqlserver
       - identity-server

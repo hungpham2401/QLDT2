@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "b3ykWR1vWAWARGAtA5b0fCWQ54NuTJsw3OeiE9dLtKc=",
+  "Source": "QLDT.Gateway",
+  "BasePath": "_content/QLDT.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

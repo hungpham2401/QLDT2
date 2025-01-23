@@ -5,12 +5,12 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.ProjectService</RootNamespace>
+    <RootNamespace>QLDT.ProjectService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Tasky.ProjectService.Application\Tasky.ProjectService.Application.csproj" />
-    <ProjectReference Include="..\Tasky.ProjectService.Domain.Tests\Tasky.ProjectService.Domain.Tests.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.ProjectService.Application\QLDT.ProjectService.Application.csproj" />
+    <ProjectReference Include="..\QLDT.ProjectService.Domain.Tests\QLDT.ProjectService.Domain.Tests.csproj" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1.0" />
   </ItemGroup>
 

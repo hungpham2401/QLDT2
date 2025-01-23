@@ -3,11 +3,11 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using IdentityModel.Client;
 using Microsoft.Extensions.Configuration;
-using Tasky.ProjectService.Samples;
+using QLDT.ProjectService.Samples;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.IdentityModel;
 
-namespace Tasky.ProjectService;
+namespace QLDT.ProjectService;
 
 public class ClientDemoService : ITransientDependency
 {

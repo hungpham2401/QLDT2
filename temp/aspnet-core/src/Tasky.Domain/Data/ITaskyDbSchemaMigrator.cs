@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 
-namespace Tasky.Data;
+namespace QLDT.Data;
 
-public interface ITaskyDbSchemaMigrator
+public interface IQLDTDbSchemaMigrator
 {
     Task MigrateAsync();
 }

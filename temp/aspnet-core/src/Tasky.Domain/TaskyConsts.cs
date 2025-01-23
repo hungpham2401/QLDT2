@@ -1,6 +1,6 @@
-﻿namespace Tasky;
+﻿namespace QLDT;
 
-public static class TaskyConsts
+public static class QLDTConsts
 {
     public const string DbTablePrefix = "App";
 

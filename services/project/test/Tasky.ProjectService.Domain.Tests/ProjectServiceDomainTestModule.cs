@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky.ProjectService;
+namespace QLDT.ProjectService;
 
 [DependsOn(
     typeof(ProjectServiceDomainModule),

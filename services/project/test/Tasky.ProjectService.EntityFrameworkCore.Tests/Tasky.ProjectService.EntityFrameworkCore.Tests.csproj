@@ -5,14 +5,14 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.ProjectService</RootNamespace>
+    <RootNamespace>QLDT.ProjectService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="9.0.0" />
-    <ProjectReference Include="..\..\src\Tasky.ProjectService.EntityFrameworkCore\Tasky.ProjectService.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\Tasky.ProjectService.Application.Tests\Tasky.ProjectService.Application.Tests.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.ProjectService.EntityFrameworkCore\QLDT.ProjectService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\QLDT.ProjectService.Application.Tests\QLDT.ProjectService.Application.Tests.csproj" />
     <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="9.0.3" />
 
   </ItemGroup>

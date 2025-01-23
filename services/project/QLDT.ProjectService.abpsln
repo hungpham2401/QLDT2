@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QLDT.ProjectService": {
+      "path": "QLDT.ProjectService.abpmdl"
+    }
+  }
+}

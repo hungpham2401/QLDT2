@@ -1,9 +1,9 @@
 ﻿using Xunit;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
-[CollectionDefinition(TaskyTestConsts.CollectionDefinitionName)]
-public class TaskyEntityFrameworkCoreCollection : ICollectionFixture<TaskyEntityFrameworkCoreFixture>
+[CollectionDefinition(QLDTTestConsts.CollectionDefinitionName)]
+public class QLDTEntityFrameworkCoreCollection : ICollectionFixture<QLDTEntityFrameworkCoreFixture>
 {
 
 }

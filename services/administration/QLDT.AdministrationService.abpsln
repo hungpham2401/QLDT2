@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QLDT.AdministrationService": {
+      "path": "QLDT.AdministrationService.abpmdl"
+    }
+  }
+}

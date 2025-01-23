@@ -1,5 +1,5 @@
 ﻿using Localization.Resources.AbpUi;
-using Tasky.Localization;
+using QLDT.Localization;
 using Volo.Abp.Account;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Identity;
@@ -9,10 +9,10 @@ using Volo.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
-    typeof(TaskyApplicationContractsModule),
+    typeof(QLDTApplicationContractsModule),
     typeof(AbpAccountHttpApiModule),
     typeof(AbpIdentityHttpApiModule),
     typeof(AbpPermissionManagementHttpApiModule),
@@ -20,7 +20,7 @@ namespace Tasky;
     typeof(AbpFeatureManagementHttpApiModule),
     typeof(AbpSettingManagementHttpApiModule)
     )]
-public class TaskyHttpApiModule : AbpModule
+public class QLDTHttpApiModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
@@ -32,7 +32,7 @@ public class TaskyHttpApiModule : AbpModule
         Configure<AbpLocalizationOptions>(options =>
         {
             options.Resources
-                .Get<TaskyResource>()
+                .Get<QLDTResource>()
                 .AddBaseTypes(
                     typeof(AbpUiResource)
                 );

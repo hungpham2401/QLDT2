@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Tasky.IdentityService.HttpApi.Client.ConsoleTestApp;
+namespace QLDT.IdentityService.HttpApi.Client.ConsoleTestApp;
 
 class Program
 {

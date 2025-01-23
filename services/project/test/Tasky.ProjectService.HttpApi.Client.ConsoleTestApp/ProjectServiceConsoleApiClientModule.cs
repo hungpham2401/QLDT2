@@ -2,7 +2,7 @@
 using Volo.Abp.Http.Client.IdentityModel;
 using Volo.Abp.Modularity;
 
-namespace Tasky.ProjectService;
+namespace QLDT.ProjectService;
 
 [DependsOn(
     typeof(AbpAutofacModule),

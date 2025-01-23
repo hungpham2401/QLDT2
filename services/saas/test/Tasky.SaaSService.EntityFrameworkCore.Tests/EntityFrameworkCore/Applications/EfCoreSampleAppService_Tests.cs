@@ -1,7 +1,7 @@
-using Tasky.SaaSService.Samples;
+using QLDT.SaaSService.Samples;
 using Xunit;
 
-namespace Tasky.SaaSService.EntityFrameworkCore.Applications;
+namespace QLDT.SaaSService.EntityFrameworkCore.Applications;
 
 public class EfCoreSampleAppService_Tests : SampleAppService_Tests<SaaSServiceEntityFrameworkCoreTestModule>
 {

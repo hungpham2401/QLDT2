@@ -5,7 +5,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky</RootNamespace>
+    <RootNamespace>QLDT</RootNamespace>
     <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
   </PropertyGroup>
 
@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Localization\Tasky\*.json" />
-    <Content Remove="Localization\Tasky\*.json" />
+    <EmbeddedResource Include="Localization\QLDT\*.json" />
+    <Content Remove="Localization\QLDT\*.json" />
   </ItemGroup>
 
   <ItemGroup>

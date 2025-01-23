@@ -6,21 +6,21 @@ export const environment = {
   production: false,
   application: {
     baseUrl,
-    name: 'Tasky',
+    name: 'QLDT',
     logoUrl: '',
   },
   oAuthConfig: {
     issuer: 'https://localhost:44385/',
     redirectUri: baseUrl,
-    clientId: 'Tasky_App',
+    clientId: 'QLDT_App',
     responseType: 'code',
-    scope: 'offline_access Tasky',
+    scope: 'offline_access QLDT',
     requireHttps: true,
   },
   apis: {
     default: {
       url: 'https://localhost:44386',
-      rootNamespace: 'Tasky',
+      rootNamespace: 'QLDT',
     },
   },
 } as Environment;

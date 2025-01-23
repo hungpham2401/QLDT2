@@ -3,7 +3,7 @@ using System.Security.Claims;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Security.Claims;
 
-namespace Tasky.SaaSService.Security;
+namespace QLDT.SaaSService.Security;
 
 [Dependency(ReplaceServices = true)]
 public class FakeCurrentPrincipalAccessor : ThreadCurrentPrincipalAccessor

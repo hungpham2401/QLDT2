@@ -1,12 +1,12 @@
 ﻿using Volo.Abp.Settings;
 
-namespace Tasky.Settings;
+namespace QLDT.Settings;
 
-public class TaskySettingDefinitionProvider : SettingDefinitionProvider
+public class QLDTSettingDefinitionProvider : SettingDefinitionProvider
 {
     public override void Define(ISettingDefinitionContext context)
     {
         //Define your own settings here. Example:
-        //context.Add(new SettingDefinition(TaskySettings.MySetting1));
+        //context.Add(new SettingDefinition(QLDTSettings.MySetting1));
     }
 }

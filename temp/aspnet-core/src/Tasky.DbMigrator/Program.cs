@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Events;
 
-namespace Tasky.DbMigrator;
+namespace QLDT.DbMigrator;
 
 class Program
 {
@@ -18,9 +18,9 @@ class Program
             .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
             .MinimumLevel.Override("Volo.Abp", LogEventLevel.Warning)
 #if DEBUG
-                .MinimumLevel.Override("Tasky", LogEventLevel.Debug)
+                .MinimumLevel.Override("QLDT", LogEventLevel.Debug)
 #else
-                .MinimumLevel.Override("Tasky", LogEventLevel.Information)
+                .MinimumLevel.Override("QLDT", LogEventLevel.Information)
 #endif
                 .Enrich.FromLogContext()
             .WriteTo.Async(c => c.File("Logs/logs.txt"))

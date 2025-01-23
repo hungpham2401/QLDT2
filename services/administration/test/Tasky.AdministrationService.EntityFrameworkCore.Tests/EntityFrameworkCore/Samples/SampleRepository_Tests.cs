@@ -1,6 +1,6 @@
-﻿using Tasky.AdministrationService.Samples;
+﻿using QLDT.AdministrationService.Samples;
 
-namespace Tasky.AdministrationService.EntityFrameworkCore.Samples;
+namespace QLDT.AdministrationService.EntityFrameworkCore.Samples;
 
 public class SampleRepository_Tests : SampleRepository_Tests<AdministrationServiceEntityFrameworkCoreTestModule>
 {

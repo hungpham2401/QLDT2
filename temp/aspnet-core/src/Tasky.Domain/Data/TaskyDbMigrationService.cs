@@ -13,20 +13,20 @@ using Volo.Abp.Identity;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.TenantManagement;
 
-namespace Tasky.Data;
+namespace QLDT.Data;
 
-public class TaskyDbMigrationService : ITransientDependency
+public class QLDTDbMigrationService : ITransientDependency
 {
-    public ILogger<TaskyDbMigrationService> Logger { get; set; }
+    public ILogger<QLDTDbMigrationService> Logger { get; set; }
 
     private readonly IDataSeeder _dataSeeder;
-    private readonly IEnumerable<ITaskyDbSchemaMigrator> _dbSchemaMigrators;
+    private readonly IEnumerable<IQLDTDbSchemaMigrator> _dbSchemaMigrators;
     private readonly ITenantRepository _tenantRepository;
     private readonly ICurrentTenant _currentTenant;
 
-    public TaskyDbMigrationService(
+    public QLDTDbMigrationService(
         IDataSeeder dataSeeder,
-        IEnumerable<ITaskyDbSchemaMigrator> dbSchemaMigrators,
+        IEnumerable<IQLDTDbSchemaMigrator> dbSchemaMigrators,
         ITenantRepository tenantRepository,
         ICurrentTenant currentTenant)
     {
@@ -35,7 +35,7 @@ public class TaskyDbMigrationService : ITransientDependency
         _tenantRepository = tenantRepository;
         _currentTenant = currentTenant;
 
-        Logger = NullLogger<TaskyDbMigrationService>.Instance;
+        Logger = NullLogger<QLDTDbMigrationService>.Instance;
     }
 
     public async Task MigrateAsync()

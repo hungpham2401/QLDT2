@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\HungPM\.nuget\packages\volo.abp.account.web.identityserver\9.0.3\contentFiles\any\net9.0\Volo.Abp.Account.Web.OpenIddict.abppkg.analyze.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.Application" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Account.HttpApi" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Account.Web.OpenIddict" Version="9.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\services\administration\src\QLDT.AdministrationService.EntityFrameworkCore\QLDT.AdministrationService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\identity\src\QLDT.IdentityService.EntityFrameworkCore\QLDT.IdentityService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\services\saas\src\QLDT.SaaSService.EntityFrameworkCore\QLDT.SaaSService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\shared\QLDT.Shared.Hosting\QLDT.Shared.Hosting.csproj" />
+  </ItemGroup>
+
+</Project>

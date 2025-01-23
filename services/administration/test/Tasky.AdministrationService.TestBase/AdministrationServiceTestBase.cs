@@ -6,7 +6,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.Uow;
 using Volo.Abp.Testing;
 
-namespace Tasky.AdministrationService;
+namespace QLDT.AdministrationService;
 
 /* All test classes are derived from this class, directly or indirectly. */
 public abstract class AdministrationServiceTestBase<TStartupModule> : AbpIntegratedTest<TStartupModule>

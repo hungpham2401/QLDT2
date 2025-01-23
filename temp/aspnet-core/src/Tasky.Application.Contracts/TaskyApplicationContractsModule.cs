@@ -7,10 +7,10 @@ using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
-    typeof(TaskyDomainSharedModule),
+    typeof(QLDTDomainSharedModule),
     typeof(AbpAccountApplicationContractsModule),
     typeof(AbpFeatureManagementApplicationContractsModule),
     typeof(AbpIdentityApplicationContractsModule),
@@ -19,10 +19,10 @@ namespace Tasky;
     typeof(AbpTenantManagementApplicationContractsModule),
     typeof(AbpObjectExtendingModule)
 )]
-public class TaskyApplicationContractsModule : AbpModule
+public class QLDTApplicationContractsModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
-        TaskyDtoExtensions.Configure();
+        QLDTDtoExtensions.Configure();
     }
 }

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QLDT.SaaSService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="9.0.3" />
+		<PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="9.0.3" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
+    <ProjectReference Include="..\QLDT.SaaSService.Domain\QLDT.SaaSService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

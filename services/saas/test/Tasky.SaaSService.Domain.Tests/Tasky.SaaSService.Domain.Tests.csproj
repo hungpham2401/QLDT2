@@ -5,7 +5,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.SaaSService</RootNamespace>
+    <RootNamespace>QLDT.SaaSService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Tasky.SaaSService.Domain\Tasky.SaaSService.Domain.csproj" />
-    <ProjectReference Include="..\Tasky.SaaSService.TestBase\Tasky.SaaSService.TestBase.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.SaaSService.Domain\QLDT.SaaSService.Domain.csproj" />
+    <ProjectReference Include="..\QLDT.SaaSService.TestBase\QLDT.SaaSService.TestBase.csproj" />
   </ItemGroup>
 
 

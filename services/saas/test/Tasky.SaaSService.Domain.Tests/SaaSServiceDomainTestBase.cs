@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky.SaaSService;
+namespace QLDT.SaaSService;
 
 /* Inherit from this class for your domain layer tests.
  * See SampleManager_Tests for example.

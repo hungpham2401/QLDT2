@@ -4,13 +4,13 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Tasky.ProjectService</RootNamespace>
+    <RootNamespace>QLDT.ProjectService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Http.Client.IdentityModel" Version="9.0.3" />
     <PackageReference Include="Volo.Abp.Autofac" Version="9.0.3" />
-    <ProjectReference Include="..\..\src\Tasky.ProjectService.HttpApi.Client\Tasky.ProjectService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\src\QLDT.ProjectService.HttpApi.Client\QLDT.ProjectService.HttpApi.Client.csproj" />
   </ItemGroup>
 
   <ItemGroup>

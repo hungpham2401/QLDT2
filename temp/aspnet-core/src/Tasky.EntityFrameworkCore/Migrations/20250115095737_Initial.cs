@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Tasky.Migrations
+namespace QLDT.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration

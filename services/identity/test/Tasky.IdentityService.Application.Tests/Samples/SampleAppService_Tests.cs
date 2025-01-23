@@ -3,7 +3,7 @@ using Shouldly;
 using Volo.Abp.Modularity;
 using Xunit;
 
-namespace Tasky.IdentityService.Samples;
+namespace QLDT.IdentityService.Samples;
 
 public abstract class SampleAppService_Tests<TStartupModule> : IdentityServiceApplicationTestBase<TStartupModule>
     where TStartupModule : IAbpModule

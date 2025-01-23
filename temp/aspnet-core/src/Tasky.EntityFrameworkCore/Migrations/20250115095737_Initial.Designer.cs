@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Tasky.EntityFrameworkCore;
+using QLDT.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
 
 #nullable disable
 
-namespace Tasky.Migrations
+namespace QLDT.Migrations
 {
-    [DbContext(typeof(TaskyDbContext))]
+    [DbContext(typeof(QLDTDbContext))]
     [Migration("20250115095737_Initial")]
     partial class Initial
     {

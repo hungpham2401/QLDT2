@@ -2,9 +2,9 @@
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.Threading;
 
-namespace Tasky;
+namespace QLDT;
 
-public static class TaskyDtoExtensions
+public static class QLDTDtoExtensions
 {
     private static readonly OneTimeRunner OneTimeRunner = new OneTimeRunner();
 

@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky.SaaSService;
+namespace QLDT.SaaSService;
 
 [DependsOn(
     typeof(SaaSServiceApplicationModule),

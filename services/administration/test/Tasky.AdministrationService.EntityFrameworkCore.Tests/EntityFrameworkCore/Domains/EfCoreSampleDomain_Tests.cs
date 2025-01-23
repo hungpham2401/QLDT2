@@ -1,7 +1,7 @@
-using Tasky.AdministrationService.Samples;
+using QLDT.AdministrationService.Samples;
 using Xunit;
 
-namespace Tasky.AdministrationService.EntityFrameworkCore.Domains;
+namespace QLDT.AdministrationService.EntityFrameworkCore.Domains;
 
 public class EfCoreSampleDomain_Tests : SampleManager_Tests<AdministrationServiceEntityFrameworkCoreTestModule>
 {

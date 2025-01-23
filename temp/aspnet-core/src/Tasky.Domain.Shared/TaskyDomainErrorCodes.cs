@@ -1,6 +1,6 @@
-﻿namespace Tasky;
+﻿namespace QLDT;
 
-public static class TaskyDomainErrorCodes
+public static class QLDTDomainErrorCodes
 {
     /* You can add your business exception error codes here, as constants */
 }

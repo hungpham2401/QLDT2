@@ -3,9 +3,9 @@ using Volo.Abp.Identity;
 using Volo.Abp.ObjectExtending;
 using Volo.Abp.Threading;
 
-namespace Tasky;
+namespace QLDT;
 
-public static class TaskyModuleExtensionConfigurator
+public static class QLDTModuleExtensionConfigurator
 {
     private static readonly OneTimeRunner OneTimeRunner = new OneTimeRunner();
 

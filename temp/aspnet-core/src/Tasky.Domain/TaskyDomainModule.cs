@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Tasky.MultiTenancy;
+using QLDT.MultiTenancy;
 using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.Emailing;
@@ -15,10 +15,10 @@ using Volo.Abp.PermissionManagement.OpenIddict;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
-    typeof(TaskyDomainSharedModule),
+    typeof(QLDTDomainSharedModule),
     typeof(AbpAuditLoggingDomainModule),
     typeof(AbpBackgroundJobsDomainModule),
     typeof(AbpFeatureManagementDomainModule),
@@ -30,7 +30,7 @@ namespace Tasky;
     typeof(AbpTenantManagementDomainModule),
     typeof(AbpEmailingModule)
 )]
-public class TaskyDomainModule : AbpModule
+public class QLDTDomainModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {

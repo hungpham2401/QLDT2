@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QLDT.SaaSService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="9.0.3" />
+    <ProjectReference Include="..\QLDT.SaaSService.Application.Contracts\QLDT.SaaSService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\QLDT.SaaSService.Domain\QLDT.SaaSService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

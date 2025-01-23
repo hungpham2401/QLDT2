@@ -1,9 +1,9 @@
-﻿using Tasky.EntityFrameworkCore;
+﻿using QLDT.EntityFrameworkCore;
 using Xunit;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
-public class TaskyEntityFrameworkCoreCollectionFixtureBase : ICollectionFixture<TaskyEntityFrameworkCoreFixture>
+public class QLDTEntityFrameworkCoreCollectionFixtureBase : ICollectionFixture<QLDTEntityFrameworkCoreFixture>
 {
 
 }

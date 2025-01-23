@@ -7,7 +7,7 @@ using Volo.Abp.Data;
 using Volo.Abp.Modularity;
 using Volo.Abp.Threading;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
     typeof(AbpAutofacModule),
@@ -15,7 +15,7 @@ namespace Tasky;
     typeof(AbpAuthorizationModule),
     typeof(AbpBackgroundJobsAbstractionsModule)
     )]
-public class TaskyTestBaseModule : AbpModule
+public class QLDTTestBaseModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {

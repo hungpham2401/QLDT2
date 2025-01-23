@@ -1,20 +1,20 @@
-# Tasky
+# QLDT
 
 ## About this solution
 
-This is a layered startup solution based on [Domain Driven Design (DDD)](https://abp.io/docs/latest/framework/architecture/domain-driven-design) practises. All the fundamental ABP modules are already installed. 
+This is a layered startup solution based on [Domain Driven Design (DDD)](https://abp.io/docs/latest/framework/architecture/domain-driven-design) practises. All the fundamental ABP modules are already installed.
 
 ### Pre-requirements
 
-* [.NET 9.0+ SDK](https://dotnet.microsoft.com/download/dotnet)
-* [Node v20.11+](https://nodejs.org/en)
-* [Redis](https://redis.io/)
+-   [.NET 9.0+ SDK](https://dotnet.microsoft.com/download/dotnet)
+-   [Node v20.11+](https://nodejs.org/en)
+-   [Redis](https://redis.io/)
 
 ### Configurations
 
 The solution comes with a default configuration that works out of the box. However, you may consider to change the following configuration before running your solution:
 
-* Check the `ConnectionStrings` in `appsettings.json` files under the `Tasky.AuthServer`, `Tasky.HttpApi.Host` and `Tasky.DbMigrator` projects and change it if you need.
+-   Check the `ConnectionStrings` in `appsettings.json` files under the `QLDT.AuthServer`, `QLDT.HttpApi.Host` and `QLDT.DbMigrator` projects and change it if you need.
 
 ### Before running the application
 
@@ -48,16 +48,16 @@ abp install-libs
 
 #### Create the Database
 
-Run `Tasky.DbMigrator` to create the initial database. This should be done in the first run. It is also needed if a new database migration is added to the solution later.
+Run `QLDT.DbMigrator` to create the initial database. This should be done in the first run. It is also needed if a new database migration is added to the solution later.
 
 ### Solution structure
 
 This is a layered monolith application that consists of the following applications:
 
-* `Tasky.DbMigrator`: A console application which applies the migrations and also seeds the initial data. It is useful on development as well as on production environment.
-* `Tasky.AuthServer`: ASP.NET Core MVC / Razor Pages application that is integrated OAuth 2.0(`OpenIddict`) and account modules. It is used to authenticate users and issue tokens.
-* `Tasky.HttpApi.Host`: ASP.NET Core API application that is used to expose the APIs to the clients.
-* `angular`: Angular application.
+-   `QLDT.DbMigrator`: A console application which applies the migrations and also seeds the initial data. It is useful on development as well as on production environment.
+-   `QLDT.AuthServer`: ASP.NET Core MVC / Razor Pages application that is integrated OAuth 2.0(`OpenIddict`) and account modules. It is used to authenticate users and issue tokens.
+-   `QLDT.HttpApi.Host`: ASP.NET Core API application that is used to expose the APIs to the clients.
+-   `angular`: Angular application.
 
 ### Deploying the application
 
@@ -67,6 +67,6 @@ Deploying an ABP application is not different than deploying any .NET or ASP.NET
 
 You can see the following resources to learn more about your solution and the ABP Framework:
 
-* [Web Application Development Tutorial](https://abp.io/docs/latest/tutorials/book-store/part-01?UI=Blazor&DB=EF)
-* [Application Startup Template Structure](https://abp.io/docs/latest/solution-templates/layered-web-application)
-* [LeptonX Lite Angular UI](https://abp.io/docs/latest/ui-themes/lepton-x-lite/angular)
+-   [Web Application Development Tutorial](https://abp.io/docs/latest/tutorials/book-store/part-01?UI=Blazor&DB=EF)
+-   [Application Startup Template Structure](https://abp.io/docs/latest/solution-templates/layered-web-application)
+-   [LeptonX Lite Angular UI](https://abp.io/docs/latest/ui-themes/lepton-x-lite/angular)

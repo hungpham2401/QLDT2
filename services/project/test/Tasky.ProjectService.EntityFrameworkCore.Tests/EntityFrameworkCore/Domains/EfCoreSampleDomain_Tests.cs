@@ -1,7 +1,7 @@
-using Tasky.ProjectService.Samples;
+using QLDT.ProjectService.Samples;
 using Xunit;
 
-namespace Tasky.ProjectService.EntityFrameworkCore.Domains;
+namespace QLDT.ProjectService.EntityFrameworkCore.Domains;
 
 public class EfCoreSampleDomain_Tests : SampleManager_Tests<ProjectServiceEntityFrameworkCoreTestModule>
 {

@@ -1,6 +1,6 @@
 {
   "iisSettings": {
-    "windowsAuthentication": false, 
+    "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "https://localhost:44385",
@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Tasky.AuthServer": {
+    "QLDT.AuthServer": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:44385",

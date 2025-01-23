@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "QLDT.IdentityService.Domain.Shared": {
+      "path": "src/QLDT.IdentityService.Domain.Shared/QLDT.IdentityService.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.Domain": {
+      "path": "src/QLDT.IdentityService.Domain/QLDT.IdentityService.Domain.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.Application.Contracts": {
+      "path": "src/QLDT.IdentityService.Application.Contracts/QLDT.IdentityService.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.Application": {
+      "path": "src/QLDT.IdentityService.Application/QLDT.IdentityService.Application.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.EntityFrameworkCore": {
+      "path": "src/QLDT.IdentityService.EntityFrameworkCore/QLDT.IdentityService.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.MongoDB": {
+      "path": "src/QLDT.IdentityService.MongoDB/QLDT.IdentityService.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.HttpApi": {
+      "path": "src/QLDT.IdentityService.HttpApi/QLDT.IdentityService.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.HttpApi.Client": {
+      "path": "src/QLDT.IdentityService.HttpApi.Client/QLDT.IdentityService.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "QLDT.IdentityService.TestBase": {
+      "path": "test/QLDT.IdentityService.TestBase/QLDT.IdentityService.TestBase.abppkg",
+      "folder": "test"
+    },
+    "QLDT.IdentityService.EntityFrameworkCore.Tests": {
+      "path": "test/QLDT.IdentityService.EntityFrameworkCore.Tests/QLDT.IdentityService.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.IdentityService.MongoDB.Tests": {
+      "path": "test/QLDT.IdentityService.MongoDB.Tests/QLDT.IdentityService.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.IdentityService.Domain.Tests": {
+      "path": "test/QLDT.IdentityService.Domain.Tests/QLDT.IdentityService.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.IdentityService.Application.Tests": {
+      "path": "test/QLDT.IdentityService.Application.Tests/QLDT.IdentityService.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLDT.IdentityService.HttpApi.Host": {
+      "path": "host/QLDT.IdentityService.HttpApi.Host/QLDT.IdentityService.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "QLDT.IdentityService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QLDT.IdentityService.HttpApi.Client.ConsoleTestApp/QLDT.IdentityService.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "QLDT.IdentityService.AuthServer": {
+      "path": "host/QLDT.IdentityService.AuthServer/QLDT.IdentityService.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "QLDT.IdentityService.Host.Shared": {
+      "path": "host/QLDT.IdentityService.Host.Shared/QLDT.IdentityService.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}

@@ -1,0 +1,1293 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dft\\QLDT2\\apps\\QLDT.AuthServer\\QLDT.AuthServer.csproj": {}
+  },
+  "projects": {
+    "D:\\dft\\QLDT2\\apps\\QLDT.AuthServer\\QLDT.AuthServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\apps\\QLDT.AuthServer\\QLDT.AuthServer.csproj",
+        "projectName": "QLDT.AuthServer",
+        "projectPath": "D:\\dft\\QLDT2\\apps\\QLDT.AuthServer\\QLDT.AuthServer.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\apps\\QLDT.AuthServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\QLDT.IdentityService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\QLDT.IdentityService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\shared\\QLDT.Microservice.Shared\\QLDT.Microservice.Shared.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\shared\\QLDT.Microservice.Shared\\QLDT.Microservice.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "DistributedLock.Redis": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Account.Application": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Account.HttpApi": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Account.Web.OpenIddict": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.DistributedLocking": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain.Shared\\QLDT.AdministrationService.Domain.Shared.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain.Shared\\QLDT.AdministrationService.Domain.Shared.csproj",
+        "projectName": "QLDT.AdministrationService.Domain.Shared",
+        "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain.Shared\\QLDT.AdministrationService.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Ddd.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain\\QLDT.AdministrationService.Domain.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain\\QLDT.AdministrationService.Domain.csproj",
+        "projectName": "QLDT.AdministrationService.Domain",
+        "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain\\QLDT.AdministrationService.Domain.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain.Shared\\QLDT.AdministrationService.Domain.Shared.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain.Shared\\QLDT.AdministrationService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj",
+        "projectName": "QLDT.AdministrationService.EntityFrameworkCore",
+        "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain\\QLDT.AdministrationService.Domain.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Domain\\QLDT.AdministrationService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain.Shared\\QLDT.IdentityService.Domain.Shared.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain.Shared\\QLDT.IdentityService.Domain.Shared.csproj",
+        "projectName": "QLDT.IdentityService.Domain.Shared",
+        "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain.Shared\\QLDT.IdentityService.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Ddd.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.OpenIddict.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain\\QLDT.IdentityService.Domain.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain\\QLDT.IdentityService.Domain.csproj",
+        "projectName": "QLDT.IdentityService.Domain",
+        "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain\\QLDT.IdentityService.Domain.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain.Shared\\QLDT.IdentityService.Domain.Shared.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain.Shared\\QLDT.IdentityService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Identity.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.IdentityServer.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.IdentityServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\QLDT.IdentityService.EntityFrameworkCore.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\QLDT.IdentityService.EntityFrameworkCore.csproj",
+        "projectName": "QLDT.IdentityService.EntityFrameworkCore",
+        "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\QLDT.IdentityService.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain\\QLDT.IdentityService.Domain.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Domain\\QLDT.IdentityService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain.Shared\\QLDT.SaaSService.Domain.Shared.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain.Shared\\QLDT.SaaSService.Domain.Shared.csproj",
+        "projectName": "QLDT.SaaSService.Domain.Shared",
+        "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain.Shared\\QLDT.SaaSService.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Ddd.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.TenantManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain\\QLDT.SaaSService.Domain.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain\\QLDT.SaaSService.Domain.csproj",
+        "projectName": "QLDT.SaaSService.Domain",
+        "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain\\QLDT.SaaSService.Domain.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain.Shared\\QLDT.SaaSService.Domain.Shared.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain.Shared\\QLDT.SaaSService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.TenantManagement.Domain": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj",
+        "projectName": "QLDT.SaasService.EntityFrameworkCore",
+        "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain\\QLDT.SaaSService.Domain.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Domain\\QLDT.SaaSService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\shared\\QLDT.Microservice.Shared\\QLDT.Microservice.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\shared\\QLDT.Microservice.Shared\\QLDT.Microservice.Shared.csproj",
+        "projectName": "QLDT.Microservice.Shared",
+        "projectPath": "D:\\dft\\QLDT2\\shared\\QLDT.Microservice.Shared\\QLDT.Microservice.Shared.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\shared\\QLDT.Microservice.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj",
+        "projectName": "QLDT.Shared.Hosting",
+        "projectPath": "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.EventBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Http.Client.IdentityModel.Web": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Identity.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.Localization": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.MultiTenancy": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

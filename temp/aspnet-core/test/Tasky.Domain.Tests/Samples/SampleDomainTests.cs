@@ -4,14 +4,14 @@ using Volo.Abp.Identity;
 using Volo.Abp.Modularity;
 using Xunit;
 
-namespace Tasky.Samples;
+namespace QLDT.Samples;
 
 /* This is just an example test class.
  * Normally, you don't test code of the modules you are using
  * (like IdentityUserManager here).
  * Only test your own domain services.
  */
-public abstract class SampleDomainTests<TStartupModule> : TaskyDomainTestBase<TStartupModule>
+public abstract class SampleDomainTests<TStartupModule> : QLDTDomainTestBase<TStartupModule>
     where TStartupModule : IAbpModule
 {
     private readonly IIdentityUserRepository _identityUserRepository;

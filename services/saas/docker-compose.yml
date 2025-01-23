@@ -16,7 +16,7 @@ services:
   saa-sService:
     build:
       context: ../../
-      dockerfile: templates/service/host/Tasky.SaaSService.Host/Dockerfile
+      dockerfile: templates/service/host/QLDT.SaaSService.Host/Dockerfile
     depends_on:
       - sqlserver
       - identity-server

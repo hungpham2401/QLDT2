@@ -7,7 +7,7 @@ using Volo.Abp.EntityFrameworkCore.Sqlite;
 using Volo.Abp.Modularity;
 using Volo.Abp.Uow;
 
-namespace Tasky.AdministrationService.EntityFrameworkCore;
+namespace QLDT.AdministrationService.EntityFrameworkCore;
 
 [DependsOn(
     typeof(AdministrationServiceApplicationTestModule),

@@ -1,9 +1,9 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky;
+namespace QLDT;
 
 /* Inherit from this class for your domain layer tests. */
-public abstract class TaskyDomainTestBase<TStartupModule> : TaskyTestBase<TStartupModule>
+public abstract class QLDTDomainTestBase<TStartupModule> : QLDTTestBase<TStartupModule>
     where TStartupModule : IAbpModule
 {
 

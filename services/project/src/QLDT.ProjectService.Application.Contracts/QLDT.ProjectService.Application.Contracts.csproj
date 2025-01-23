@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QLDT.ProjectService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="9.0.3" />
+    <ProjectReference Include="..\QLDT.ProjectService.Domain.Shared\QLDT.ProjectService.Domain.Shared.csproj" />
+		<PackageReference Include="Volo.Abp.Features" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>

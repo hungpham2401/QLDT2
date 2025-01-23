@@ -1,12 +1,12 @@
 ﻿using System.Threading.Tasks;
 using Volo.Abp.DependencyInjection;
 
-namespace Tasky.Data;
+namespace QLDT.Data;
 
 /* This is used if database provider does't define
- * ITaskyDbSchemaMigrator implementation.
+ * IQLDTDbSchemaMigrator implementation.
  */
-public class NullTaskyDbSchemaMigrator : ITaskyDbSchemaMigrator, ITransientDependency
+public class NullQLDTDbSchemaMigrator : IQLDTDbSchemaMigrator, ITransientDependency
 {
     public Task MigrateAsync()
     {

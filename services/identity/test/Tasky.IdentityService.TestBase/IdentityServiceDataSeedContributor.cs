@@ -4,7 +4,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Guids;
 using Volo.Abp.MultiTenancy;
 
-namespace Tasky.IdentityService;
+namespace QLDT.IdentityService;
 
 public class IdentityServiceDataSeedContributor : IDataSeedContributor, ITransientDependency
 {

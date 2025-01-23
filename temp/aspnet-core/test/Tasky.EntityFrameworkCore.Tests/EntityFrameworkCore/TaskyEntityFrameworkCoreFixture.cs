@@ -1,8 +1,8 @@
 using System;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
-public class TaskyEntityFrameworkCoreFixture : IDisposable
+public class QLDTEntityFrameworkCoreFixture : IDisposable
 {
     public void Dispose()
     {

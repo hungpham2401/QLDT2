@@ -1,6 +1,6 @@
-﻿using Tasky.SaaSService.Samples;
+﻿using QLDT.SaaSService.Samples;
 
-namespace Tasky.SaaSService.EntityFrameworkCore.Samples;
+namespace QLDT.SaaSService.EntityFrameworkCore.Samples;
 
 public class SampleRepository_Tests : SampleRepository_Tests<SaaSServiceEntityFrameworkCoreTestModule>
 {

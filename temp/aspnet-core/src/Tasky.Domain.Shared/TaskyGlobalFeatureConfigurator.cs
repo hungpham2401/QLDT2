@@ -1,8 +1,8 @@
 ﻿using Volo.Abp.Threading;
 
-namespace Tasky;
+namespace QLDT;
 
-public static class TaskyGlobalFeatureConfigurator
+public static class QLDTGlobalFeatureConfigurator
 {
     private static readonly OneTimeRunner OneTimeRunner = new OneTimeRunner();
 

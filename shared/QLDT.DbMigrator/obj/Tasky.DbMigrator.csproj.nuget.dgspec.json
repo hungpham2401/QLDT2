@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dft\\QLDT2\\shared\\QLDT.DbMigrator\\QLDT.DbMigrator.csproj": {}
+  },
+  "projects": {
+    "D:\\dft\\QLDT2\\shared\\QLDT.DbMigrator\\QLDT.DbMigrator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dft\\QLDT2\\shared\\QLDT.DbMigrator\\QLDT.DbMigrator.csproj",
+        "projectName": "QLDT.DbMigrator",
+        "projectPath": "D:\\dft\\QLDT2\\shared\\QLDT.DbMigrator\\QLDT.DbMigrator.csproj",
+        "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
+        "outputPath": "D:\\dft\\QLDT2\\shared\\QLDT.DbMigrator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\dft\\NuGet.Config",
+          "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Application.Contracts\\QLDT.AdministrationService.Application.Contracts.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.Application.Contracts\\QLDT.AdministrationService.Application.Contracts.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Application.Contracts\\QLDT.IdentityService.Application.Contracts.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.Application.Contracts\\QLDT.IdentityService.Application.Contracts.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\QLDT.IdentityService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\identity\\src\\QLDT.IdentityService.EntityFrameworkCore\\QLDT.IdentityService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\project\\src\\QLDT.ProjectService.Application.Contracts\\QLDT.ProjectService.Application.Contracts.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\QLDT.ProjectService.Application.Contracts\\QLDT.ProjectService.Application.Contracts.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\project\\src\\QLDT.ProjectService.EntityFrameworkCore\\QLDT.ProjectService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\project\\src\\QLDT.ProjectService.EntityFrameworkCore\\QLDT.ProjectService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Application.Contracts\\QLDT.SaaSService.Application.Contracts.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.Application.Contracts\\QLDT.SaaSService.Application.Contracts.csproj"
+              },
+              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\QLDT.SaaSService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\QLDT.SaaSService.EntityFrameworkCore.csproj"
+              },
+              "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

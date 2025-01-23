@@ -1,4 +1,4 @@
-﻿namespace Tasky.MultiTenancy;
+﻿namespace QLDT.MultiTenancy;
 
 public static class MultiTenancyConsts
 {

@@ -12,14 +12,14 @@ using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.Uow;
 
-namespace Tasky.EntityFrameworkCore;
+namespace QLDT.EntityFrameworkCore;
 
 [DependsOn(
-    typeof(TaskyApplicationTestModule),
-    typeof(TaskyEntityFrameworkCoreModule),
+    typeof(QLDTApplicationTestModule),
+    typeof(QLDTEntityFrameworkCoreModule),
     typeof(AbpEntityFrameworkCoreSqliteModule)
     )]
-public class TaskyEntityFrameworkCoreTestModule : AbpModule
+public class QLDTEntityFrameworkCoreTestModule : AbpModule
 {
     private SqliteConnection? _sqliteConnection;
 
@@ -68,11 +68,11 @@ public class TaskyEntityFrameworkCoreTestModule : AbpModule
         var connection = new AbpUnitTestSqliteConnection("Data Source=:memory:");
         connection.Open();
 
-        var options = new DbContextOptionsBuilder<TaskyDbContext>()
+        var options = new DbContextOptionsBuilder<QLDTDbContext>()
             .UseSqlite(connection)
             .Options;
 
-        using (var context = new TaskyDbContext(options))
+        using (var context = new QLDTDbContext(options))
         {
             context.GetService<IRelationalDatabaseCreator>().CreateTables();
         }

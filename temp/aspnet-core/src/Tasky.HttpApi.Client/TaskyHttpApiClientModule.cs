@@ -8,10 +8,10 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.VirtualFileSystem;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
-    typeof(TaskyApplicationContractsModule),
+    typeof(QLDTApplicationContractsModule),
     typeof(AbpAccountHttpApiClientModule),
     typeof(AbpIdentityHttpApiClientModule),
     typeof(AbpPermissionManagementHttpApiClientModule),
@@ -19,20 +19,20 @@ namespace Tasky;
     typeof(AbpFeatureManagementHttpApiClientModule),
     typeof(AbpSettingManagementHttpApiClientModule)
 )]
-public class TaskyHttpApiClientModule : AbpModule
+public class QLDTHttpApiClientModule : AbpModule
 {
     public const string RemoteServiceName = "Default";
 
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         context.Services.AddHttpClientProxies(
-            typeof(TaskyApplicationContractsModule).Assembly,
+            typeof(QLDTApplicationContractsModule).Assembly,
             RemoteServiceName
         );
 
         Configure<AbpVirtualFileSystemOptions>(options =>
         {
-            options.FileSets.AddEmbedded<TaskyHttpApiClientModule>();
+            options.FileSets.AddEmbedded<QLDTHttpApiClientModule>();
         });
     }
 }

@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dft\\QLDT2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|Solution Items{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|D:\\dft\\QLDT2\\tye.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|Solution Items{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|solutionrelative:tye.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416B95EA-BE1F-4482-A7E6-9301AC581917}|services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj|d:\\dft\\qldt2\\services\\project\\src\\qldt.projectservice.domain\\qldt.projectservice.domain.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{416B95EA-BE1F-4482-A7E6-9301AC581917}|services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj|solutionrelative:services\\project\\src\\qldt.projectservice.domain\\qldt.projectservice.domain.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tye.yaml",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\tye.yaml",
+              "RelativeDocumentMoniker": "tye.yaml",
+              "ToolTip": "D:\\dft\\QLDT2\\tye.yaml",
+              "RelativeToolTip": "tye.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-23T04:03:37.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLDT.ProjectService.Domain.csproj.Backup.tmp",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj.Backup.tmp",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj.Backup.tmp",
+              "RelativeToolTip": "services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-23T04:02:02.227Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

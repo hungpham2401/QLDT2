@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "apps\\QLDT.IdentityServer\\QLDT.IdentityServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "gateway\\QLDT.Gateway\\QLDT.Gateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

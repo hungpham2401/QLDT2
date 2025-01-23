@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace Tasky.AdministrationService;
+namespace QLDT.AdministrationService;
 
 [DependsOn(
     typeof(AdministrationServiceDomainModule),

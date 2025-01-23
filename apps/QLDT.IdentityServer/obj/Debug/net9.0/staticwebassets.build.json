@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CxnKrQw6tO2ZTkSSuFTk1obBzGCcLNnSG2/fhljBD3o=",
+  "Source": "QLDT.IdentityServer",
+  "BasePath": "_content/QLDT.IdentityServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

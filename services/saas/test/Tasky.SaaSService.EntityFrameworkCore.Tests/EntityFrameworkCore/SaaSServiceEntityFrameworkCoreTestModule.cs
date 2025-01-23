@@ -7,7 +7,7 @@ using Volo.Abp.EntityFrameworkCore.Sqlite;
 using Volo.Abp.Modularity;
 using Volo.Abp.Uow;
 
-namespace Tasky.SaaSService.EntityFrameworkCore;
+namespace QLDT.SaaSService.EntityFrameworkCore;
 
 [DependsOn(
     typeof(SaaSServiceApplicationTestModule),

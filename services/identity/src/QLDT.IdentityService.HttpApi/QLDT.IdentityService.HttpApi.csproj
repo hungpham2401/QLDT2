@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QLDT.IdentityService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="9.0.3" />
+    <ProjectReference Include="..\QLDT.IdentityService.Application.Contracts\QLDT.IdentityService.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

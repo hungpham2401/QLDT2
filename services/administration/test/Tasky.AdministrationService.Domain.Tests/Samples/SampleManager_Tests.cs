@@ -2,7 +2,7 @@
 using Volo.Abp.Modularity;
 using Xunit;
 
-namespace Tasky.AdministrationService.Samples;
+namespace QLDT.AdministrationService.Samples;
 
 public abstract class SampleManager_Tests<TStartupModule> : AdministrationServiceDomainTestBase<TStartupModule>
     where TStartupModule : IAbpModule

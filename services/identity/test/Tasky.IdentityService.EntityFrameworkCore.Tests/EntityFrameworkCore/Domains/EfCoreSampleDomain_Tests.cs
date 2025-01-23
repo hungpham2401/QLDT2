@@ -1,7 +1,7 @@
-using Tasky.IdentityService.Samples;
+using QLDT.IdentityService.Samples;
 using Xunit;
 
-namespace Tasky.IdentityService.EntityFrameworkCore.Domains;
+namespace QLDT.IdentityService.EntityFrameworkCore.Domains;
 
 public class EfCoreSampleDomain_Tests : SampleManager_Tests<IdentityServiceEntityFrameworkCoreTestModule>
 {

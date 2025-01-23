@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QLDT.AdministrationService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="9.0.3" />
+    <ProjectReference Include="..\QLDT.AdministrationService.Domain.Shared\QLDT.AdministrationService.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

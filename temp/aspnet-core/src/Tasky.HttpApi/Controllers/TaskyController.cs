@@ -1,14 +1,14 @@
-﻿using Tasky.Localization;
+﻿using QLDT.Localization;
 using Volo.Abp.AspNetCore.Mvc;
 
-namespace Tasky.Controllers;
+namespace QLDT.Controllers;
 
 /* Inherit your controllers from this class.
  */
-public abstract class TaskyController : AbpControllerBase
+public abstract class QLDTController : AbpControllerBase
 {
-    protected TaskyController()
+    protected QLDTController()
     {
-        LocalizationResource = typeof(TaskyResource);
+        LocalizationResource = typeof(QLDTResource);
     }
 }

@@ -7,25 +7,25 @@ using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
-    typeof(TaskyDomainModule),
+    typeof(QLDTDomainModule),
     typeof(AbpAccountApplicationModule),
-    typeof(TaskyApplicationContractsModule),
+    typeof(QLDTApplicationContractsModule),
     typeof(AbpIdentityApplicationModule),
     typeof(AbpPermissionManagementApplicationModule),
     typeof(AbpTenantManagementApplicationModule),
     typeof(AbpFeatureManagementApplicationModule),
     typeof(AbpSettingManagementApplicationModule)
     )]
-public class TaskyApplicationModule : AbpModule
+public class QLDTApplicationModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddMaps<TaskyApplicationModule>();
+            options.AddMaps<QLDTApplicationModule>();
         });
     }
 }

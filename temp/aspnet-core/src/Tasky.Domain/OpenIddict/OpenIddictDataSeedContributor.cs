@@ -16,7 +16,7 @@ using Volo.Abp.OpenIddict.Scopes;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.Uow;
 
-namespace Tasky.OpenIddict;
+namespace QLDT.OpenIddict;
 
 /* Creates initial data that is needed to property run the application
  * and make client-to-server communication possible.
@@ -58,10 +58,10 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
 
     private async Task CreateScopesAsync()
     {
-        if (await _openIddictScopeRepository.FindByNameAsync("Tasky") == null)
+        if (await _openIddictScopeRepository.FindByNameAsync("QLDT") == null)
         {
             await _scopeManager.CreateAsync(new OpenIddictScopeDescriptor {
-                Name = "Tasky", DisplayName = "Tasky API", Resources = { "Tasky" }
+                Name = "QLDT", DisplayName = "QLDT API", Resources = { "QLDT" }
             });
         }
     }
@@ -74,17 +74,17 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
             OpenIddictConstants.Permissions.Scopes.Phone,
             OpenIddictConstants.Permissions.Scopes.Profile,
             OpenIddictConstants.Permissions.Scopes.Roles,
-            "Tasky"
+            "QLDT"
         };
 
         var configurationSection = _configuration.GetSection("OpenIddict:Applications");
 
 
         //Console Test / Angular Client
-        var consoleAndAngularClientId = configurationSection["Tasky_App:ClientId"];
+        var consoleAndAngularClientId = configurationSection["QLDT_App:ClientId"];
         if (!consoleAndAngularClientId.IsNullOrWhiteSpace())
         {
-            var consoleAndAngularClientRootUrl = configurationSection["Tasky_App:RootUrl"]?.TrimEnd('/');
+            var consoleAndAngularClientRootUrl = configurationSection["QLDT_App:RootUrl"]?.TrimEnd('/');
             await CreateApplicationAsync(
                 name: consoleAndAngularClientId!,
                 type: OpenIddictConstants.ClientTypes.Public,
@@ -108,10 +108,10 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
 
 
         // Swagger Client
-        var swaggerClientId = configurationSection["Tasky_Swagger:ClientId"];
+        var swaggerClientId = configurationSection["QLDT_Swagger:ClientId"];
         if (!swaggerClientId.IsNullOrWhiteSpace())
         {
-            var swaggerRootUrl = configurationSection["Tasky_Swagger:RootUrl"]?.TrimEnd('/');
+            var swaggerRootUrl = configurationSection["QLDT_Swagger:RootUrl"]?.TrimEnd('/');
 
             await CreateApplicationAsync(
                 name: swaggerClientId!,

@@ -1,6 +1,6 @@
-﻿using Tasky.IdentityService.Samples;
+﻿using QLDT.IdentityService.Samples;
 
-namespace Tasky.IdentityService.EntityFrameworkCore.Samples;
+namespace QLDT.IdentityService.EntityFrameworkCore.Samples;
 
 public class SampleRepository_Tests : SampleRepository_Tests<IdentityServiceEntityFrameworkCoreTestModule>
 {

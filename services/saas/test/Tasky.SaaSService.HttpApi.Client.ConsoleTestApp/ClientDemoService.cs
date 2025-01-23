@@ -3,11 +3,11 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using IdentityModel.Client;
 using Microsoft.Extensions.Configuration;
-using Tasky.SaaSService.Samples;
+using QLDT.SaaSService.Samples;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.IdentityModel;
 
-namespace Tasky.SaaSService;
+namespace QLDT.SaaSService;
 
 public class ClientDemoService : ITransientDependency
 {

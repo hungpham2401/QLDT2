@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QLDT.ProjectService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="9.0.3" />
+    <ProjectReference Include="..\..\..\..\shared\QLDT.Microservice.Shared\QLDT.Microservice.Shared.csproj" />
+    <ProjectReference Include="..\QLDT.ProjectService.Domain\QLDT.ProjectService.Domain.csproj" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>

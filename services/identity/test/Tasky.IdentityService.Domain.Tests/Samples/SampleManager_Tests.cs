@@ -2,7 +2,7 @@
 using Volo.Abp.Modularity;
 using Xunit;
 
-namespace Tasky.IdentityService.Samples;
+namespace QLDT.IdentityService.Samples;
 
 public abstract class SampleManager_Tests<TStartupModule> : IdentityServiceDomainTestBase<TStartupModule>
     where TStartupModule : IAbpModule

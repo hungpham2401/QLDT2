@@ -1,4 +1,4 @@
-﻿namespace Tasky.SaaSService.EntityFrameworkCore;
+﻿namespace QLDT.SaaSService.EntityFrameworkCore;
 
 /* This class can be used as a base class for EF Core integration tests,
  * while SampleRepository_Tests uses a different approach.

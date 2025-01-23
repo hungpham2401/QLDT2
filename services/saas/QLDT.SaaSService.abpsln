@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "QLDT.SaaSService": {
+      "path": "QLDT.SaaSService.abpmdl"
+    }
+  }
+}

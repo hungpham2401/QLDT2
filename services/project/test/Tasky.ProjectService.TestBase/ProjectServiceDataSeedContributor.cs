@@ -4,7 +4,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Guids;
 using Volo.Abp.MultiTenancy;
 
-namespace Tasky.ProjectService;
+namespace QLDT.ProjectService;
 
 public class ProjectServiceDataSeedContributor : IDataSeedContributor, ITransientDependency
 {

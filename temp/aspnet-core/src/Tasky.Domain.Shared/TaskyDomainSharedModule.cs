@@ -1,4 +1,4 @@
-﻿using Tasky.Localization;
+﻿using QLDT.Localization;
 using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.FeatureManagement;
@@ -13,7 +13,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
 
-namespace Tasky;
+namespace QLDT;
 
 [DependsOn(
     typeof(AbpAuditLoggingDomainSharedModule),
@@ -25,34 +25,34 @@ namespace Tasky;
     typeof(AbpSettingManagementDomainSharedModule),
     typeof(AbpTenantManagementDomainSharedModule)    
     )]
-public class TaskyDomainSharedModule : AbpModule
+public class QLDTDomainSharedModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
-        TaskyGlobalFeatureConfigurator.Configure();
-        TaskyModuleExtensionConfigurator.Configure();
+        QLDTGlobalFeatureConfigurator.Configure();
+        QLDTModuleExtensionConfigurator.Configure();
     }
 
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         Configure<AbpVirtualFileSystemOptions>(options =>
         {
-            options.FileSets.AddEmbedded<TaskyDomainSharedModule>();
+            options.FileSets.AddEmbedded<QLDTDomainSharedModule>();
         });
 
         Configure<AbpLocalizationOptions>(options =>
         {
             options.Resources
-                .Add<TaskyResource>("en")
+                .Add<QLDTResource>("en")
                 .AddBaseTypes(typeof(AbpValidationResource))
-                .AddVirtualJson("/Localization/Tasky");
+                .AddVirtualJson("/Localization/QLDT");
 
-            options.DefaultResourceType = typeof(TaskyResource);
+            options.DefaultResourceType = typeof(QLDTResource);
         });
 
         Configure<AbpExceptionLocalizationOptions>(options =>
         {
-            options.MapCodeNamespace("Tasky", typeof(TaskyResource));
+            options.MapCodeNamespace("QLDT", typeof(QLDTResource));
         });
     }
 }
