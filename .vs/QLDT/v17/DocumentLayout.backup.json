@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\dft\\QLDT2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{303042AD-4DFA-491C-B393-B45540221A15}|services\\project\\host\\QLDT.ProjectService.HttpApi.Host\\QLDT.ProjectService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\project\\host\\qldt.projectservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{303042AD-4DFA-491C-B393-B45540221A15}|services\\project\\host\\QLDT.ProjectService.HttpApi.Host\\QLDT.ProjectService.HttpApi.Host.csproj|solutionrelative:services\\project\\host\\qldt.projectservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\QLDT.SaaSService.HttpApi.Host\\QLDT.SaaSService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\saas\\host\\qldt.saasservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CED01546-D45F-4506-BA17-5CF6D6FEFD87}|services\\saas\\host\\QLDT.SaaSService.HttpApi.Host\\QLDT.SaaSService.HttpApi.Host.csproj|solutionrelative:services\\saas\\host\\qldt.saasservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\QLDT.DbMigrator\\QLDT.DbMigrator.csproj|d:\\dft\\qldt2\\shared\\qldt.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEC04DC3-CB15-4AFD-A975-6666632BD327}|shared\\QLDT.DbMigrator\\QLDT.DbMigrator.csproj|solutionrelative:shared\\qldt.dbmigrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\QLDT.IdentityService.HttpApi.Host\\QLDT.IdentityService.HttpApi.Host.csproj|d:\\dft\\qldt2\\services\\identity\\host\\qldt.identityservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E159140-C8AD-4DD1-8319-F437336315EA}|services\\identity\\host\\QLDT.IdentityService.HttpApi.Host\\QLDT.IdentityService.HttpApi.Host.csproj|solutionrelative:services\\identity\\host\\qldt.identityservice.httpapi.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\QLDT.IdentityServer\\QLDT.IdentityServer.csproj|d:\\dft\\qldt2\\apps\\qldt.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E857FA2C-BC24-416F-AC10-6A43A4135ECB}|apps\\QLDT.IdentityServer\\QLDT.IdentityServer.csproj|solutionrelative:apps\\qldt.identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\QLDT.AuthServer\\QLDT.AuthServer.csproj|d:\\dft\\qldt2\\apps\\qldt.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B89CB60B-52FE-4848-880D-971753A5FC21}|apps\\QLDT.AuthServer\\QLDT.AuthServer.csproj|solutionrelative:apps\\qldt.authserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|Solution Items{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|D:\\dft\\QLDT2\\tye.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|Solution Items{75830E2B-13B9-4CAB-B25F-EF66A473CFCA}|solutionrelative:tye.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +50,92 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\shared\\QLDT.DbMigrator\\appsettings.json",
+              "RelativeDocumentMoniker": "shared\\QLDT.DbMigrator\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\shared\\QLDT.DbMigrator\\appsettings.json",
+              "RelativeToolTip": "shared\\QLDT.DbMigrator\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T04:15:28.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\saas\\host\\QLDT.SaaSService.HttpApi.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "services\\saas\\host\\QLDT.SaaSService.HttpApi.Host\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\saas\\host\\QLDT.SaaSService.HttpApi.Host\\appsettings.json",
+              "RelativeToolTip": "services\\saas\\host\\QLDT.SaaSService.HttpApi.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T04:15:20.077Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\project\\host\\QLDT.ProjectService.HttpApi.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "services\\project\\host\\QLDT.ProjectService.HttpApi.Host\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\project\\host\\QLDT.ProjectService.HttpApi.Host\\appsettings.json",
+              "RelativeToolTip": "services\\project\\host\\QLDT.ProjectService.HttpApi.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T04:15:05.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\services\\identity\\host\\QLDT.IdentityService.HttpApi.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "services\\identity\\host\\QLDT.IdentityService.HttpApi.Host\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\services\\identity\\host\\QLDT.IdentityService.HttpApi.Host\\appsettings.json",
+              "RelativeToolTip": "services\\identity\\host\\QLDT.IdentityService.HttpApi.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T04:14:55.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\QLDT.IdentityServer\\appsettings.json",
+              "RelativeDocumentMoniker": "apps\\QLDT.IdentityServer\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\QLDT.IdentityServer\\appsettings.json",
+              "RelativeToolTip": "apps\\QLDT.IdentityServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T04:13:58.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\dft\\QLDT2\\apps\\QLDT.AuthServer\\appsettings.json",
+              "RelativeDocumentMoniker": "apps\\QLDT.AuthServer\\appsettings.json",
+              "ToolTip": "D:\\dft\\QLDT2\\apps\\QLDT.AuthServer\\appsettings.json",
+              "RelativeToolTip": "apps\\QLDT.AuthServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T04:13:37.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "tye.yaml",
               "DocumentMoniker": "D:\\dft\\QLDT2\\tye.yaml",
               "RelativeDocumentMoniker": "tye.yaml",
               "ToolTip": "D:\\dft\\QLDT2\\tye.yaml",
               "RelativeToolTip": "tye.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-01-23T04:03:37.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T04:03:37.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "QLDT.ProjectService.Domain.csproj.Backup.tmp",
               "DocumentMoniker": "D:\\dft\\QLDT2\\services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "services\\project\\src\\QLDT.ProjectService.Domain\\QLDT.ProjectService.Domain.csproj.Backup.tmp",

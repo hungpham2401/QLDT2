@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLDT.AuthServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7fe34e1636b6c7d91a6c79d8db5a4298103428e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fa1e1432321643fcead1f7cb3031b62fb106460")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLDT.AuthServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLDT.AuthServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

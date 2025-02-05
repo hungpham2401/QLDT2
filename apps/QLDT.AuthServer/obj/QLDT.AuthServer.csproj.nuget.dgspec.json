@@ -140,7 +140,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -249,7 +248,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -354,7 +352,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\administration\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -467,7 +464,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -568,7 +564,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -673,7 +668,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\identity\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -782,7 +776,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -879,7 +872,6 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -958,21 +950,20 @@
         }
       }
     },
-    "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj": {
+    "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\QLDT.SaaSService.EntityFrameworkCore.csproj": {
       "version": "0.1.0",
       "restore": {
-        "projectUniqueName": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj",
-        "projectName": "QLDT.SaasService.EntityFrameworkCore",
-        "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\QLDT.SaaSService.EntityFrameworkCore.csproj",
+        "projectName": "QLDT.SaaSService.EntityFrameworkCore",
+        "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\QLDT.SaaSService.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\HungPM\\.nuget\\packages\\",
-        "outputPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\dft\\QLDT2\\services\\saas\\NuGet.Config",
           "D:\\dft\\NuGet.Config",
           "C:\\Users\\HungPM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -1096,8 +1087,8 @@
               "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj": {
                 "projectPath": "D:\\dft\\QLDT2\\services\\administration\\src\\QLDT.AdministrationService.EntityFrameworkCore\\QLDT.AdministrationService.EntityFrameworkCore.csproj"
               },
-              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaasService.EntityFrameworkCore\\QLDT.SaasService.EntityFrameworkCore.csproj"
+              "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\QLDT.SaaSService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dft\\QLDT2\\services\\saas\\src\\QLDT.SaaSService.EntityFrameworkCore\\QLDT.SaaSService.EntityFrameworkCore.csproj"
               },
               "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj": {
                 "projectPath": "D:\\dft\\QLDT2\\shared\\QLDT.Shared.Hosting\\QLDT.Shared.Hosting.csproj"

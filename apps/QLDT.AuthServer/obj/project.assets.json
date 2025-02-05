@@ -6086,7 +6086,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "QLDT.AdministrationService.EntityFrameworkCore": "0.1.0",
-          "QLDT.SaasService.EntityFrameworkCore": "0.1.0",
+          "QLDT.SaaSService.EntityFrameworkCore": "0.1.0",
           "QLDT.Shared.Hosting": "1.0.0"
         },
         "compile": {
@@ -6127,7 +6127,7 @@
           "bin/placeholder/QLDT.SaaSService.Domain.Shared.dll": {}
         }
       },
-      "QLDT.SaasService.EntityFrameworkCore/0.1.0": {
+      "QLDT.SaaSService.EntityFrameworkCore/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -6139,10 +6139,10 @@
           "Volo.Abp.TenantManagement.EntityFrameworkCore": "9.0.3"
         },
         "compile": {
-          "bin/placeholder/QLDT.SaasService.EntityFrameworkCore.dll": {}
+          "bin/placeholder/QLDT.SaaSService.EntityFrameworkCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/QLDT.SaasService.EntityFrameworkCore.dll": {}
+          "bin/placeholder/QLDT.SaaSService.EntityFrameworkCore.dll": {}
         }
       },
       "QLDT.Shared.Hosting/1.0.0": {
@@ -15999,10 +15999,10 @@
       "path": "../../services/saas/src/QLDT.SaaSService.Domain.Shared/QLDT.SaaSService.Domain.Shared.csproj",
       "msbuildProject": "../../services/saas/src/QLDT.SaaSService.Domain.Shared/QLDT.SaaSService.Domain.Shared.csproj"
     },
-    "QLDT.SaasService.EntityFrameworkCore/0.1.0": {
+    "QLDT.SaaSService.EntityFrameworkCore/0.1.0": {
       "type": "project",
-      "path": "../../services/saas/src/QLDT.SaasService.EntityFrameworkCore/QLDT.SaasService.EntityFrameworkCore.csproj",
-      "msbuildProject": "../../services/saas/src/QLDT.SaasService.EntityFrameworkCore/QLDT.SaasService.EntityFrameworkCore.csproj"
+      "path": "../../services/saas/src/QLDT.SaaSService.EntityFrameworkCore/QLDT.SaaSService.EntityFrameworkCore.csproj",
+      "msbuildProject": "../../services/saas/src/QLDT.SaaSService.EntityFrameworkCore/QLDT.SaaSService.EntityFrameworkCore.csproj"
     },
     "QLDT.Shared.Hosting/1.0.0": {
       "type": "project",
@@ -16017,7 +16017,7 @@
       "QLDT.AdministrationService.EntityFrameworkCore >= 0.1.0",
       "QLDT.IdentityService.EntityFrameworkCore >= 0.1.0",
       "QLDT.Microservice.Shared >= 1.0.0",
-      "QLDT.SaasService.EntityFrameworkCore >= 0.1.0",
+      "QLDT.SaaSService.EntityFrameworkCore >= 0.1.0",
       "Volo.Abp.Account.Application >= 9.0.3",
       "Volo.Abp.Account.HttpApi >= 9.0.3",
       "Volo.Abp.Account.Web.OpenIddict >= 9.0.3",
